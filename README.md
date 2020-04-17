@@ -1,6 +1,6 @@
 # SiamTrackers
 
-The code will coming soon！
+The code will come soon！
 
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/deep.jpg)
