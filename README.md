@@ -11,8 +11,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 - Siamese 
 基于孪生网络的简单人脸分类实现，支持训练和测试
 
-- SiamFC  
-添加got10k评估工具，对接口进行优化
+- SiamFC 添加got10k评估工具，对接口进行优化
 可评估
 可训练和测试
 复现结果略低于论文
