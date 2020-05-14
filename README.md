@@ -7,6 +7,16 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 
 孪生网络系列跟踪代码复现汇总
 我的贡献
+| Trackers     | 调试    | 训练   | 测试  |  评估 | 注释 |
+| :---------: | :------: | :------: |:------: |:------: |:------: |
+| Siamese     | &radic;|  &radic; | &radic;| &radic;| &radic;|
+| SiamFC      |  &radic; |  &radic; |  &radic;| &radic;| &radic;|
+| SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|
+| DaSiamRPN     |  &radic; |        |  &radic;| &radic;| &radic;|
+| UpdateNet   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|
+| SiamRPN++    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|
+| SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|
+
 
 - Siamese 
 基于孪生网络的简单人脸分类实现，支持训练和测试
