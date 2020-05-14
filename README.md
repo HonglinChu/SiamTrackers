@@ -21,26 +21,16 @@ API接口进行优化
 添加got10k评估工具
 可评估
 可训练和测试
-复现结果略低于论文
-ytb&vid
-链接: https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA 提取码: 6vkz
+复现结果略低于论文;  ytb&vid 链接: https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA 提取码: 6vkz
 
 - DaSiamRPN
 API接口优化，支持VScode单步调试
 添加pysot评估工具，支持一键评估
-不支持训练，支持测试
-
-SiamRPNVOT.model 链接: https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA 提取码: p4ig
-
-SiamRPNOTB.model 链接: https://pan.baidu.com/s/1mpXaIDcf0HXf3vMccaSriw 提取码: 5xm9
-
-SiamRPNBIG.model 链接: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q 提取码: b3b6
+不支持训练，支持测试 SiamRPNVOT.model 链接: https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA 提取码: p4ig    ;   SiamRPNOTB.model 链接: https://pan.baidu.com/s/1mpXaIDcf0HXf3vMccaSriw 提取码: 5xm9   ;   SiamRPNBIG.model 链接: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q 提取码: b3b6
 
 - SiamRPN++ 
 API接口优化，支持VScode单步调试  对训练和测试的输入输出接口进行了优化，方便单步调试对代码进行部分注释
-修改训练模式，将多机多GPU并行，改成单机多GPU并行，支持单步调试
-
-YTB-Crop511 （pysot中裁剪好的ytb训练集）链接: https://pan.baidu.com/s/112zLS_02-Z2ouKGbnPlTjw 提取码: ebq1
+修改训练模式，将多机多GPU并行，改成单机多GPU并行，支持单步调试;  YTB-Crop511 （pysot中裁剪好的ytb训练集）链接: https://pan.baidu.com/s/112zLS_02-Z2ouKGbnPlTjw 提取码: ebq1
 
 - SiamMask
 API接口优化
