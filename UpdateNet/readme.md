@@ -1,3 +1,3 @@
 - 2020-05-14 UpdateNet代码已经复现完成,可训练测试和评估,需要你另外自己下载SiamRPNBIG模型
--内嵌Dasiamrpn, 训练完UpdateNet,可以直接进行测试和评估,支持 
--模型更新支持UpdateNet和Linear更新方式
+- 内嵌Dasiamrpn, 训练完UpdateNet,可以直接进行测试和评估,支持 
+- 模型更新支持UpdateNet和Linear更新方式
