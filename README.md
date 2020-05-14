@@ -9,13 +9,13 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 我的贡献
 | Trackers     | 调试    | 训练   | 测试  |  评估 | 注释 |  工具| GPU | 
 | :--------- | :------: | :------: |:------: |:------: |:------: |:------: |  :------: | 
-| Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | |
-| SiamFC      |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k| |
-| SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  |
-| DaSiamRPN     |  &radic; |       |  &radic;| &radic;| &radic;|pysot|  |
-| UpdateNet   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot|  |
-| SiamRPN++    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| |
-| SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot|  |
+| Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | 单|
+| SiamFC      |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|单/多 |
+| SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  单/多|
+| DaSiamRPN     |  &radic; |       |  &radic;| &radic;| &radic;|pysot| 单 |
+| UpdateNet   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| 单/多 |
+| SiamRPN++    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| 单/多|
+| SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| 单/多 |
 
 
 - Siamese 
