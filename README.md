@@ -36,6 +36,9 @@ API接口优化
 对代码部分注释
 支持训练和测试
 
+- UpdateNet 
+复现updatenet网络,可测试,训练,评估自己的模型
+
 # [Reference]
 
    [1] SiamFC 
