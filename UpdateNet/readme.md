@@ -2,3 +2,4 @@
 - 内嵌Dasiamrpn, 训练完UpdateNet,可以直接进行测试和评估,支持 
 - 模型更新支持UpdateNet和Linear更新方式
 - https://www.bilibili.com/video/bv1Jg4y1B7tL UpdateNet复现视频讲解
+- SiamRPNBIG.model 链接: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q 提取码: b3b6
