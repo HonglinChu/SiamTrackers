@@ -6,7 +6,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/deep.jpg)
 
 孪生网络系列跟踪代码复现汇总
-我的贡献
+
 | Trackers     | 调试    | 训练   | 测试  |  评估 | 注释 |  工具| GPU | 
 | :--------- | :------: | :------: |:------: |:------: |:------: |:------: |  :------: | 
 | Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | 单|
