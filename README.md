@@ -7,8 +7,8 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 
 孪生网络系列跟踪代码复现汇总
 
-| Trackers     | 调试    | 训练   | 测试  |  评估 | 注释 |  工具| GPU | 
-| :--------- | :------: | :------: |:------: |:------: |:------: |:------: |  :------: | 
+| Trackers     | 单步调试    | 训练   | 测试  |  评估 | 注释 |  工具| GPU | 
+| :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: | 
 | Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | 单|
 | SiamFC      |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|单/多 |
 | SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  单/多|
