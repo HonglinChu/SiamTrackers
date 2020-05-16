@@ -1,1 +1,2 @@
 - 2020-05-14 可测试和评估,支持pysot toolkit, 将python2版本修改为python3版本,另外需要你下载SiamRPNBIG模型
+- 在vot2016和vot2018上可以复现出和论文一致的结果
