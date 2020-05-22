@@ -23,7 +23,6 @@ if reset:   #reset 默认是1
 `
 
 
-`
 2020-05-21 
 
 第一阶段 train from scratch
@@ -65,4 +64,3 @@ Checkpoint 3    0.344
 
 Checkpoint 4    0.348
 
-`
