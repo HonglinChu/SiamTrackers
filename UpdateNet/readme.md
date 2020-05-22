@@ -21,3 +21,29 @@ if reset:   #reset 默认是1
 
         break   
 `
+
+`
+2020-05-21 
+第一阶段 train from scratch
+Lr5-6
+35 0.360
+36 0.347
+39 0.325
+40  0.363   
+41  0.350
+42  0.334
+
+第二阶段 加载预训练 checkpoint40
+Lr 8-9 
+Checkpoint2  0.362
+Checkpoint3  0.370
+Checkpoint4  0.355
+
+第三阶段 加载预训练 checkpoint3
+Lr 8-9 
+Checkpoint  1   0.343
+Checkpoint 2   0.376
+Checkpoint 3    0.344
+Checkpoint 4    0.348
+
+`
