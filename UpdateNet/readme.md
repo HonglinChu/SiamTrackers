@@ -25,42 +25,42 @@ if reset:   #reset 默认是1
 
 2020-05-21  
 
+以下EAO均在VOT2018上测试 
 第一阶段 train from scratch
 
-学习率 Lr5-6 VOT2018测试  
-|epoch|EAO |
-|35   |0.360|
+学习率 Lr5-6  
+Checkpoint35      EAO-0.360
 
-|36 |0.347|
+Checkpoint36      EAO-0.347
 
-|39| 0.325|
+Checkpoint39      EAO-0.325
 
-|40  |0.363  |
+Checkpoint40      EAO-0.363  
 
-|41  |0.350|
+Checkpoint41      EAO-0.350
 
-|42|  0.334|
+Checkpoint42      EAO-0.334
+
 
 第二阶段 加载预训练 checkpoint40
-
 Lr 8-9 
 
-Checkpoint2  0.362
+Checkpoint2  EAO-0.362
 
-Checkpoint3  0.370
+Checkpoint3  EAO-0.370
 
-Checkpoint4  0.355
+Checkpoint4  EAO-0.355
 
 
 第三阶段 加载预训练 checkpoint3
 
 Lr 8-9 
 
-Checkpoint  1   0.343
+Checkpoint 1   EAO-0.343
 
-Checkpoint 2   0.376
+Checkpoint 2   EAO-0.376
 
-Checkpoint 3    0.344
+Checkpoint 3   EAO-0.344
 
-Checkpoint 4    0.348
+Checkpoint 4   EAO-0.348
 
