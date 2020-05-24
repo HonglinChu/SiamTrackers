@@ -8,13 +8,13 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ （Desc
 | Trackers     | Deubug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | 
 | :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: | 
 | Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | &radic;|
-| SiamFC      |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|&radic; |
-| SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  &radic;|
-| DaSiamRPN     |  &radic; |       |  &radic;| &radic;| &radic;|pysot| &radic; |
-| UpdateNet   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
-| SiamRPN++    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic;|
-| SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
-| SiamFC++    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
+| 2016-ECCV-SiamFC      |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|&radic; |
+| 2018-CVPR-SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  &radic;|
+| 2018-ECCV-DaSiamRPN     |  &radic; |       |  &radic;| &radic;| &radic;|pysot| &radic; |
+| 2019-ICCV-UpdateNet   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
+| 2019-CVPR-SiamRPN++    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic;|
+| 2019-CVPR-SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
+| 2020-AAAI-SiamFC++    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
 
 - Siamese 
 
