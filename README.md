@@ -2,16 +2,16 @@
 
 The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
-| Trackers     | Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | 
-| :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: | 
-| Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | &radic;|
-| SiamFC     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|&radic; |
-| SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  &radic;|
-| DaSiamRPN     |  &radic; |       |  &radic;| &radic;| &radic;|pysot| &radic; |
-| UpdateNet  |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
-| SiamRPN++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic;|
-| SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
-| SiamFC++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
+| Trackers     |  Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | Version |
+| :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: |  :------: | 
+| Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | &radic;|- |
+| SiamFC     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|&radic; |unofficial|
+| SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  &radic;|unofficial|
+| DaSiamRPN     |  &radic; |       |  &radic;| &radic;| &radic;|pysot| &radic; | official|
+| UpdateNet  |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; | unofficial|
+| SiamRPN++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic;|official|
+| SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |official|
+| SiamFC++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |official|
 
 # Description
 
