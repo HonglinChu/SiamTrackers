@@ -1,6 +1,6 @@
 # SiamTrackers
 
-The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ （Description）
+The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
 | Trackers     | Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | 
 | :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: | 
@@ -12,6 +12,8 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ （Desc
 | SiamRPN++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic;|
 | SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
 | SiamFC++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |
+
+# Description
 
 - Siamese 
 
@@ -39,7 +41,7 @@ API接口优化，支持VScode单步调试 ,对训练和测试的输入输出接
 
 - 2019-CVPR-SiamMask    
 
-- 2020-AAAI-SiamFC++   
+- 2020-AAAI-SiamFC++ 
 
 # Model
 
@@ -48,6 +50,42 @@ API接口优化，支持VScode单步调试 ,对训练和测试的输入输出接
 - SiamRPNOTB.model link: https://pan.baidu.com/s/1mpXaIDcf0HXf3vMccaSriw password: 5xm9   
 
 - SiamRPNBIG.model link: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
+
+#  Results
+
+|    Tracker|    -   | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
+|:---------: |:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
+|           |       |           |            |         |         |       |        |
+|  Backbone |   -    | AlexNet |  AlexNet(OTB/VOT)  |AlexNet(BIG)    | AlexNet(DW)    |AlexNet(UP)    |AlexNet|
+|     FPS   |    - |   86        |   >120      |  >120  |   180      |   >120       |   160     |
+|           |       |           |            |         |         |       |        |
+| OTB100    |  AUC   |  0.570    |   0.655   |  0.646   |   0.648  | 0.637  | 0.656    |
+|           |  DP   |   0.767    |   0.880   |  0.859   |  0.853   |0.851   |     |
+|           |     |           |            |         |         |       |        |
+| UAV123    |  AUC  |   0.504    |   0.586   |  0.604   |  0.578   |0.527   |      |
+|           |  DP   |    0.702   |   0.796   | 0.801    |  0.769   |0.748   |     |
+|           |     |           |            |         |         |       |        |
+| UAV20L    |  AUC  |  0.410     |   0.617   |   0.524  |  0.530   |0.454   |      |
+|           |  DP   |   0.566    |   0.838   |  0.691   |  0.695   |0.617   |     |
+|           |     |           |            |         |         |       |        |
+| DTB70     |  AUC  |    0.487   |          |         |   0.588  |        |     |
+|           |  DP   |    0.735   |         |         |   0.797  |        |     |
+|           |     |           |            |         |         |       |        |
+| UAVDT     |  AUC  |           |           |         |  0.566   |       |      |
+|           | DP    |           |           |         |  0.793   |       |      |
+|           |     |           |            |         |         |       |        |
+| VisDrone  | AUC   |           |           |         |  0.572   |       |      |
+|           |  DP   |           |           |         |   0.764  |       |      |
+|           |     |           |            |         |         |       |        |
+| VOT2016   |  A    |   0.538    |  0.61      |  0.625   |  0.618   |0.56    |      |
+|           | R     |    0.424   |  0.22      |  0.224   |  0.238   |0.26    |      |
+|           | E     |    0.262   |  0.411     |  0.439   |  0.393   | 0.344  |      |
+|           |Lost   |    91      |           |  48      |  51      |       |      |
+|           |     |           |            |         |         |       |        |
+| VOT2018   | A     |     0.501  |   0.56     |  0.586   | 0.576    |0.49    | 0.556   |
+|           |  R    |    0.534   |   0.34     |  0.276   |  0.290   |0.46    | 0.183   |
+|           | E     |    0.223   |   0.326    | 0.383    |  0.352   |0.244   | 0.400   |
+|           | Lost  |   114      |           |  59      |   62       |       |        |
 
 # Dataset
 
