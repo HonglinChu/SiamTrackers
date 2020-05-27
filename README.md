@@ -42,9 +42,7 @@ The code will come soon！
  
 
 - 2019-CVPR-SiamMask    
-The code will come soon！
 - 2020-AAAI-SiamFC++ 
-The code will come soon！
 
 
 # Model
