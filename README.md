@@ -39,7 +39,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 - **2019-CVPR-SiamDW**
 之前没有关注这个算法,最近看到这个算法速度还是很快的,后面有时间再复现一下
 
-- **2019-CVPR-SiamRPN++ **
+- **2019-CVPR-SiamRPN++**
 
 支持VScode单步调试 ；对训练和测试的接口进行了优化；对代码进行部分注释; 修改训练模式,将分布式多机多GPU并行;改成单机多GPU并行;使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days);在没有进行调超参的情况下精度和论文比较接近
  
@@ -138,7 +138,7 @@ My environment
 
 # Reference
 
-[1] **SiamFC **
+[1] **SiamFC**
 
 Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking.European conference on computer vision. Springer, Cham, 2016: 850-865.
    
