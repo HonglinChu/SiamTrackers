@@ -68,7 +68,7 @@ My environment
 - pytorch 1.1.0
 - python 3.7.3
 
-Note:Due to the limitation of computer configuration, i only choose some high speed algorithms for training and testing on several datasets
+Note:Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
 
 |   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
 |:---------: |:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
