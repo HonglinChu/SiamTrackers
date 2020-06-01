@@ -9,6 +9,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 | SiamRPN     |  &radic; |  &radic; |  &radic;| &radic;| &radic;|got10k|  &radic;|unofficial|
 | DaSiamRPN     |  &radic; |       |  &radic;| &radic;| &radic;|pysot| &radic; | official|
 | UpdateNet  |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; | unofficial|
+| SiamDW      |  &radic; |  &radic; |  &radic;| &radic;| &radic;|-| &radic; |official|
 | SiamRPN++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic;|official|
 | SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |official|
 | SiamFC++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot&got10k| &radic; |official|
@@ -21,28 +22,33 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 
 - 2016-ECCV-SiamFC 
 
-添加got10k评估工具，对接口进行优化 可评估 可训练和测试 复现结果略低于论文
+添加got10k评估工具;对接口进行优化;可评估,可训练和测试;使用VID数据集进行训练,训练速度还是比较快的,记不太清了,大概几个hours;复现结果略低于论文(没有进行超参调节); 使用GOT10K数据集进行训练效果要比论文的结果好一些 
 
 - 2018-CVPR-SiamRPN    
 
-API接口进行优化,添加got10k评估工具,可评估,可训练和测试,复现结果略低于论文; 支持测试; 支持训练 支持 评估
+添加got10k评估工具;可评估,可训练和测试;使用YTB和VID数据集进行训练，训练时长>24 hours,复现结果略低于论文(没有进行超参调节);
 
 - 2018-ECCV-DaSiamRPN  
 
-API接口优化;支持VScode单步调试加pysot评估工具;支持一键评估;不支持训练，支持测试
+支持VScode单步调试,加pysot评估工具;支持一键测试和评估;测试结果和论文一致;不支持训练;
 
 - 2019-ICCV-UpdateNet   
 
-复现updatenet网络,可测试,训练,评估自己的模型
+复现updatenet网络;可测试,训练,评估模型;目前复现发现模型对学习率比较敏感,还在摸索中;训练时间<1 hour,测试时间每个epoch~10min
+
+- 2019-CVPR-SiamDW
+之前没有关注这个算法,最近看到这个算法速度还是很快的,后面有时间再复现一下
 
 - 2019-CVPR-SiamRPN++ 
 
-API接口优化，支持VScode单步调试 ,对训练和测试的输入输出接口进行了优化，方便单步调试对代码进行部分注释 修改训练模式，将多机多GPU并行，改成单机多GPU并行，支持单步调试;
+支持VScode单步调试 ；对训练和测试的接口进行了优化；对代码进行部分注释; 修改训练模式,将分布式多机多GPU并行;改成单机多GPU并行;使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days);在没有进行调超参的情况下精度和论文比较接近
  
+- 2019-CVPR-SiamMask  
+支持VScode单步调试;对训练和测试的接口进行了优化;对代码进行部分注释;
 
-- 2019-CVPR-SiamMask    
 - 2020-AAAI-SiamFC++ 
 
+支持VScode单步调试,对训练和测试的接口进行了优化;对代码进行部分注释;使用GOT10K数据集重新训练alexnet版本,训练时长~20 hours,测试精度和论文比较接近(备注：官方代码封装的非常好,用到了很多的编程技巧,真的非常考验一个人的代码功底, 但是也给学者理解代码带来很大挑战:(,另外敬请期待我后续更新精简的版本吧:) )
 
 # Model
 
@@ -53,6 +59,7 @@ API接口优化，支持VScode单步调试 ,对训练和测试的输入输出接
 - SiamRPNBIG.model link: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 
 # Experimental results 
+
 My environment
 - GPU Nvidia-1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
@@ -60,6 +67,8 @@ My environment
 - System ubuntu 16.04  64 bits
 - pytorch 1.1.0
 - python 3.7.3
+
+Note:Due to the limitation of computer configuration, i only choose some high speed algorithms for training and testing on several datasets
 
 |   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
 |:---------: |:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
@@ -136,9 +145,11 @@ My environment
    [3] DaSiamRPN
 
    [4] UpdateNet
-
-   [5] SiamRPN++
-
-   [6] SiamMask
    
-   [7] SiamFC++
+   [5] SiamDW
+
+   [6] SiamRPN++
+
+   [7] SiamMask
+   
+   [8] SiamFC++
