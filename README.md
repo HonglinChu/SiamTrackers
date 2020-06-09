@@ -1,15 +1,16 @@
 
 # WeChat Group
+```
 2020/06/09
 - 目前还没回学校，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再继续更新。另外欢迎加入我们的SiamTrackers讨论组，相互分享，一起交流，共同进步！
 微信群二维码，每周更新
-
+```
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
 
 # SiamTrackers
 
 The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
-
+```
 | Trackers     |  Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | Version |
 | :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: |  :------: | 
 | Siamese     | &radic;|  &radic; | &radic;| &radic;   | &radic;|   | &radic;|- |
@@ -21,42 +22,45 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 | SiamRPN++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic;|official|
 | SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |official|
 | SiamFC++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot&got10k| &radic; |official|
-
+```
 # Description
 
 - **Siamese** 
-
+```
 基于孪生网络的简单人脸分类实现，支持训练和测试,
-
+```
 - **2016-ECCV-SiamFC** 
-
+```
 添加got10k评估工具;对接口进行优化;可评估,可训练和测试;使用VID数据集进行训练,训练速度还是比较快的,记不太清了,大概几个hours;复现结果略低于论文(没有进行超参调节); 使用GOT10K数据集进行训练效果要比论文的结果好一些 
-
+```
 - **2018-CVPR-SiamRPN**   
-
+```
 添加got10k评估工具;可评估,可训练和测试;使用YTB和VID数据集进行训练，训练时长>24 hours,我自己的训练结果略低于论文(没有进行超参调节）,但是根据其他同学的反馈，使用这个代码训练结果比原文精度要高;
-
+```
 - **2018-ECCV-DaSiamRPN**  
-
+```
 支持VScode单步调试,加pysot评估工具;支持一键测试和评估;测试结果和论文一致;不支持训练;
-
+```
 - **2019-ICCV-UpdateNet**   
-
+```
 复现updatenet网络;可测试,训练,评估模型;目前复现发现模型对学习率比较敏感,还在摸索中;训练时间<1 hour,测试时间每个epoch~10min
-
+```
 - **2019-CVPR-SiamDW**
+```
 之前没有关注这个算法,最近看到这个算法速度还是很快的,后面有时间再学习一下
-
+```
 - **2019-CVPR-SiamRPN++**
-
+```
 支持VScode单步调试 ；对训练和测试的接口进行了优化；对代码进行部分注释; 修改训练模式,将分布式多机多GPU并行;改成单机多GPU并行;使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days);在没有进行调超参的情况下精度和论文比较接近
- 
+ ```
 - **2019-CVPR-SiamMask**  
+```
 支持VScode单步调试;对训练和测试的接口进行了优化;对代码进行部分注释;
-
+```
 - **2020-AAAI-SiamFC++** 
-
+```
 支持VScode单步调试,对训练和测试的接口进行了优化;对代码进行部分注释;使用GOT10K数据集重新训练alexnet版本,训练时长~20 hours,测试精度和论文比较接近(备注：官方代码封装非常好,用到许多编程技巧, 但是也给初学者理解代码带来很大挑战:(，后面有时间会更新简化版本:)
+```
 # Model
 
 - **SiamRPNVOT.model** link: https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA  password: p4ig   
@@ -76,6 +80,7 @@ My environment
 - python 3.7.3
 
 **Note**:Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
+```
 
 |   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
 |:---------: |:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
@@ -110,7 +115,7 @@ My environment
 |           |  R    |    0.534   |   0.34     |  0.276   |  0.290   |0.46    | **0.183**   |
 |           | E     |    0.223   |   0.326    | 0.383    |  0.352   |0.244   | **0.385**   |
 |           | Lost  |   114      |           |  59      |   62       |       |   39     |
-
+```
 # Dataset
 
 - **UAV123** link: https://pan.baidu.com/s/1AhNnfjF4fZe14sUFefU3iA password: 2iq4
@@ -144,7 +149,7 @@ My environment
 - **TrackingNet** link  https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw code: nkb9  (Note that this link is provided by SiamFC++ author)
 
 # Reference
-
+```
 [1] **SiamFC**
 
 Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking.European conference on computer vision. Springer, Cham, 2016: 850-865.
@@ -176,3 +181,4 @@ Wang Q, Zhang L, Bertinetto L, et al. Fast online object tracking and segmentati
 [8] **SiamFC++**
 
 Xu Y, Wang Z, Li Z, et al. SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. arXiv preprint arXiv:1911.06188, 2019.
+```
