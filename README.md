@@ -1,7 +1,7 @@
 
 # WeChat Group
 2020/06/09
-- 实在是对不住，目前还没回学校，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再更新。另外欢迎加入我们的SiamTrackers讨论组，相互分享，一起交流，共同进步！
+- 目前还没回学校，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再继续更新。另外欢迎加入我们的SiamTrackers讨论组，相互分享，一起交流，共同进步！
 微信群二维码，每周更新
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
@@ -56,9 +56,8 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 
 - **2020-AAAI-SiamFC++** 
 
-支持VScode单步调试,对训练和测试的接口进行了优化;对代码进行部分注释;使用GOT10K数据集重新训练alexnet版本,训练时长~20 hours,测试精度和论文比较接近(备注：官方代码封装的非常好,用到了很多的编程技巧,真的非常考验一个人的代码功底, 但是也给学者理解代码带来很大挑战:(,另外敬请期待我后续更新精简的版本吧:) )
-
-# MODEL
+支持VScode单步调试,对训练和测试的接口进行了优化;对代码进行部分注释;使用GOT10K数据集重新训练alexnet版本,训练时长~20 hours,测试精度和论文比较接近(备注：官方代码封装非常好,用到许多编程技巧, 但是也给初学者理解代码带来很大挑战:(，后面有时间会更新简化版本:)
+# Model
 
 - **SiamRPNVOT.model** link: https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA  password: p4ig   
 
@@ -66,7 +65,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 
 - **SiamRPNBIG.model** link: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 
-# EXPERIMENTAL 
+# Experimental 
 
 My environment
 - GPU Nvidia-1080 8G  
