@@ -1,5 +1,9 @@
 # SiamTrackers
 
+** 今天突然发现star增加了不少，实在是对不住大家，4，5月份事情太多，最近又在忙着实验，开题以及其他一些事情。
+由于疫情原因，我现在还未返校，许多大文件无法上传，没有上传的代码我暂时给出了官方的链接，大家也可以参考一下。另外欢迎加入SiamTrackers讨论大家庭，一起分享交流，共同进步！
+
+
 The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
 | Trackers     |  Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | Version |
