@@ -1,6 +1,6 @@
 # SiamTrackers
 2020/06/09
-- 实在是对不住大家，4，5月份事情太多，最近也比较赶，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再更新。另外欢迎加入SiamTrackers讨论大家庭，一起分享交流，共同进步！
+- 实在是对不住，最近要准备开题，目前还没回学校，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再更新。另外欢迎加入SiamTrackers讨论大家庭，一起分享交流，共同进步！
 微信群二维码，每周更新
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
@@ -43,7 +43,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 复现updatenet网络;可测试,训练,评估模型;目前复现发现模型对学习率比较敏感,还在摸索中;训练时间<1 hour,测试时间每个epoch~10min
 
 - **2019-CVPR-SiamDW**
-之前没有关注这个算法,最近看到这个算法速度还是很快的,后面有时间再复现一下
+之前没有关注这个算法,最近看到这个算法速度还是很快的,后面有时间再学习一下
 
 - **2019-CVPR-SiamRPN++**
 
