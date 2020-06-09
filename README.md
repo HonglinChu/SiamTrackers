@@ -149,35 +149,35 @@ My environment
 
 # Reference
 ```
-[1] **SiamFC**
+[1] SiamFC
 
 Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking.European conference on computer vision. Springer, Cham, 2016: 850-865.
    
-[2] **SiamRPN**
+[2] SiamRPN
 
 Li B, Yan J, Wu W, et al. High performance visual tracking with siamese region proposal network.Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018: 8971-8980.
 
-[3] **DaSiamRPN**
+[3] DaSiamRPN
 
 Zhu Z, Wang Q, Li B, et al. Distractor-aware siamese networks for visual object tracking.Proceedings of the European Conference on Computer Vision (ECCV). 2018: 101-117.
 
-[4] **UpdateNet**
+[4] UpdateNet
 
 Zhang L, Gonzalez-Garcia A, Weijer J, et al. Learning the Model Update for Siamese Trackers. Proceedings of the IEEE International Conference on Computer Vision. 2019: 4010-4019.
    
-[5] **SiamDW**
+[5] SiamDW
 
 Zhang Z, Peng H. Deeper and wider siamese networks for real-time visual tracking. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4591-4600.
 
-[6] **SiamRPN++**
+[6] SiamRPN++
 
 Li B, Wu W, Wang Q, et al. Siamrpn++: Evolution of siamese visual tracking with very deep networks.Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4282-4291.
 
-[7] **SiamMask**
+[7] SiamMask
 
 Wang Q, Zhang L, Bertinetto L, et al. Fast online object tracking and segmentation: A unifying approach. Proceedings of the IEEE conference on computer vision and pattern recognition. 2019: 1328-1338.
    
-[8] **SiamFC++**
+[8] SiamFC++
 
 Xu Y, Wang Z, Li Z, et al. SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. arXiv preprint arXiv:1911.06188, 2019.
 ```
