@@ -3,7 +3,7 @@
 - 实在是对不住大家，4，5月份事情太多，最近也比较赶，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再更新。另外欢迎加入SiamTrackers讨论大家庭，一起分享交流，共同进步！
 微信群二维码，每周更新
 
-![image] (https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
+![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
 
 
 The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
