@@ -1,10 +1,12 @@
-# SiamTrackers
+
+# WeChat Group
 2020/06/09
-- 实在是对不住，最近要准备开题，目前还没回学校，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再更新。另外欢迎加入SiamTrackers讨论大家庭，一起分享交流，共同进步！
+- 实在是对不住，目前还没回学校，没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再更新。另外欢迎加入我们的SiamTrackers大家庭，一起分享，相互交流，共同进步！
 微信群二维码，每周更新
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
 
+# SiamTrackers
 
 The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
@@ -20,7 +22,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 | SiamMask    |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot| &radic; |official|
 | SiamFC++   |  &radic; |  &radic; |  &radic;| &radic;| &radic;|pysot&got10k| &radic; |official|
 
-# DESCRIPTION
+# Description
 
 - **Siamese** 
 
@@ -110,7 +112,7 @@ My environment
 |           | E     |    0.223   |   0.326    | 0.383    |  0.352   |0.244   | **0.385**   |
 |           | Lost  |   114      |           |  59      |   62       |       |   39     |
 
-# DATASETS
+# Dataset
 
 - **UAV123** link: https://pan.baidu.com/s/1AhNnfjF4fZe14sUFefU3iA password: 2iq4
 
@@ -142,7 +144,7 @@ My environment
 
 - **TrackingNet** link  https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw code: nkb9  (Note that this link is provided by SiamFC++ author)
 
-# REFERENCE
+# Reference
 
 [1] **SiamFC**
 
