@@ -2,7 +2,7 @@
 # WeChat Group
 
 - 2020/06/09
-部分没有上传的代码也在相应的文件夹里面给出了官方的链接，官方的很详细，以后有时间再继续更新。欢迎加入我们的SiamTrackers讨论组，相互分享，一起交流，共同进步！
+部分没有上传的代码也在相应的文件夹里面给出了官方的链接，以后有时间再继续更新。欢迎加入我们的SiamTrackers讨论组，相互分享，一起交流，共同进步！
 微信群二维码，每周更新
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
