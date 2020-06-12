@@ -12,7 +12,7 @@ The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/
 
 | Trackers     |  Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | Version |
 | :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: |  :------: | 
-| Siamese     | ✔| ✔ |✔| ✔  | ✔|   | ✔|- |
+| Siamese     | ✔| ✔ |✔| ✔  | ✔|   | ✔|  |
 | SiamFC     | ✔ |  ✔|  ✔| ✔| ✔|got10k|✔|unofficial|
 | SiamRPN     | ✔ |  ✔|  ✔| ✔| ✔|got10k|  ✔|unofficial|
 | DaSiamRPN     | ✔ |       |  ✔| ✔| ✔|pysot| ✔| official|
@@ -104,7 +104,7 @@ My environment
 | VisDrone  | AUC   |    0.510|           |   0.547 |  0.572   |       |  **0.588**    |
 |           |  DP   |    0.698|           |   0.722 |   0.764  |       |  **0.784**    |
 |           |     |           |            |         |         |       |        |
-| VOT2016   |  A    |   0.538    |  0.61      |  0.625   |  0.618   |0.56    |  **0.626**    |
+| VOT2016   |  A \uparrow   |   0.538    |  0.61      |  0.625   |  0.618   |0.56    |  **0.626**    |
 |           | R     |    0.424   |  0.22      |  0.224   |  0.238   |0.26    |   **0.144**   |
 |           | E     |    0.262   |  0.411     |  0.439   |  0.393   | 0.344  |  **0.460**    |
 |           |Lost   |    91      |           |  48      |  51      |       |    31  |
