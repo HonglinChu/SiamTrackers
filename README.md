@@ -1,7 +1,7 @@
 
 # :star2:--WeChat:star2:
 
-部分没有上传的代码在相应的文件夹里面给出了官方的链接，以后有时间再继续更新。欢迎加入我们的SiamTrackers讨论组，一起交流，共同进步！
+部分没有上传的代码在相应的文件夹里面给出了官方的链接，以后有时间再继续更新。另外，欢迎加入SiamTrackers讨论组，一起交流，共同进步！
 微信群二维码，每周更新
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
