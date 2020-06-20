@@ -1,8 +1,8 @@
 
 # :star2:WeChat:star2:
 
-部分没有上传的代码在相应的文件夹里面给出了官方的链接，以后有时间再继续更新。另外，欢迎加入SiamTrackers讨论组，一起交流，共同进步！
-微信群二维码，每周更新
+Some of the codes that have not been uploaded have official links in the corresponding folders, and they will be updated in the future. In addition, welcome to join the SiamTrackers  group, communicate together and make progress together!
+WeChat group QR code, updated weekly
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
 
