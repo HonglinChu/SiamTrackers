@@ -8,7 +8,7 @@ WeChat group QR code, updated weekly
 
 # SiamTrackers
 
-The code will come soon！  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
+ https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
 | Trackers     |  Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | Version |
 | :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: |  :------: | 
