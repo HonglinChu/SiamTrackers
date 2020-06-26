@@ -10,17 +10,17 @@ WeChat group QR code, updated weekly
 
  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
-| Trackers     |  Debug   | Train   | Test  |  Evaluation | Comment | Toolkit | GPU | Version |Finished |
-| :--------- | :--------: | :------: |:------: |:------: |:------: |:------: |  :------: |  :------: | :------: | 
-| Siamese     | ✔| ✔ |✔| ✔  | ✔|   | ✔|  | ✔|
-| SiamFC     | ✔ |  ✔|  ✔| ✔| ✔|got10k|✔|unofficial|✔|
-| SiamRPN     | ✔ |  ✔|  ✔| ✔| ✔|got10k|  ✔|unofficial|✔|
-| DaSiamRPN     | ✔ |       |  ✔| ✔| ✔|pysot| ✔| official|✔|
-| UpdateNet  | ✔ |  ✔|  ✔| ✔| ✔|pysot| ✔| unofficial|✔|
-| SiamDW      |  ✔ |  ✔|  ✔| ✔| ✔|-| ✔|official| |
-| SiamRPN++   |  ✔ |  ✔|  ✔| ✔| ✔|pysot| ✔|official| |
-| SiamMask    |  ✔ |  ✔|  ✔| ✔| ✔|pysot| ✔|official| |
-| SiamFC++   | ✔ |  ✔|  ✔| ✔| ✔|pysot&got10k| ✔|official| |
+| Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Finished |
+| :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
+| Siamese     | ✔| ✔ |✔| ✔  |   | ✔|  | ✔|
+| SiamFC     | ✔ |  ✔|  ✔| ✔| got10k|✔|unofficial|✔|
+| SiamRPN     | ✔ |  ✔|  ✔| ✔| got10k|  ✔|unofficial|✔|
+| DaSiamRPN     | ✔ |  |  ✔| ✔| pysot| ✔| official|✔|
+| UpdateNet  | ✔ |  ✔|  ✔| ✔| pysot| ✔| unofficial|✔|
+| SiamDW      |  ✔ |  ✔|  ✔| ✔| -| ✔|official| |
+| SiamRPN++   |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
+| SiamMask    |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
+| SiamFC++   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official| |
 
 # Description
 
