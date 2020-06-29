@@ -10,7 +10,7 @@ WeChat group QR code, updated weekly
 
  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
-| Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Finished |
+| Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
 | :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
 | Siamese     | ✔| ✔ |✔| ✔  |   | ✔|  | ✔|
 | SiamFC     | ✔ |  ✔|  ✔| ✔| got10k|✔|unofficial|✔|
