@@ -26,39 +26,41 @@ WeChat group QR code, updated weekly
 
 - **Siamese** 
 ```
-基于孪生网络的简单人脸分类实现，支持训练和测试,
+The implementation of simple face classification based on siamese network.
 ```
 - **2016-ECCV-SiamFC** 
 ```
-添加got10k评估工具;对接口进行优化;可评估,可训练和测试;使用VID数据集进行训练,训练速度还是比较快的,记不太清了,大概几个hours;复现结果略低于论文(没有进行超参调节); 使用GOT10K数据集进行训练效果要比论文的结果好一些 
+The implementation of SiamFC tracker. Add GOT10K toolkit and optimize the interface. We use the VID data set for training . The testing results are slightly lower than the paper(without hyperparameter adjustment). 
+
 ```
 - **2018-CVPR-SiamRPN**   
 ```
-添加got10k评估工具;可评估,可训练和测试;使用YTB和VID数据集进行训练，训练时长>24 hours,我自己的训练结果略低于论文(没有进行超参调节）,但是根据其他同学的反馈，使用这个代码训练结果比原文精度要高;
+The implementation of SiamRPN tracker. Add GOT10K toolkit and optimize the interface. We use YTB and VID  data sets for training. The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
 - **2018-ECCV-DaSiamRPN**  
 ```
-支持VScode单步调试,加pysot评估工具;支持一键测试和评估;测试结果和论文一致;不支持训练;
+Add PYSOT toolkit and optimize the interface. You can easily debug, train and test.  The results of testing are consistent with the paper; Note that you shound have python3  environment.
 ```
 - **2019-ICCV-UpdateNet**   
 ```
-复现updatenet网络;可测试,训练,评估模型;目前复现发现模型对学习率比较敏感,还在摸索中;训练时间<1 hour,测试时间每个epoch~10min
+The implementation of UpdateNet tracker. Add PYSOT toolkit and optimize the interface. The model is sensitive to learning rate. Our results is higher than the original paper on VOT2018 data set. EAO=0.403(Ours)  EAO=0.393(Paper)
 ```
 - **2019-CVPR-SiamDW**
 ```
-之前没有关注这个算法,最近看到这个算法速度还是很快的,后面有时间再学习一下
+The paper mainly analyzed the impact of padding on the tracking network. 
+作者加深网络到22层，速度依然很快
 ```
 - **2019-CVPR-SiamRPN++**
 ```
-支持VScode单步调试 ；对训练和测试的接口进行了优化；对代码进行部分注释; 修改训练模式,将分布式多机多GPU并行;改成单机多GPU并行;使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days);在没有进行调超参的情况下精度和论文比较接近
+支持VScode单步调试 ；添加多个数据集的测试脚本; 修改训练模式,将分布式多机多GPU并行;改成单机多GPU并行;使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days，两块1080显卡);在没有进行调超参的情况下在VOT2016，VOT2018，VOT2019上，测试结果和论文比较接近
  ```
 - **2019-CVPR-SiamMask**  
 ```
-支持VScode单步调试;对训练和测试的接口进行了优化;对代码进行部分注释;
+支持VScode单步调试; 支持一键测试，训练；我自己测试的结果和作者的基本一致
 ```
 - **2020-AAAI-SiamFC++** 
 ```
-支持VScode单步调试,对训练和测试的接口进行了优化;对代码进行部分注释;使用GOT10K数据集重新训练alexnet版本,训练时长~20 hours,测试精度和论文比较接近(备注：官方代码封装非常好,用到许多编程技巧, 但是也给初学者理解代码带来很大挑战:(，后面有时间会更新简化版本:)
+支持VScode单步调试；添加了多个数据集的测试脚本；使用GOT10K数据集重新训练alexnet版本，训练时长15-20 hours（两块1080显卡）,测试精度和论文接近(官方代码封装很厉害,给初学者阅读和修改修改代码带来很大挑战:( 
 ```
 # Model
 
