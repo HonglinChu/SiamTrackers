@@ -21,7 +21,7 @@ python test_siamfc.py
 ```
 
 ## Benchmark results
-support for 
+
 #### OTB100
 
 |         Tracker        |       AUC       |
