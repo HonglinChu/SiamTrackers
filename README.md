@@ -3,8 +3,6 @@
 
 Some of the codes that have not been uploaded have official links in the corresponding folders, and they will be updated in the future. In addition, welcome to join the SiamTrackers  group, communicate together and make progress together!
 
-![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.jpg)
-
 # SiamTrackers
 
  https://www.bilibili.com/video/BV1Y64y1T7qs/ 
