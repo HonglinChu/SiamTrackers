@@ -3,6 +3,11 @@
 - we forked from official code：https://github.com/STVIR/pysot (Recommend)
 
 - My project:  https://github.com/HonglinChu/SiamRPNpp (Incomplete)
+文件太大没有全部上传,可以参考我的bin文件夹里面的如下四个文件对官方代码进行适当修改,方便单步调试和单机多GPU的训练
+- my_demo.py
+- my_test.py
+- my_train.py
+- my_eval.py
 
 ## My results of siamrpn++(siamrpn_alex_dwxcorr) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
 
