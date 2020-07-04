@@ -1,8 +1,8 @@
 # Pytorch implementation of SiamRPN++
 
-- we forked from official code：https://github.com/STVIR/pysot (Recommend)
+We forked from official code：https://github.com/STVIR/pysot (Recommend)
 
-- My project:  https://github.com/HonglinChu/SiamRPNpp (Incomplete)
+My project:  https://github.com/HonglinChu/SiamRPNpp (Incomplete)
 
 文件太大没有全部上传,可以参考我的bin文件夹里面的如下四个文件对官方代码进行适当修改,方便单步调试和单机多GPU的训练
 
