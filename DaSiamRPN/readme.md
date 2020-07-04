@@ -1,4 +1,4 @@
-# Pytorch implementation of SiamFC
+# Pytorch implementation of DaSiamRPN
 
 - My code link:https://github.com/HonglinChu/DaSiamRPN
 
