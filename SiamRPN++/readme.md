@@ -4,9 +4,8 @@
 
 - My code:  https://github.com/HonglinChu/SiamRPNpp
 
-- My results of siamrpn++(siamrpn_alex_dwxcorr) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
+## My results of siamrpn++(siamrpn_alex_dwxcorr) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
 
-## Train
 
 VOT2016   E-A-R       0.393/0.618/0.238
 -------------------------------------------------------------------------
