@@ -17,7 +17,7 @@ Some of the codes that have not been uploaded have official links in the corresp
 | DaSiamRPN     | ✔ |  |  ✔| ✔| pysot| ✔| official|✔|
 | UpdateNet  | ✔ |  ✔|  ✔| ✔| pysot| ✔| unofficial|✔|
 | SiamDW      |  ✔ |  ✔|  ✔| ✔| -| ✔|official| |
-| SiamRPN++   |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
+| SiamRPN++   |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official|✔|
 | SiamMask    |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
 | SiamFC++   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official| |
 
