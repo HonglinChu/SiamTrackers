@@ -3,7 +3,7 @@
 This is official code：https://github.com/foolwood/SiamMask
 
 ## Results
-my experimental results on VOT2016 and VOT2018
+my experiment results on VOT2016 and VOT2018
 |    My Test|VOT2016|      E   |         A   |        R |   VOT2018 |    E    |      A |       R|
 |:---------:|:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|:------:|
 | SiamMask-box  |   | 0.414    |  0.622      |   0.224   |           |0.363  |   0.585  | 0.300  |
