@@ -1,13 +1,8 @@
 
 
-# 本项目的主要工作
+# Pytorch implementation of SiamRPN
 -  2020-05-14 my code https://github.com/HonglinChu/SiamRPN
-
-- 对SiamRPN的API接口进行优化，支持Vscode调试
-- 支持Vscode端的训练和测试
-- 添加部分注释
-- 添加got10k评估工具，可用于评估，评估结果略低于论文
-Refer to the link https://www.bilibili.com/video/BV1Y64y1T7qs 
+ https://www.bilibili.com/video/BV1Y64y1T7qs 
 
 ## Data preparation
 ```bash
@@ -40,6 +35,7 @@ Model with 0.6xx AUC: https://pan.baidu.com/s/1vSvTqxaFwgmZdS00U3YIzQ  keyword:v
 
 [1] Li B , Yan J , Wu W , et al. High Performance Visual Tracking with Siamese Region Proposal Network[C]// 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2018.
 [2] https://github.com/HelloRicky123/Siamese-RPN
+
 ```
 
 
