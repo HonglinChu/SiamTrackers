@@ -2,7 +2,7 @@
 
 The official code：https://github.com/STVIR/pysot (Recommend)
 
-The files are too big to upload, please refer to my follow files to modify the official code to achieve single-step debugging ,testing and  multi-GPU training on single CPU.
+The project are too big to upload, please refer to my follow files to modify the official code to achieve single-step debugging ,testing and  multi-GPU training on single CPU.
 
 Please refer to my file to modify the official code to achieve single-step debugging and single-machine multi-GPU training
 
