@@ -9,7 +9,9 @@ The project are too big to upload, please refer to my follow files to modify the
 - my_train.py
 - my_eval.py
 
-## My results of siamrpn++(siamrpn_alex_dwxcorr) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
+## Experiment
+
+My results of siamrpn++(siamrpn_alex_dwxcorr_16gpu) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
 
 VOT2016   E-A-R       0.393/0.618/0.238
 
