@@ -167,8 +167,8 @@ The  results are close to the paper
 # OTB toolkit
 ```
 https://github.com/HonglinChu/visual_tracker_benchmark 
-- Support multi-thread parameter search, multi-thread running dataset
-- Visualize the position error curve and overlap rate curve for each frame.
+Support multi-thread parameter search, multi-thread running dataset
+Visualize the position error curve and overlap rate curve for each frame.
 ```
 
 # Reference
