@@ -1,6 +1,6 @@
 
 # :star2:WeChat:star2:
-https://www.bilibili.com/video/BV1Y64y1T7qs/ 
+
 Some of the codes that have not been uploaded have official links in the corresponding folders. In addition, welcome to join the SiamTrackers group, communicate  and make progress together! 
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.png)
@@ -20,7 +20,7 @@ Some of the codes that have not been uploaded have official links in the corresp
 | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
 
 # Description
-
+https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 ## Siamese 
 ```
 The implementation of simple face classification based on siamese network.
