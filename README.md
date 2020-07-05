@@ -25,40 +25,63 @@ Some of the codes that have not been uploaded have official links in the corresp
 
 - **Siamese** 
 ```
-The implementation of simple face classification based on siamese network.
+- The implementation of simple face classification based on siamese network.
 ```
 - **2016-ECCV-SiamFC** 
 ```
-The implementation of SiamFC tracker. Add GOT10K toolkit and optimize the interface. We use the VID data set for training . The testing results are slightly lower than the paper(without hyperparameter adjustment). 
+- The implementation of UpdateNet tracker.
+- Add GOT10K toolkit and optimize the interface. 
+- We use the VID data set for training . 
+- The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 
 ```
 - **2018-CVPR-SiamRPN**   
 ```
-The implementation of SiamRPN tracker. Add GOT10K toolkit and optimize the interface. We use YTB and VID  data sets for training. The testing results are slightly lower than the paper(without hyperparameter adjustment). 
+- The implementation of UpdateNet tracker.
+- Add GOT10K toolkit and optimize the interface. 
+- We use YTB and VID  data sets for training. 
+- The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
 - **2018-ECCV-DaSiamRPN**  
 ```
-Add PYSOT toolkit and optimize the interface. You can easily debug, train and test.  The results of testing are consistent with the paper; Note that you shound have python3  environment.
+- The implementation of UpdateNet tracker.
+- Add PYSOT toolkit and optimize the interface. 
+- You can  debug, train and test easily.  
+- The results of testing are consistent with the paper
+- Note that you shound have python3  environment.
+
 ```
 - **2019-ICCV-UpdateNet**   
 ```
-The implementation of UpdateNet tracker. Add PYSOT toolkit and optimize the interface. The model is sensitive to learning rate. Our results is higher than the original paper on VOT2018 data set. EAO=0.403(Ours)  EAO=0.393(Paper)
+- The implementation of UpdateNet tracker.
+- Add PYSOT toolkit and optimize the interface. 
+- The model is sensitive to learning rate. 
+- Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
 ```
+
 - **2019-CVPR-SiamDW**
 ```
 The paper mainly analyzed the impact of padding on the tracking network. 
 ```
 - **2019-CVPR-SiamRPN++**
 ```
-支持VScode单步调试 ；添加多个数据集的测试脚本; 修改训练模式,将分布式多机多GPU并行;改成单机多GPU并行;使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days，两块1080显卡);在没有进行调超参的情况下在VOT2016，VOT2018，VOT2019上，测试结果和论文比较接近
+- 支持VScode单步调试 
+- 编写多个无人机数据集的测试脚本
+- 将分布式多机多GPU并行改成单机多GPU并行
+- 使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days，两块1080显卡)
+- 在没有进行调超参的情况下在VOT2016，VOT2018，VOT2019上，测试结果和论文比较接近
  ```
 - **2019-CVPR-SiamMask**  
 ```
-支持VScode单步调试; 支持一键测试，训练；我自己测试的结果和作者的基本一致
+- 支持VScode单步调试
+- 支持一键测试，训练
+- 我测试的结果和作者的有些不太一致,具体参考SiamMask分支
 ```
 - **2020-AAAI-SiamFC++** 
 ```
-支持VScode单步调试；添加了多个数据集的测试脚本；使用GOT10K数据集重新训练alexnet版本，训练时长15-20 hours（两块1080显卡）,测试精度和论文接近(官方代码封装很厉害,给初学者阅读和修改修改代码带来很大挑战:( 
+- 支持VScode单步调试
+- 编写多个无人机数据集的测试脚本
+- 使用GOT10K数据集重新训练alexnet版本，训练时长15-20 小时（两块1080显卡）,测试精度和论文接近
 ```
 # Model
 
@@ -69,8 +92,7 @@ The paper mainly analyzed the impact of padding on the tracking network.
 - **SiamRPNBIG.model**  [BaiDuYun](https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q) password: b3b6
 
 # Experimental 
-My environment
-- GPU Nvidia-1080 8G  
+- GPU NVIDIA 1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
 - CUDA 9.0
 - System ubuntu 16.04  64 bits
@@ -80,7 +102,7 @@ My environment
 **Note**:Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
 
 |   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
-|:---------: |:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
+|:---------:|:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
 |           |       |           |            |         |         |       |        |
 |  Backbone |   -    | AlexNet |  AlexNet(OTB/VOT)  |AlexNet(BIG)    | AlexNet(DW)    |AlexNet(UP)    |AlexNet|
 |     FPS   |     |   85   |   >120         |   >120 |    >120      |    >120       |    >120     |
@@ -146,7 +168,11 @@ My environment
 - **TrackingNet** [BaiDuYun](https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw) password: nkb9  (Note that this link is provided by SiamFC++ author)
 
 # OTB toolkit
-https://github.com/HonglinChu/visual_tracker_benchmark 支持多线程调参，多线程跑数据集，可视化每一帧的曲线图
+```
+https://github.com/HonglinChu/visual_tracker_benchmark 
+- Support multi-thread parameter search, multi-thread running dataset
+- Visualize the position error curve and overlap rate curve for each frame.
+```
 
 # Reference
 ```
