@@ -23,11 +23,11 @@ Some of the codes that have not been uploaded have official links in the corresp
 
 # Description
 
-- **Siamese** 
+## Siamese 
 ```
 - The implementation of simple face classification based on siamese network.
 ```
-- **2016-ECCV-SiamFC** 
+## 2016-ECCV-SiamFC
 ```
 - The implementation of UpdateNet tracker.
 - Add GOT10K toolkit and optimize the interface. 
@@ -35,14 +35,14 @@ Some of the codes that have not been uploaded have official links in the corresp
 - The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 
 ```
-- **2018-CVPR-SiamRPN**   
+## 2018-CVPR-SiamRPN
 ```
 - The implementation of UpdateNet tracker.
 - Add GOT10K toolkit and optimize the interface. 
 - We use YTB and VID  data sets for training. 
 - The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
-- **2018-ECCV-DaSiamRPN**  
+## 2018-ECCV-DaSiamRPN  
 ```
 - The implementation of UpdateNet tracker.
 - Add PYSOT toolkit and optimize the interface. 
@@ -51,7 +51,7 @@ Some of the codes that have not been uploaded have official links in the corresp
 - Note that you shound have python3  environment.
 
 ```
-- **2019-ICCV-UpdateNet**   
+## 2019-ICCV-UpdateNet   
 ```
 - The implementation of UpdateNet tracker.
 - Add PYSOT toolkit and optimize the interface. 
@@ -59,29 +59,28 @@ Some of the codes that have not been uploaded have official links in the corresp
 - Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
 ```
 
-- **2019-CVPR-SiamDW**
+## 2019-CVPR-SiamDW
 ```
 The paper mainly analyzed the impact of padding on the tracking network. 
 ```
-- **2019-CVPR-SiamRPN++**
+## 2019-CVPR-SiamRPN++
 ```
-- 支持VScode单步调试 
-- 编写多个无人机数据集的测试脚本
-- 将分布式多机多GPU并行改成单机多GPU并行
-- 使用四个数据集重新训练SiamRPN++(alexnet版本,训练时间3~4days，两块1080显卡)
-- 在没有进行调超参的情况下在VOT2016，VOT2018，VOT2019上，测试结果和论文比较接近
+- Support VScode single-step debugging 
+- Add test scripts for 4 drone datasets
+- Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel
+- Retrain SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs )
  ```
-- **2019-CVPR-SiamMask**  
+## 2019-CVPR-SiamMask
 ```
-- 支持VScode单步调试
-- 支持一键测试，训练
-- 我测试的结果和作者的有些不太一致,具体参考SiamMask分支
+- Support VScode single-step debugging
+- Support testing and training
+- The results of my test are  inconsistent with the author's, please refer to my SiamMask branch
 ```
-- **2020-AAAI-SiamFC++** 
+## 2020-AAAI-SiamFC++
 ```
-- 支持VScode单步调试
-- 编写多个无人机数据集的测试脚本
-- 使用GOT10K数据集重新训练alexnet版本，训练时长15-20 小时（两块1080显卡）,测试精度和论文接近
+- Support VScode single-step debugging
+- Add test scripts for 4 drone datasets
+- Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs), the test accuracy is close to the paper
 ```
 # Model
 
