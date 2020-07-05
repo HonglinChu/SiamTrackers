@@ -33,7 +33,6 @@ The implementation of UpdateNet tracker.
 Add GOT10K toolkit and optimize the interface. 
 We use the VID data set for training . 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
-
 ```
 ## 2018-CVPR-SiamRPN
 ```
@@ -49,7 +48,6 @@ Add PYSOT toolkit and optimize the interface.
 You can  debug, train and test easily.  
 The results of testing are consistent with the paper
 Note that you shound have python3  environment.
-
 ```
 ## 2019-ICCV-UpdateNet   
 ```
@@ -58,7 +56,6 @@ Add PYSOT toolkit and optimize the interface.
 The model is sensitive to learning rate. 
 Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
 ```
-
 ## 2019-CVPR-SiamDW
 ```
 The paper mainly analyzed the impact of padding on the tracking network. 
@@ -69,7 +66,7 @@ Support VScode single-step debugging
 Add test scripts for 4 drone datasets 
 Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel
 Retrain SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs )
- ```
+```
 ## 2019-CVPR-SiamMask
 ```
 Support VScode single-step debugging
@@ -91,7 +88,7 @@ The  results are close to the paper
 
 - **SiamRPNBIG.model**  [BaiDuYun](https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q) password: b3b6
 
-# Experimental 
+# Experiment
 - GPU NVIDIA 1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
 - CUDA 9.0
