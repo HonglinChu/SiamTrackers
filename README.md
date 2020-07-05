@@ -1,13 +1,11 @@
 
 # :star2:WeChat:star2:
-
-Some of the codes that have not been uploaded have official links in the corresponding folders. In addition, welcome to join the SiamTrackers, communicate  and make progress together! 
+https://www.bilibili.com/video/BV1Y64y1T7qs/ 
+Some of the codes that have not been uploaded have official links in the corresponding folders. In addition, welcome to join the SiamTrackers group, communicate  and make progress together! 
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.png)
 
 # SiamTrackers
-
- https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 
 | Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
 | :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
