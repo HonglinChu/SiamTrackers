@@ -1,4 +1,4 @@
-# :star2:Wecome To Join Us! :star2:
+<center> * :star2:Wecome To Join Us! :star2: *<center> 
 
 You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
 
