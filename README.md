@@ -1,7 +1,5 @@
- <center> * :star2:Wecome To Join Us! :star2: * </center> 
+ # star2:Wecome To Join Us! :star2:
  
- <center> :star2:Wecome To Join Us! :star2: </center>
-
 You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.png)
@@ -23,7 +21,7 @@ You can scan the following QR code to join the SiamTrackers group. Let's communi
 # Description
 
 ```
-Some of the codes that have not been uploaded have official links in the corresponding folders.
+Some of the codes that have not been uploaded have official links in the corresponding folders. 
 https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 ```
 
