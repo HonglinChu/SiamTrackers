@@ -1,12 +1,6 @@
+# :star2:Wecome To Join Us! :star2:
 
-
-:star2:WeChat:star2:
-================
-
-Reporting module
-================
-
-Some of the codes that have not been uploaded have official links in the corresponding folders. In addition, welcome to join the SiamTrackers group, communicate  and make progress together! 
+You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
 
 ![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.png)
 
@@ -24,27 +18,32 @@ Some of the codes that have not been uploaded have official links in the corresp
 | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)    |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
 | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
 
-# Description
+## Description
+
+```
+Some of the codes that have not been uploaded have official links in the corresponding folders.
 https://www.bilibili.com/video/BV1Y64y1T7qs/ 
-## Siamese 
+```
+
+### Siamese 
 ```
 The implementation of simple face classification based on siamese network.
 ```
-## 2016-ECCV-SiamFC
+### 2016-ECCV-SiamFC
 ```
 The implementation of UpdateNet tracker.
 Add GOT10K toolkit and optimize the interface. 
 We use the VID data set for training . 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
-## 2018-CVPR-SiamRPN
+### 2018-CVPR-SiamRPN
 ```
 The implementation of UpdateNet tracker.
 Add GOT10K toolkit and optimize the interface. 
 We use YTB and VID  data sets for training. 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
-## 2018-ECCV-DaSiamRPN  
+### 2018-ECCV-DaSiamRPN  
 ```
 The implementation of UpdateNet tracker.
 Add PYSOT toolkit and optimize the interface. 
@@ -52,38 +51,38 @@ You can  debug, train and test easily.
 The results of testing are consistent with the paper
 Note that you shound have python3  environment.
 ```
-## 2019-ICCV-UpdateNet   
+### 2019-ICCV-UpdateNet   
 ```
 The implementation of UpdateNet tracker.
 Add PYSOT toolkit and optimize the interface. 
 The model is sensitive to learning rate. 
 Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
 ```
-## 2019-CVPR-SiamDW
+### 2019-CVPR-SiamDW
 ```
 The paper mainly analyzed the impact of padding on the tracking network. 
 ```
-## 2019-CVPR-SiamRPN++
+### 2019-CVPR-SiamRPN++
 ```
 Support VScode single-step debugging 
 Add test scripts for 4 drone datasets 
 Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel
 Retrain SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs )
 ```
-## 2019-CVPR-SiamMask
+### 2019-CVPR-SiamMask
 ```
 Support VScode single-step debugging
 Support testing and training
 The results of my test are  inconsistent with the author's, please refer to my SiamMask branch
 ```
-## 2020-AAAI-SiamFC++
+### 2020-AAAI-SiamFC++
 ```
 Support VScode single-step debugging
 Add test scripts for 4 drone datasets
 Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs)
 The  results are close to the paper
 ```
-# Model
+## Model
 
 - **SiamRPNVOT.model** [BaiDuYun](https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA)  password: p4ig   
 
@@ -91,7 +90,7 @@ The  results are close to the paper
 
 - **SiamRPNBIG.model**  [BaiDuYun](https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q) password: b3b6
 
-# Experiment
+## Experiment
 - GPU NVIDIA 1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
 - CUDA 9.0
@@ -135,7 +134,7 @@ The  results are close to the paper
 |           | E     |    0.223   |   0.326    | 0.383    |  0.352   |0.244   | **0.385**   |
 |           | Lost  |   114      |           |  59      |   62       |       |   39     |
 
-# Dataset
+## Dataset
 
 - **UAV123** [BaiDuYun](https://pan.baidu.com/s/1AhNnfjF4fZe14sUFefU3iA) password: 2iq4
 
@@ -167,14 +166,14 @@ The  results are close to the paper
 
 - **TrackingNet** [BaiDuYun](https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw) password: nkb9  (Note that this link is provided by SiamFC++ author)
 
-# OTB toolkit
+## OTB toolkit
 ```
 https://github.com/HonglinChu/visual_tracker_benchmark 
 Support multi-thread parameter search, multi-thread running dataset
 Visualize the position error curve and overlap rate curve for each frame.
 ```
 
-# Reference
+## Reference
 ```
 [1] SiamFC
 
