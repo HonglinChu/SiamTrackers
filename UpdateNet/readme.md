@@ -1,11 +1,11 @@
 # Pytorch implementation of UpdateNet
 
 ## Description
-My code: https://github.com/HonglinChu/UpdateNet
+My code:https://github.com/HonglinChu/UpdateNet
  
-BiliBili:  https://www.bilibili.com/video/bv1Jg4y1B7tL
+BiliBili:https://www.bilibili.com/video/bv1Jg4y1B7tL
  
-SiamRPNBIG.model: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
+SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 
 2020-05-15 
 ``` About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
