@@ -2,6 +2,7 @@
 
 ## Description
 My code https://github.com/HonglinChu/SiamRPN
+
 ## File Tree
 ```
 .
@@ -21,16 +22,16 @@ The command above will get a dataset, The dataset in the baiduyundisk. Use this 
 
 python bin/create_lmdb.py
 ```
-## Training
+## Train
 ```bash
 python bin/train_siamrpn.py 
 ```
-## Testing
+## Test
 ```bash
 python bin/test_siamrpn.py 
 ```
 
-## Model Download:
+## Model
 ```bash
 Pretrained model on Imagenet: https://drive.google.com/drive/folders/1HJOvl_irX3KFbtfj88_FVLtukMI1GTCR
 
