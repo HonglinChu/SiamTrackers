@@ -36,6 +36,22 @@ SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 ├── toolkit
 └── updatenet
 ```
+
+## Data Peparation
+```
+python ./updatenet/create_template.py
+```
+
+## Training
+```
+python ./updatenet/train_upd.py
+```
+
+## Testing
+```
+python ./bin/my_test.py
+```
+
 ## Experiment
 
 2020-06-08
