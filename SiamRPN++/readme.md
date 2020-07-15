@@ -1,15 +1,17 @@
 # Pytorch implementation of SiamRPN++
 
+## Description
+
 Official code：https://github.com/STVIR/pysot (Recommend)
 
 My code: https://github.com/HonglinChu/SiamRPNpp
 
 The project are too big to upload, please refer to my follow files to modify the official code to achieve single-step debugging ,testing and  multi-GPU training on single CPU.
 
-- my_demo.py
-- my_test.py
-- my_train.py
-- my_eval.py
+- ./bin/my_demo.py
+- ./bin/my_test.py
+- ./bin/my_train.py
+- ./bin/my_eval.py
 
 ## Experiment
 
