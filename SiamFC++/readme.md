@@ -10,7 +10,7 @@ My code: https://github.com/HonglinChu/SiamFCpp
 If you download our code, you need download 2  other files("models" , "snapshots") from [BaiDuYun](https://pan.baidu.com/s/1UELKI7DNFCjQ-BM9ebL5_w) password: 7qt8 , and put them into the project.
 
 ## SOT 
- [Official Guide] (https://github.com/MegviiDetection/video_analyst)
+ [Official Guide](https://github.com/MegviiDetection/video_analyst)
 * [SOT_SETUP.md](docs/TUTORIALS/SOT_SETUP.md): instructions for setting-up
 * [SOT_MODEL_ZOO.md](docs/TUTORIALS/SOT_MODEL_ZOO.md): description of released sot models
 * [SOT_TRAINING.md](docs/TUTORIALS/SOT_TRAINING.md): details related to training
