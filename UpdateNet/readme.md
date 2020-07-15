@@ -25,7 +25,7 @@ SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
             break   
 ``` 
 
-## File Tree
+## File tree
 ```
 ├── bin
 ├── dasiamrpn
@@ -42,12 +42,12 @@ SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 python ./updatenet/create_template.py
 ```
 
-## Training
+## Train
 ```
 python ./updatenet/train_upd.py
 ```
 
-## Testing
+## Test
 ```
 python ./bin/my_test.py
 ```
