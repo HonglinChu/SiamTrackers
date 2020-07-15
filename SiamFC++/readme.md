@@ -1,9 +1,9 @@
 # Pytorch implementation of SiamFC++
 
 ## Description
-Official code：https://github.com/MegviiDetection/video_analyst (Recommend)
+Official code:https://github.com/MegviiDetection/video_analyst (Recommend)
 
-My code: https://github.com/HonglinChu/SiamFCpp 
+My code:https://github.com/HonglinChu/SiamFCpp 
 
 ## SiamFC++
 
