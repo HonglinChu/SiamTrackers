@@ -7,8 +7,6 @@ My code: https://github.com/HonglinChu/SiamFCpp
 
 ## SiamFC++
 
-The official code：https://github.com/MegviiDetection/video_analyst (Recommend)
-
 If you download our code, you need download 2  other files("models" , "snapshots") from [BaiDuYun](https://pan.baidu.com/s/1UELKI7DNFCjQ-BM9ebL5_w) password: 7qt8 , and put them into the project.
 
 ## SOT 
