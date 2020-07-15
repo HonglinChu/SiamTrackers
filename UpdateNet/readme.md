@@ -37,7 +37,7 @@ SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 └── updatenet
 ```
 
-## Data Peparation
+## Data peparation
 ```
 python ./updatenet/create_template.py
 ```
