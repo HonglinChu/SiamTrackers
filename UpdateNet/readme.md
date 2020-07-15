@@ -26,7 +26,18 @@ SiamRPNBIG.model 链接: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q 提取�
             break   
 ``` 
 
-# Training
+# File Tree
+```
+├── bin
+├── dasiamrpn
+├── data
+├── datasets
+├── models
+├── results
+├── toolkit
+└── updatenet
+```
+# Experiment
 
 2020-06-08
 目前已经在第三个阶段, VOT2018上复现出EAO=0.403（VS 0.393）的结果
