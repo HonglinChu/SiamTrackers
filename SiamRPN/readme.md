@@ -1,9 +1,14 @@
-
-
 # Pytorch implementation of SiamRPN
--  2020-05-14 my code https://github.com/HonglinChu/SiamRPN
 
--  https://www.bilibili.com/video/BV1Y64y1T7qs 
+## Description
+My code https://github.com/HonglinChu/SiamRPN
+## File Tree
+```
+.
+├── bin
+├── got10k
+└── siamrpn
+```
 
 ## Data preparation
 ```bash
@@ -38,6 +43,3 @@ Model with 0.6xx AUC: https://pan.baidu.com/s/1vSvTqxaFwgmZdS00U3YIzQ  keyword:v
 [2] https://github.com/HelloRicky123/Siamese-RPN
 
 ```
-
-
-
