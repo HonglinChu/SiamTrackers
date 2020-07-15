@@ -16,16 +16,16 @@ If you download our code, you need download 2  other files("models" , "snapshots
 * [SOT_TRAINING.md](docs/TUTORIALS/SOT_TRAINING.md): details related to training
 * [SOT_TEST.md](docs/TUTORIALS/SOT_TEST.md): details related to test
 
-## Testing
+## Test
 ```
 python ./bin/my_test.py
 ```
-## Training
+## Train
 ```
 python ./bin/my_train.py
 ```
 
-## File Tree
+## File tree
 ```
 project_root/
 ├── bin
