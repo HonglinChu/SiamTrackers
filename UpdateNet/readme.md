@@ -1,18 +1,16 @@
 # Pytorch implementation of UpdateNet
 
 ## Description
-代码: https://github.com/HonglinChu/UpdateNet
+My code: https://github.com/HonglinChu/UpdateNet
  
-UpdateNet复现视频讲解  https://www.bilibili.com/video/bv1Jg4y1B7tL
+BiliBili:  https://www.bilibili.com/video/bv1Jg4y1B7tL
  
-SiamRPNBIG.model 链接: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q 提取码: b3b6
+SiamRPNBIG.model: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 
-内嵌Dasiamrpn, 训练完UpdateNet,可以直接进行测试和评估,支持;模型更新支持UpdateNet和Linear更新方式
+2020-05-15 
+``` About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
 
-2020-05-15 修正
-``` 关于create_template.py文件中138行  'get_axis_aligned_rect'不存在的问题，注释掉get_axis_aigned_rect函数
-
-    if reset:   #reset 默认是1               
+    if reset:   #reset=1 (default)            
 
         #gt_rect = get_axis_aligned_rect(ground_truth[frame])#x，y，w，h
 
@@ -41,15 +39,18 @@ SiamRPNBIG.model 链接: https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q 提取�
 ## Experiment
 
 2020-06-08
-目前已经在第三个阶段, VOT2018上复现出EAO=0.403（VS 0.393）的结果
+
+My result VOT2018 EAO=0.403 
+
+Original result VOT2018 EAO=0.393 
 
 2020-05-21  
-以下EAO均在VOT2018上测试 
-
+EAO on VOT2018
 ```
-第一阶段 train from scratch
+Stage one train from scratch
 
-学习率 Lr5-6  
+learning rate Lr5-6  
+
 Checkpoint35      EAO-0.360
 
 Checkpoint36      EAO-0.347
@@ -63,8 +64,9 @@ Checkpoint41      EAO-0.350
 Checkpoint42      EAO-0.334
 
 
-第二阶段 加载预训练 checkpoint40
-Lr 8-9 
+Stage two load pretrained model checkpoint40 from stage one
+
+learning rate Lr8-9  
 
 Checkpoint2  EAO-0.362
 
@@ -73,9 +75,9 @@ Checkpoint3  EAO-0.370
 Checkpoint4  EAO-0.355
 
 
-第三阶段 加载预训练 checkpoint3
+Stage  three load pretrained model  checkpoint3 from stage two
 
-Lr 8-9 
+learning rate Lr8-9  
 
 Checkpoint 1   EAO-0.343
 
