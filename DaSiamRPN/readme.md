@@ -13,6 +13,17 @@ My code:https://github.com/HonglinChu/DaSiamRPN
 ├── results
 └── toolkit
 ```
+
+# Test
+```
+python ./bin/my_test.py
+```
+
+# Eval
+```
+python ./bin/my_eval.py
+```
+
 ## Model
 
 SiamRPNVOT.model link: https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA password: p4ig
