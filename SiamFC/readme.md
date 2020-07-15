@@ -3,6 +3,12 @@
 ## Description
 My code https://github.com/HonglinChu/SiamFC
 
+## File Tree
+```
+├── bin
+├── got10k
+└── siamfc
+```
 ## Data preparation
 
 ```bash
