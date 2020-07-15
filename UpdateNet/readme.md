@@ -1,7 +1,7 @@
 # Pytorch implementation of UpdateNet
 
 ## Description
-My code link: https://github.com/HonglinChu/UpdateNet
+代码: https://github.com/HonglinChu/UpdateNet
  
 UpdateNet复现视频讲解  https://www.bilibili.com/video/bv1Jg4y1B7tL
  
