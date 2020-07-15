@@ -1,7 +1,7 @@
 
 # Pytorch implementation of SiamFC
 ## Description
-My code https://github.com/HonglinChu/SiamFC
+My code:https://github.com/HonglinChu/SiamFC
 
 ## File Tree
 ```
@@ -19,11 +19,11 @@ you should download ILSVRC2015_VID dataset first
 
 ## Training
 ```bash
-python train_siamfc.py
+python ./bin/train_siamfc.py
 ```
 ## Testing
 ```bash
-python test_siamfc.py
+python ./bin/test_siamfc.py
 ```
 
 ## Benchmark results
