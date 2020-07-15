@@ -1,7 +1,7 @@
 
 # Pytorch implementation of SiamFC
-
-- 2020-05-14  my complete code https://github.com/HonglinChu/SiamFC
+## Description
+My code https://github.com/HonglinChu/SiamFC
 
 ## Data preparation
 
@@ -26,7 +26,7 @@ python test_siamfc.py
 
 |         Tracker        |       AUC       |
 | ---------------------- | --------------- |
-|         SiamFC         |      0.5xx      |
+|         SiamFC         |      0.57x     |
 
 ## Reference
 ```bash
