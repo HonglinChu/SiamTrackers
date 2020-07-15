@@ -1,8 +1,8 @@
 # Pytorch implementation of SiamMask
 
-This is official code：https://github.com/foolwood/SiamMask
+Official code：https://github.com/foolwood/SiamMask
 
-## Results
+## Experiment
 my experiment results on VOT2016 and VOT2018
 |    My Test|VOT2016|      E   |         A   |        R |   VOT2018 |    E    |      A |       R|
 |:---------:|:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|:------:|
