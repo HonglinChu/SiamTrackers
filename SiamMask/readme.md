@@ -1,7 +1,7 @@
 # Pytorch implementation of SiamMask
 
 ## Description
-Official code：https://github.com/foolwood/SiamMask
+Official code:https://github.com/foolwood/SiamMask
 
 ## Experiment
 my experiment results on VOT2016 and VOT2018
