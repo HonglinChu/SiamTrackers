@@ -19,7 +19,7 @@ You can scan the following QR code to join the SiamTrackers group. Let's communi
 | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
 
 # Description
-[BiliBili](https://www.bilibili.com/video/BV1Y64y1T7qs/)
+https://www.bilibili.com/video/BV1Y64y1T7qs/
 
 ```
 Some of the codes that have not been uploaded have official links in the corresponding folders. 
