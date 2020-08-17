@@ -29,23 +29,22 @@ Some of the codes that have not been uploaded have official links in the corresp
 ```
 The implementation of simple face classification based on siamese network.
 ```
+
 ### 2016-ECCV-SiamFC
 ```
-The implementation of UpdateNet tracker.
 Add GOT10K toolkit and optimize the interface. 
 We use the VID data set for training . 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
+
 ### 2018-CVPR-SiamRPN
 ```
-The implementation of UpdateNet tracker.
 Add GOT10K toolkit and optimize the interface. 
 We use YTB and VID  data sets for training. 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
 ### 2018-ECCV-DaSiamRPN  
 ```
-The implementation of UpdateNet tracker.
 Add PYSOT toolkit and optimize the interface. 
 You can  debug, train and test easily.  
 The results of testing are consistent with the paper
@@ -53,7 +52,6 @@ Note that you shound have python3  environment.
 ```
 ### 2019-ICCV-UpdateNet   
 ```
-The implementation of UpdateNet tracker.
 Add PYSOT toolkit and optimize the interface. 
 The model is sensitive to learning rate. 
 Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
