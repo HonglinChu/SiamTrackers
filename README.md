@@ -1,12 +1,6 @@
- # :star2:Welcome To Join Us! :star2:
- 
-You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
-
-![image](./image/wx.png)
-
-![image](./image/deep.jpg)
-
 # SiamTrackers
+
+![image](./image/SiamTrackers.jpg)
 
 | Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
 | :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
@@ -173,6 +167,10 @@ This is an optimized OTB toolkit (matlab version).
 Support multi-thread parameter search, multi-thread running dataset.
 Visualize the position error curve and overlap rate curve for each frame.
 ```
+ # :star2:Welcome To Join Us! :star2:
+
+You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
+![image](./image/wx.png)
 
 # Reference
 ```
