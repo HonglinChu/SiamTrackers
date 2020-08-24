@@ -2,7 +2,9 @@
  
 You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
 
-![image](https://github.com/HonglinChu/SiamTrackers/tree/master/image/wx.png)
+![image](./image/wx.png)
+
+![image](./image/deep.jpg)
 
 # SiamTrackers
 
