@@ -18,65 +18,64 @@ https://www.bilibili.com/video/BV1Y64y1T7qs/
    | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
 
 
-```
 Some of the codes that have not been uploaded have official links in the corresponding folders. 
-```
+
 
 ### Siamese 
-```
+
 The implementation of simple face classification based on siamese network.
-```
+
 
 ### 2016-ECCV-SiamFC
-```
+
 Add GOT10K toolkit and optimize the interface. 
 We use the VID data set for training . 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
-```
+
 
 ### 2018-CVPR-SiamRPN
-```
+
 Add GOT10K toolkit and optimize the interface. 
 We use YTB and VID  data sets for training. 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
-```
+
 ### 2018-ECCV-DaSiamRPN  
-```
+
 Add PYSOT toolkit and optimize the interface. 
 You can  debug, train and test easily.  
 The results of testing are consistent with the paper
 Note that you shound have python3  environment.
-```
+
 ### 2019-ICCV-UpdateNet   
-```
+
 Add PYSOT toolkit and optimize the interface. 
 The model is sensitive to learning rate. 
 Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
-```
+
 ### 2019-CVPR-SiamDW
-```
+
 The paper mainly analyzed the impact of padding on the tracking network. 
-```
+
 ### 2019-CVPR-SiamRPN++
-```
+
 Support VScode single-step debugging 
 Add test scripts for 4 drone datasets 
 Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel
 Retrain SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs )
-```
+
 ### 2019-CVPR-SiamMask
-```
+
 Support VScode single-step debugging
 Support testing and training
 The results of my test are  inconsistent with the author's, please refer to my SiamMask branch
-```
+
 ### 2020-AAAI-SiamFC++
-```
+
 Support VScode single-step debugging
 Add test scripts for 4 drone datasets
 Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs)
 The  results are close to the paper
-```
+
 # Model
 
 - **SiamRPNVOT.model** [BaiDuYun](https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA)  password: p4ig   
