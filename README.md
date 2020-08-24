@@ -2,17 +2,17 @@
 
 ![image](./image/SiamTrackers.png)
 
-| Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
-| :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
-| [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)    | ✔| ✔ |✔| ✔  |   | ✔|  | ✔|
-| [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)    | ✔ |  ✔|  ✔| ✔| got10k|✔|unofficial|✔|
-| [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN)     | ✔ |  ✔|  ✔| ✔| got10k|  ✔|unofficial|✔|
-| [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN)     | ✔ |  |  ✔| ✔| pysot| ✔| unofficial|✔|
-| [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet)  | ✔ |  ✔|  ✔| ✔| pysot| ✔| unofficial|✔|
-| [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW)      |  ✔ |  ✔|  ✔| ✔| -| ✔|official| |
-| [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++)   |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official|✔|
-| [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)    |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
-| [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
+   | Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
+   | :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
+   | [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)    | ✔| ✔ |✔| ✔  |   | ✔|  | ✔|
+   | [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)    | ✔ |  ✔|  ✔| ✔| got10k|✔|unofficial|✔|
+   | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN)     | ✔ |  ✔|  ✔| ✔| got10k|  ✔|unofficial|✔|
+   | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN)     | ✔ |  |  ✔| ✔| pysot| ✔| unofficial|✔|
+   | [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet)  | ✔ |  ✔|  ✔| ✔| pysot| ✔| unofficial|✔|
+   | [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW)      |  ✔ |  ✔|  ✔| ✔| -| ✔|official| |
+   | [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++)   |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official|✔|
+   | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)    |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
+   | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
 
 # Description
 https://www.bilibili.com/video/BV1Y64y1T7qs/
