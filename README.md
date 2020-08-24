@@ -1,6 +1,6 @@
 # SiamTrackers
 
-![image](./image/SiamTrackers.jpg)
+![image](./image/SiamTrackers.png)
 
 | Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
 | :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
