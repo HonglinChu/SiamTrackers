@@ -64,7 +64,7 @@ Add test scripts for 4 drone datasets.
 
 Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel.
 
-Retrain SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs ).
+Train SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs ).
 
 ### 2019-CVPR-SiamMask
 
@@ -91,8 +91,7 @@ The  results are close to the paper.
 - System ubuntu 16.04  64 bits
 - pytorch 1.1.0
 - python 3.7.3
-
-**Note**:Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
+- Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
 
 |   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
 |:---------:|:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
