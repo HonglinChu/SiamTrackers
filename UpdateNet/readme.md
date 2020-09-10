@@ -62,9 +62,35 @@ python ./bin/my_test.py
 - My result VOT2018 EAO=0.403, original result VOT2018 EAO=0.393 
 
 - How to train UpdateNet on VOT2018 ?
+
+Stage 1.1
+```
+Generate templates by linear update, train from scratch
+
+you can try learning rate Lr5-6 ,  Lr6-7, Lr7-8
+
+checpoint1   EAO  xxx
+
+...
+
+checkpoint50 EAO  xxx
+```
+Stage 1.2
+```
+Load pretrained model(the best checkpoint from stage 1.1), train from checkpoint
+
+you can try learning rate Lr7-8 ,  Lr8-9, Lr9-10
+
+checpoint1   EAO  xxx
+
+...
+
+checkpoint50 EAO  xxx
 ```
 
-Stage 1.1: Generate templates by linear update, train from scratch
+Stage 2.1
+```
+Generate templates by UpdateNet model (choose best checkpoint from stage 1.2) , train from scratch
 
 you can try learning rate Lr5-6 ,  Lr6-7, Lr7-8
 
@@ -73,8 +99,11 @@ checpoint1   EAO  xxx
 ...
 
 checkpoint50 EAO  xxx
+```
 
-Stage 1.2: Load pretrained model(the best checkpoint from stage 1.1), train from checkpoint
+Stage 2.2
+```
+Load pretrained model(choose best checkpoint from stage 2.1),train from checkpoint
 
 you can try learning rate Lr7-8 ,  Lr8-9, Lr9-10
 
@@ -84,7 +113,11 @@ checpoint1   EAO  xxx
 
 checkpoint50 EAO  xxx
 
-Stage 2.1: Generate templates by UpdateNet model (choose best checkpoint from stage 1.2) , train from scratch
+```
+
+Stage 3.1
+```
+Generate templates by UpdateNet model (choose best checkpoint from stage 2.2) , train from scratch
 
 you can try learning rate Lr5-6 ,  Lr6-7, Lr7-8
 
@@ -93,28 +126,11 @@ checpoint1   EAO  xxx
 ...
 
 checkpoint50 EAO  xxx
+```
 
-Stage 2.2: Load pretrained model(choose best checkpoint from stage 2.1),train from checkpoint
-
-you can try learning rate Lr7-8 ,  Lr8-9, Lr9-10
-
-checpoint1   EAO  xxx
-
-...
-
-checkpoint50 EAO  xxx
-
-Stage 3.1: Generate templates by UpdateNet model (choose best checkpoint from stage 2.2) , train from scratch
-
-you can try learning rate Lr5-6 ,  Lr6-7, Lr7-8
-
-checpoint1   EAO  xxx
-
-...
-
-checkpoint50 EAO  xxx
-
-Stage 3.2: Load pretrained model(choose best checkpoint from stage 3.1), train from checkpoint
+Stage 3.2
+```
+Load pretrained model(choose best checkpoint from stage 3.1), train from checkpoint
 
 you can try learning rate Lr7-8 ,  Lr8-9, Lr9-10
 
