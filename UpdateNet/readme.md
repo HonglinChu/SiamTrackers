@@ -20,7 +20,7 @@ SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 
         iou = overlap_ratio(gt_rect, res)
 
-        if iou<=0:#iou<0.2, iou<0.3,  iou<0.4
+        if iou<=0:# you can choose iou<0.2, iou<0.3,  iou<0.4
 
             break   
 ``` 
@@ -54,11 +54,11 @@ python ./bin/my_test.py
 
 ## Experiment
 
-2020-06-08
-
 My result VOT2018 EAO=0.403 
 
 Original result VOT2018 EAO=0.393 
+
+## How to produce training data set ？
 
 2020-05-21  
 EAO on VOT2018
