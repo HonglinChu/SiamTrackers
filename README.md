@@ -178,9 +178,10 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 
 ### Python version
 
-- pysot-toolkit：All common tracking datasets ( OTB, VOT, UAV, NfS, LaSOT) are supported. link: https://pan.baidu.com/s/1H2Hc4VXsWahgNjDZJP8jaA password: 2t2q
+- pysot-toolkit：All common tracking datasets ( OTB, VOT, UAV, NfS, LaSOT) are supported. 
+https://pan.baidu.com/s/1H2Hc4VXsWahgNjDZJP8jaA password: 2t2q
 
-- got10k-toolkit：all common tracking datasets (GOT-10k, OTB, VOT, UAV, TColor, DTB, NfS, LaSOT and TrackingNet) are supported. link: https://pan.baidu.com/s/1OS80_OPtZoo0ZFKzfCOFzg password: vsar
+- got10k-toolkit：all common tracking datasets (GOT-10k, OTB, VOT, UAV, TColor, DTB, NfS, LaSOT and TrackingNet) are supported.  https://pan.baidu.com/s/1OS80_OPtZoo0ZFKzfCOFzg password: vsar
 
  # :star2:Welcome To Join Us! :star2:
 
