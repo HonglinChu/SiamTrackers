@@ -1,14 +1,15 @@
 # Pytorch implementation of UpdateNet
 
 ## Description
-My code:https://github.com/HonglinChu/UpdateNet
+My code: https://github.com/HonglinChu/UpdateNet
  
-BiliBili:https://www.bilibili.com/video/bv1Jg4y1B7tL
+BiliBili: https://www.bilibili.com/video/bv1Jg4y1B7tL
  
 SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 
-2020-05-15 
-``` About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
+
+Error warning：About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
+```
 
     if reset:   #reset=1 (default)            
 
@@ -53,54 +54,73 @@ python ./bin/my_test.py
 ```
 
 ## Experiment
-- How to produce training data set？
+- How to produce templates ?
 ![image](../image/template.png)
 
+- My result VOT2018 EAO=0.403, original result VOT2018 EAO=0.393 
 
-My result VOT2018 EAO=0.403 
-
-Original result VOT2018 EAO=0.393 
-
-2020-05-21  
-EAO on VOT2018
+- How to train UpdateNet ?
 ```
-Stage one train from scratch
+This is a example on VOT2018
 
-learning rate Lr5-6  
+Stage 1.1: Generate templates by linear update, train from scratch
 
-Checkpoint35      EAO-0.360
+you can try learning rate Lr5-6 ,  Lr6-7, Lr7-8
 
-Checkpoint36      EAO-0.347
+checpoint1   EAO  xxx
 
-Checkpoint39      EAO-0.325
+...
 
-Checkpoint40      EAO-0.363  
+checkpoint50 EAO  xxx
 
-Checkpoint41      EAO-0.350
+Stage 1.2: Load pretrained model(the best checkpoint from stage 1.1), train from checkpoint
 
-Checkpoint42      EAO-0.334
+you can try learning rate Lr7-8 ,  Lr8-9, Lr9-10
 
+checpoint1   EAO  xxx
 
-Stage two load pretrained model checkpoint40 from stage one
+...
 
-learning rate Lr8-9  
+checkpoint50 EAO  xxx
 
-Checkpoint2  EAO-0.362
+Stage 2.1: Generate templates by UpdateNet model (choose best checkpoint from stage 1.2) , train from scratch
 
-Checkpoint3  EAO-0.370
+you can try learning rate Lr5-6 ,  Lr6-7, Lr7-8
 
-Checkpoint4  EAO-0.355
+checpoint1   EAO  xxx
 
+...
 
-Stage  three load pretrained model  checkpoint3 from stage two
+checkpoint50 EAO  xxx
 
-learning rate Lr8-9  
+Stage 2.2: Load pretrained model(choose best checkpoint from stage 2.1),train from checkpoint
 
-Checkpoint 1   EAO-0.343
+you can try learning rate Lr7-8 ,  Lr8-9, Lr9-10
 
-Checkpoint 2   EAO-0.376
+checpoint1   EAO  xxx
 
-Checkpoint 3   EAO-0.344
+...
 
-Checkpoint 4   EAO-0.348
+checkpoint50 EAO  xxx
+
+Stage 3.1: Generate templates by UpdateNet model (choose best checkpoint from stage 2.2) , train from scratch
+
+you can try learning rate Lr5-6 ,  Lr6-7, Lr7-8
+
+checpoint1   EAO  xxx
+
+...
+
+checkpoint50 EAO  xxx
+
+Stage 3.2: Load pretrained model(choose best checkpoint from stage 3.1), train from checkpoint
+
+you can try learning rate Lr7-8 ,  Lr8-9, Lr9-10
+
+checpoint1   EAO  xxx
+
+...
+
+checkpoint50 EAO  xxx
+
 ```
