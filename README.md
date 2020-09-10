@@ -3,7 +3,6 @@
 ![image](./image/SiamTrackers.png)
 
 # Description
-https://www.bilibili.com/video/BV1Y64y1T7qs/
 
   | Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
    | :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
@@ -17,9 +16,8 @@ https://www.bilibili.com/video/BV1Y64y1T7qs/
    | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)    |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
    | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
 
-
+https://www.bilibili.com/video/BV1Y64y1T7qs/ 
 Some of the codes that have not been uploaded have official links in the corresponding folders. 
-
 
 ### Siamese 
 
