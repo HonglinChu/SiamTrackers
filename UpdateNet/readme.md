@@ -65,7 +65,7 @@ python ./bin/my_test.py
 
 - How to train UpdateNet on VOT2018 ?
 
-Stage 1.1
+- Stage 1.1
 ```
 Generate templates by linear update, train from scratch
 
@@ -77,7 +77,7 @@ checpoint1   EAO  xxx
 
 checkpoint50 EAO  xxx
 ```
-Stage 1.2
+- Stage 1.2
 ```
 Load pretrained model(the best checkpoint from stage 1.1), train from checkpoint
 
@@ -90,7 +90,7 @@ checpoint1   EAO  xxx
 checkpoint50 EAO  xxx
 ```
 
-Stage 2.1
+- Stage 2.1
 ```
 Generate templates by UpdateNet model (choose best checkpoint from stage 1.2) , train from scratch
 
@@ -103,7 +103,7 @@ checpoint1   EAO  xxx
 checkpoint50 EAO  xxx
 ```
 
-Stage 2.2
+- Stage 2.2
 ```
 Load pretrained model(choose best checkpoint from stage 2.1),train from checkpoint
 
@@ -117,7 +117,7 @@ checkpoint50 EAO  xxx
 
 ```
 
-Stage 3.1
+- Stage 3.1
 ```
 Generate templates by UpdateNet model (choose best checkpoint from stage 2.2) , train from scratch
 
@@ -130,7 +130,7 @@ checpoint1   EAO  xxx
 checkpoint50 EAO  xxx
 ```
 
-Stage 3.2
+- Stage 3.2
 ```
 Load pretrained model(choose best checkpoint from stage 3.1), train from checkpoint
 
