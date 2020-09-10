@@ -86,14 +86,6 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 
 The  results are close to the paper.
 
-# Model
-
-- **SiamRPNVOT.model** [BaiDuYun](https://pan.baidu.com/s/1V7GMgurufuILhzTSJ4LsYA)  password: p4ig   
-
-- **SiamRPNOTB.model**  [BaiDuYun](https://pan.baidu.com/s/1mpXaIDcf0HXf3vMccaSriw) password: 5xm9   
-
-- **SiamRPNBIG.model**  [BaiDuYun](https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q) password: b3b6
-
 # Experiment
 - GPU NVIDIA 1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
