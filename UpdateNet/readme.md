@@ -35,13 +35,12 @@ BiliBili: https://www.bilibili.com/video/bv1Jg4y1B7tL
 ```
 
 ## Data peparation
+How to produce templates ? You can choose iou<0.2, iou<0.3,  iou<0.4
+![image](../image/template.png)
 
 ```
 python ./updatenet/create_template.py
 ```
-- How to produce templates ?
-you can choose iou<0.2, iou<0.3,  iou<0.4
-![image](../image/template.png)
 
 ## Model
 
