@@ -53,12 +53,13 @@ python ./bin/my_test.py
 ```
 
 ## Experiment
+- How to produce training data set？
+![image](../image/template.png)
+
 
 My result VOT2018 EAO=0.403 
 
 Original result VOT2018 EAO=0.393 
-
-## How to produce training data set ？
 
 2020-05-21  
 EAO on VOT2018
