@@ -82,8 +82,6 @@ Add test scripts for 4 drone datasets.
 
 Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs).
 
-The  results are close to the paper.
-
 # Experiment
 - GPU NVIDIA 1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
