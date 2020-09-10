@@ -4,11 +4,7 @@
 My code: https://github.com/HonglinChu/UpdateNet
  
 BiliBili: https://www.bilibili.com/video/bv1Jg4y1B7tL
- 
-SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
-
-
-Error warning：About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
+- Note: About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
 ```
 
     if reset:   #reset=1 (default)            
@@ -39,9 +35,16 @@ Error warning：About create_template.py at line:138  'get_axis_aligned_rect' no
 ```
 
 ## Data peparation
+
 ```
 python ./updatenet/create_template.py
 ```
+- How to produce templates ?
+![image](../image/template.png)
+
+## Model
+
+SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
 
 ## Train
 ```
@@ -54,14 +57,12 @@ python ./bin/my_test.py
 ```
 
 ## Experiment
-- How to produce templates ?
-![image](../image/template.png)
+
 
 - My result VOT2018 EAO=0.403, original result VOT2018 EAO=0.393 
 
-- How to train UpdateNet ?
+- How to train UpdateNet on VOT2018 ?
 ```
-This is a example on VOT2018
 
 Stage 1.1: Generate templates by linear update, train from scratch
 
