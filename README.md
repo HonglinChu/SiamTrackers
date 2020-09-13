@@ -20,7 +20,7 @@ https://www.bilibili.com/video/BV1Y64y1T7qs/
 Some of the codes that have not been uploaded have official links in the corresponding folders. 
 
 ### Siamese 
-
+![image](./image/siamese.png)
 The implementation of simple face classification based on siamese network.
 
 
@@ -184,13 +184,9 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 
 ### Python version
 
-- pysot-toolkit：All common tracking datasets ( OTB, VOT, UAV, NfS, LaSOT) are supported. 
+- pysot-toolkit：OTB, VOT, UAV, NfS, LaSOT are supported.[BaiduYun](https://pan.baidu.com/s/1H2Hc4VXsWahgNjDZJP8jaA) password: 2t2q
 
-[BaiduYun](https://pan.baidu.com/s/1H2Hc4VXsWahgNjDZJP8jaA) password: 2t2q
-
-- got10k-toolkit：all common tracking datasets (GOT-10k, OTB, VOT, UAV, TColor, DTB, NfS, LaSOT and TrackingNet) are supported.  
-
-[BaiduYun](https://pan.baidu.com/s/1OS80_OPtZoo0ZFKzfCOFzg) password: vsar
+- got10k-toolkit：GOT-10k, OTB, VOT, UAV, TColor, DTB, NfS, LaSOT and TrackingNet are supported.[BaiduYun](https://pan.baidu.com/s/1OS80_OPtZoo0ZFKzfCOFzg) password: vsar
 
  # :star2:Welcome To Join Us! :star2:
 
