@@ -133,66 +133,71 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 
 # Dataset
 
-- **UAV123** [BaiDuYun](https://pan.baidu.com/s/1AhNnfjF4fZe14sUFefU3iA) password: 2iq4
+- **UAV123** [BaiduYun](https://pan.baidu.com/s/1AhNnfjF4fZe14sUFefU3iA) password: 2iq4
 
-- **VOT2018**  [BaiDuYun](https://pan.baidu.com/s/1MOWZ5lcxfF0wsgSuj5g4Yw) password: e5eh
+- **VOT2018**  [BaiduYun](https://pan.baidu.com/s/1MOWZ5lcxfF0wsgSuj5g4Yw) password: e5eh
 
-- **VisDrone2019**  [BaiDuYun](https://pan.baidu.com/s/1Y6ubKHuYX65mK_iDVSfKPQ) password: yxb6 
+- **VisDrone2019**  [BaiduYun](https://pan.baidu.com/s/1Y6ubKHuYX65mK_iDVSfKPQ) password: yxb6 
 
-- **OTB2015**  [BaiDuYun](https://pan.baidu.com/s/1ZjKgRMYSHfR_w3Z7iQEkYA) password: t5i1
+- **OTB2015**  [BaiduYun](https://pan.baidu.com/s/1ZjKgRMYSHfR_w3Z7iQEkYA) password: t5i1
 
-- **DTB70**  [BaiDuYun](https://pan.baidu.com/s/1kfHrArw0aVhGPSM91WHomw) password: e7qm
+- **DTB70**  [BaiduYun](https://pan.baidu.com/s/1kfHrArw0aVhGPSM91WHomw) password: e7qm
 
 - **ILSVRC2015 VID** [BaiDuYun](https://pan.baidu.com/s/1CXWgpAG4CYpk-WnaUY5mAQ) password: uqzj 
 
-- **NFS** [BaiDuYun](https://pan.baidu.com/s/1ei54oKNA05iBkoUwXPOB7g) password: vng1
+- **NFS** [BaiduYun](https://pan.baidu.com/s/1ei54oKNA05iBkoUwXPOB7g) password: vng1
 
-- **GOT10k** [BaiDuYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds
+- **GOT10k** [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds
 
-- **UAVDT** [BaiDuYun](https://pan.baidu.com/s/1K8oo53mPYCxUFVMXIGLhVA) password: keva
+- **UAVDT** [BaiduYun](https://pan.baidu.com/s/1K8oo53mPYCxUFVMXIGLhVA) password: keva
 
-- **YTB-VOS** [BaiDuYun](https://pan.baidu.com/s/1WMB0q9GJson75QBFVfeH5A) password: sf1m 
+- **YTB-VOS** [BaiduYun](https://pan.baidu.com/s/1WMB0q9GJson75QBFVfeH5A) password: sf1m 
 
-- **YTB-Crop511** [BaiDuYun](https://pan.baidu.com/s/112zLS_02-Z2ouKGbnPlTjw) password: ebq1 （used in siamrpn++ and siammask）
+- **YTB-Crop511** [BaiduYun](https://pan.baidu.com/s/112zLS_02-Z2ouKGbnPlTjw) password: ebq1 （used in siamrpn++ and siammask）
 
-- **TColor128** [BaiDuYun](https://pan.baidu.com/s/1v4J6zWqZwj8fHi5eo5EJvQ) password: 26d4
+- **TColor128** [BaiduYun](https://pan.baidu.com/s/1v4J6zWqZwj8fHi5eo5EJvQ) password: 26d4
 
-- **DAVIS2017** [BaiDuYun](https://pan.baidu.com/s/1JTsumpnkWotEJQE7KQmh6A) password: c9qp
+- **DAVIS2017** [BaiduYun](https://pan.baidu.com/s/1JTsumpnkWotEJQE7KQmh6A) password: c9qp
 
-- **YTB&VID**  [BaiDuYun](https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA) password: 6vkz (used in siamrpn)
+- **YTB&VID**  [BaiduYun](https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA) password: 6vkz (used in siamrpn)
 
-- **TrackingNet** [BaiDuYun](https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw) password: nkb9  (Note that this link is provided by SiamFC++ author)
+- **TrackingNet** [BaiduYun](https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw) password: nkb9  (Note that this link is provided by SiamFC++ author)
 
 # Toolkit
 ### Matlab version
 
 - OTB2013/2015  https://github.com/HonglinChu/visual_tracker_benchmark
 
-- UAV123 link: https://pan.baidu.com/s/1wTahpGHIgS5gN0T3fqOjsg password: zx9c
+- UAV123 [BaiduYun](https://pan.baidu.com/s/1wTahpGHIgS5gN0T3fqOjsg) password: zx9c
 
-- UAV20L link: https://pan.baidu.com/s/1oCe8vVMt6uY2xk17psOsyA password: s1y8
+- UAV20L [BaiduYun](https://pan.baidu.com/s/1oCe8vVMt6uY2xk17psOsyA) password: s1y8
 
-- UAVDT link: https://pan.baidu.com/s/1H80x6i2LlGpQL9Nix0bb7Q password: f7ad
+- UAVDT [BaiduYun](https://pan.baidu.com/s/1H80x6i2LlGpQL9Nix0bb7Q) password: f7ad
 
-- VisDrone2019 link: https://pan.baidu.com/s/1LCWgBMW1StWTW6SrWf5d3w password: 28lb
+- VisDrone2019 [BaiduYun](https://pan.baidu.com/s/1LCWgBMW1StWTW6SrWf5d3w) password: 28lb
 
-- TC128 link: https://pan.baidu.com/s/16dAEKDH41TbozV72KsfptQ password: 7uif
+- TC128 [BaiduYun](https://pan.baidu.com/s/16dAEKDH41TbozV72KsfptQ) password: 7uif
 
-- VOT2016 link: https://pan.baidu.com/s/1JGo_81vWSe4AHE52CEYl3A password: 4orc
+- VOT2016 [BaiduYun](https://pan.baidu.com/s/1JGo_81vWSe4AHE52CEYl3A) password: 4orc
 
-- VOT2018 link: https://pan.baidu.com/s/1G_uodEE5vTxwkGLqTtILwA password: l5y4
+- VOT2018 [BaiduYun](https://pan.baidu.com/s/1G_uodEE5vTxwkGLqTtILwA) password: l5y4
 
 ### Python version
 
 - pysot-toolkit：All common tracking datasets ( OTB, VOT, UAV, NfS, LaSOT) are supported. 
-https://pan.baidu.com/s/1H2Hc4VXsWahgNjDZJP8jaA password: 2t2q
+[BaiduYun](https://pan.baidu.com/s/1H2Hc4VXsWahgNjDZJP8jaA) password: 2t2q
 
-- got10k-toolkit：all common tracking datasets (GOT-10k, OTB, VOT, UAV, TColor, DTB, NfS, LaSOT and TrackingNet) are supported.  https://pan.baidu.com/s/1OS80_OPtZoo0ZFKzfCOFzg password: vsar
+- got10k-toolkit：all common tracking datasets (GOT-10k, OTB, VOT, UAV, TColor, DTB, NfS, LaSOT and TrackingNet) are supported.  
+[BaiduYun](https://pan.baidu.com/s/1OS80_OPtZoo0ZFKzfCOFzg) password: vsar
 
  # :star2:Welcome To Join Us! :star2:
 
 You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
 ![image](./image/wx.png)
+
+# Papers
+
+[BaiduYun](https://pan.baidu.com/s/1nyXMesdAUHzdSQkM88AvWQ) password: fukj
 
 # Reference
 ```
