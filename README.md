@@ -188,14 +188,15 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 
 - got10k-toolkit：GOT-10k, OTB, VOT, UAV, TColor, DTB, NfS, LaSOT and TrackingNet are supported.[BaiduYun](https://pan.baidu.com/s/1OS80_OPtZoo0ZFKzfCOFzg) password: vsar
 
+# Papers
+
+[BaiduYun](https://pan.baidu.com/s/1nyXMesdAUHzdSQkM88AvWQ) password: fukj
+
  # :star2:Welcome To Join Us! :star2:
 
 You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
 ![image](./image/wx.png)
 
-# Papers
-
-[BaiduYun](https://pan.baidu.com/s/1nyXMesdAUHzdSQkM88AvWQ) password: fukj
 
 # Reference
 ```
