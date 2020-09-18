@@ -95,13 +95,13 @@ Add test scripts for 4 drone datasets.
 Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs).
 ```
 # Experiment
-- GPU NVIDIA 1080 8G  
-- CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
-- CUDA 9.0
-- Ubuntu 16.04  
-- PyTorch 1.1.0
-- Python 3.7.3
-- Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
+- [x] GPU NVIDIA 1080 8G  
+- [x] CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
+- [x] CUDA 9.0
+- [x] Ubuntu 16.04  
+- [x] PyTorch 1.1.0
+- [x] Python 3.7.3
+Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
 
 |   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
 |:---------:|:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
