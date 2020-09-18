@@ -2,9 +2,9 @@
 
 ## Description
 
-Official code：https://github.com/STVIR/pysot (Recommend)
+[Official Code](https://github.com/STVIR/pysot) (Recommend)
 
-My code: https://github.com/HonglinChu/SiamRPNpp
+[My Code](https://github.com/HonglinChu/SiamRPNpp)
 
 The project are too big to upload, please refer to my follow files to modify the official code to achieve single-step debugging ,testing and  multi-GPU training on single CPU.
 
@@ -17,15 +17,14 @@ The project are too big to upload, please refer to my follow files to modify the
 
 My results of siamrpn++(siamrpn_alex_dwxcorr_16gpu) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
 
-VOT2016   E-A-R       0.393/0.618/0.238
+VOT2016      E-0.393/A-0.618/R-0.238   
 
----------------------------------------------------------
+```
+----------------------------------------------------------------
 
-|  Tracker Name  | Accuracy | Robustness | Lost |  EAO  |
+|  Tracker Name  | Accuracy | Robustness |    Lost     |  EAO  |
 
---------------------------------------------------------
-
-| checkpoint_e38 |  0.619   |   0.266    |    57.0     | **0.384** |
+| checkpoint_e38 |  0.619   |   0.266    |    57.0     | 0.384 |
 
 | checkpoint_e37 |  0.617   |   0.261    |    56.0     | 0.383 |
 
@@ -57,18 +56,18 @@ VOT2016   E-A-R       0.393/0.618/0.238
 
 | checkpoint_e41 |  0.621   |   0.280    |    60.0     | 0.354 |
 
--------------------------------------------------------------------------
+----------------------------------------------------------------
+```
 
 
-VOT2018  E-A-R  0.352/0.576/0.290
+VOT2018    E-0.352/A-0.576/R-0.290
+```
+
+|  Tracker Name  | Accuracy | Robustness |        Lost |  EAO  |
 
 ----------------------------------------------------------------
 
-|  Tracker Name  | Accuracy | Robustness | Lost |  EAO  |
-
-----------------------------------------------------------------
-
-| checkpoint_e47 |  0.594   |   0.351    |    75.0     | **0.315** |
+| checkpoint_e47 |  0.594   |   0.351    |    75.0     | 0.315 |
 
 | checkpoint_e40 |  0.592   |   0.384    |    82.0     | 0.309 |
 
@@ -102,16 +101,17 @@ VOT2018  E-A-R  0.352/0.576/0.290
 
 ----------------------------------------------------------------
 
+```
 
 VOT2019  E-A-R  0.260/0.573/0.547
 
---------------------------------------------------------------------------
+```
 
-|  Tracker Name  | Accuracy | Robustness | Lost |  EAO  |
+|  Tracker Name  | Accuracy | Robustness |      Lost   |   EAO |
 
---------------------------------------------------------------------------
+----------------------------------------------------------------
 
-| checkpoint_e40 |  0.587   |   0.592    |    118.0    | **0.258** |
+| checkpoint_e40 |  0.587   |   0.592    |    118.0    | 0.258 |
 
 | checkpoint_e47 |  0.588   |   0.547    |    109.0    | 0.257 |
 
@@ -143,5 +143,11 @@ VOT2019  E-A-R  0.260/0.573/0.547
 
 | checkpoint_e36 |  0.583   |   0.602    |    120.0    | 0.228 |
 
---------------------------------------------------------------------------
+----------------------------------------------------------------
+```
 
+## Reference
+```
+[1] Li B, Wu W, Wang Q, et al. Siamrpn++: Evolution of siamese visual tracking with very deep networks.Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4282-4291.
+
+```
