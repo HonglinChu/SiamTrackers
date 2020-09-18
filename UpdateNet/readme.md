@@ -3,7 +3,6 @@
 ## Description
  
 - [BiliBili](https://www.bilibili.com/video/bv1Jg4y1B7tL)
-- [Official Code](https://github.com/zhanglichao/updatenet)
 - [My Code](https://github.com/HonglinChu/UpdateNet)
 - Note: About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
 ```
@@ -194,12 +193,17 @@ step3.2 lr8-9 (load checkpoint22 model from step3.1)
 
 ```
 
-# Contributor
+## Contributor
 
 ```
 Honglin Chu
 
 Zeyu Xi
 ```
+## Reference
+```
+[1] Zhang L, Gonzalez-Garcia A, Weijer J, et al. Learning the Model Update for Siamese Trackers. Proceedings of the IEEE International Conference on Computer Vision. 2019: 4010-4019.
 
+[2] https://github.com/zhanglichao/updatenet
+```
 
