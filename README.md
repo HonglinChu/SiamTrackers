@@ -16,15 +16,14 @@
    | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)    |  ✔ |  ✔|  ✔| ✔| pysot| ✔|official| |
    | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔| ✔| pysot&got10k| ✔|official|✔|
 
-https://www.bilibili.com/video/BV1Y64y1T7qs/ 
-Some of the codes that have not been uploaded have official links in the corresponding folders. 
+[BiliBili](https://www.bilibili.com/video/BV1Y64y1T7qs/) Some of the codes that have not been uploaded have official links in the corresponding folders. 
 
 - [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)
 ![image](./image/siamese.png)
 The implementation of simple face classification based on siamese network.
 
 
--[2016-ECCV-SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)
+- [2016-ECCV-SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)
 ![image](./image/siamfc.png)
 
 Add GOT10K toolkit and optimize the interface. 
