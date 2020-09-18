@@ -20,8 +20,6 @@ My results of siamrpn++(siamrpn_alex_dwxcorr_16gpu) without hp search, using 4 t
 VOT2016      E-0.393/A-0.618/R-0.238   
 
 ```
-----------------------------------------------------------------
-
 |  Tracker Name  | Accuracy | Robustness |    Lost     |  EAO  |
 
 | checkpoint_e38 |  0.619   |   0.266    |    57.0     | 0.384 |
@@ -56,14 +54,13 @@ VOT2016      E-0.393/A-0.618/R-0.238
 
 | checkpoint_e41 |  0.621   |   0.280    |    60.0     | 0.354 |
 
-----------------------------------------------------------------
 ```
 
 
 VOT2018    E-0.352/A-0.576/R-0.290
 ```
 
-|  Tracker Name  | Accuracy | Robustness |        Lost |  EAO  |
+|  Tracker Name  | Accuracy | Robustness |    Lost     |  EAO  |
 
 ----------------------------------------------------------------
 
@@ -99,15 +96,13 @@ VOT2018    E-0.352/A-0.576/R-0.290
 
 | checkpoint_e45 |  0.591   |   0.440    |    94.0     | 0.275 |
 
-----------------------------------------------------------------
-
 ```
 
 VOT2019  E-A-R  0.260/0.573/0.547
 
 ```
 
-|  Tracker Name  | Accuracy | Robustness |      Lost   |   EAO |
+|  Tracker Name  | Accuracy | Robustness |     Lost    |   EAO |
 
 ----------------------------------------------------------------
 
@@ -143,11 +138,12 @@ VOT2019  E-A-R  0.260/0.573/0.547
 
 | checkpoint_e36 |  0.583   |   0.602    |    120.0    | 0.228 |
 
-----------------------------------------------------------------
 ```
 
 ## Reference
 ```
 [1] Li B, Wu W, Wang Q, et al. Siamrpn++: Evolution of siamese visual tracking with very deep networks.Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4282-4291.
+
+[2] https://github.com/STVIR/pysot
 
 ```
