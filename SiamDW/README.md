@@ -1,7 +1,7 @@
 # Pytorch implementation of SiamDW
 ## Description
 
-(Official Code](https://github.com/researchmm/SiamDW)
+[Official Code](https://github.com/researchmm/SiamDW)
 
 ## Reference
 
