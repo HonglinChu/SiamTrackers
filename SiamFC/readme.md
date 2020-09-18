@@ -12,9 +12,11 @@ My code:https://github.com/HonglinChu/SiamFC
 ## Data preparation
 
 ```bash
-you should download ILSVRC2015_VID dataset first
-- python bin/create_dataset.py
-- python bin/create_lmdb.py
+you should download [ILSVRC2015_VID](https://pan.baidu.com/s/1Bu7yOxjM_ByOF_RoSWmmOw) password: fj43 
+
+python bin/create_dataset.py
+
+python bin/create_lmdb.py
 ```
 
 ## Training
@@ -37,9 +39,8 @@ python ./bin/test_siamfc.py
 ## Reference
 ```bash
 
-Bertinetto, Luca and Valmadre, Jack and Henriques, Joo F and Vedaldi, Andrea and Torr, Philip H S
-		Fully-Convolutional Siamese Networks for Object Tracking
-		In ECCV 2016 workshops
+Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking.
+European conference on computer vision. Springer, Cham, 2016: 850-865.
 		
 Refer to the link https://github.com/StrangerZhang/SiamFC-PyTorch
 ```
