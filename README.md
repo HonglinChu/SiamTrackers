@@ -77,7 +77,7 @@ Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU 
 Train SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs ).
 ```
 - [2019-CVPR-SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)
-![image](./image/siammask.png)
+![image](./image/siammask2.png)
 ```
 Support VScode single-step debugging.
 
