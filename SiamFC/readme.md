@@ -1,7 +1,7 @@
 
 # Pytorch implementation of SiamFC
 ## Description
-My code:https://github.com/HonglinChu/SiamFC
+[My Code](https://github.com/HonglinChu/SiamFC)
 
 ## File Tree
 ```
@@ -39,8 +39,7 @@ python ./bin/test_siamfc.py
 ## Reference
 ```bash
 
-Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking.
-European conference on computer vision. Springer, Cham, 2016: 850-865.
+[1] Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking. European conference on computer vision. Springer, Cham, 2016: 850-865.
 		
-Refer to the link https://github.com/StrangerZhang/SiamFC-PyTorch
+[2] https://github.com/StrangerZhang/SiamFC-PyTorch
 ```
