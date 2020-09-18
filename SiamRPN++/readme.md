@@ -7,12 +7,15 @@
 [My Code](https://github.com/HonglinChu/SiamRPNpp)
 
 The project are too big to upload, please refer to my follow files to modify the official code to achieve single-step debugging ,testing and  multi-GPU training on single CPU.
+```
+./bin/my_demo.py
 
-- ./bin/my_demo.py
-- ./bin/my_test.py
-- ./bin/my_train.py
-- ./bin/my_eval.py
+./bin/my_test.py
 
+./bin/my_train.py
+
+./bin/my_eval.py
+```
 ## Experiment
 
 My results of siamrpn++(siamrpn_alex_dwxcorr_16gpu) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
