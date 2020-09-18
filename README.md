@@ -4,7 +4,6 @@
 
 # Description
 
-
   | Trackers     |  Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
    | :--------- | :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
    | [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)    | ✔| ✔ |✔| ✔  |   | ✔|  | ✔|
@@ -20,47 +19,55 @@
 
 - [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)
 ![image](./image/siamese.png)
+```
 The implementation of simple face classification based on siamese network.
-
+```
 
 - [2016-ECCV-SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)
 ![image](./image/siamfc.png)
-
+```
 Add GOT10K toolkit and optimize the interface. 
-We use the VID data set for training . 
-The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 
+We use the VID data set for training . 
+
+The testing results are slightly lower than the paper(without hyperparameter adjustment). 
+```
 
 - [2018-CVPR-SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN)
 ![image](./image/siamrpn.png)
-
+```
 Add GOT10K toolkit and optimize the interface. 
+
 We use YTB and VID  data sets for training. 
+
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
-
+```
 - [2018-ECCV-DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN)
-
+```
 Add PYSOT toolkit and optimize the interface. 
-You can  debug, train and test easily.  
-The results of testing are consistent with the paper
-Note that you shound have python3  environment.
 
+You can  debug, train and test easily.  
+
+The results of testing are consistent with the paper.
+
+Note that you shound have python3  environment.
+```
 - [2019-ICCV-UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet)   
 ![image](./image/updatenet.png)
-
+```
 Add PYSOT toolkit and optimize the interface. 
 
 The model is sensitive to learning rate. 
 
 Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
-
+```
 - [2019-CVPR-SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW)
-
+```
 The paper mainly analyzed the impact of padding on the tracking network. 
-
+```
 - [2019-CVPR-SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++)
 ![image](./image/siamrpn++.png)
-
+```
 Support VScode single-step debugging.
 
 Add test scripts for 4 drone datasets.
@@ -68,25 +75,25 @@ Add test scripts for 4 drone datasets.
 Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel.
 
 Train SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs ).
-
+```
 - [2019-CVPR-SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)
 ![image](./image/siammask.png)
-
+```
 Support VScode single-step debugging.
 
 Support testing and training.
 
 The results of my test are  inconsistent with the author's, please refer to my SiamMask branch.
-
+```
 - [2020-AAAI-SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)
 ![image](./image/siamfc++.png)
-
+```
 Support VScode single-step debugging.
 
 Add test scripts for 4 drone datasets.
 
 Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs).
-
+```
 # Experiment
 - GPU NVIDIA 1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
