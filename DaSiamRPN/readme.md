@@ -2,6 +2,7 @@
 ## Description
 
 [My Code](https://github.com/HonglinChu/DaSiamRPN)
+Support Python 3.7
 
 ## File tree
 ```
@@ -31,3 +32,10 @@ python ./bin/my_eval.py
 [SiamRPNOTB.model](https://pan.baidu.com/s/1mpXaIDcf0HXf3vMccaSriw) password: 5xm9
 
 [SiamRPNBIG.model](https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q) password: b3b
+
+## Reference
+```
+[1] Zhu Z, Wang Q, Li B, et al. Distractor-aware siamese networks for visual object tracking.Proceedings of the European Conference on Computer Vision (ECCV). 2018: 101-117.
+
+[2] https://github.com/foolwood/DaSiamRPN
+```
