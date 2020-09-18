@@ -10,9 +10,9 @@
 └── siamfc
 ```
 ## Data preparation
-
-```bash
 you should download [ILSVRC2015_VID](https://pan.baidu.com/s/1Bu7yOxjM_ByOF_RoSWmmOw) password: fj43 
+
+```
 
 python bin/create_dataset.py
 
