@@ -1,9 +1,9 @@
 # Pytorch implementation of SiamFC++
 
 ## Description
-Official code:https://github.com/MegviiDetection/video_analyst (Recommend)
+[Official code](https://github.com/MegviiDetection/video_analyst) (Recommend)
 
-My code:https://github.com/HonglinChu/SiamFCpp 
+[My code](https://github.com/HonglinChu/SiamFCpp) 
 
 ## SiamFC++
 
@@ -76,4 +76,10 @@ project_root/
 │   └── utils
 └── snapshots
     └── siamfcpp_alexnet-got
+```
+## Reference
+```
+[1] Xu Y, Wang Z, Li Z, et al. SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. arXiv preprint arXiv:1911.06188, 2019.
+
+[2] https://github.com/MegviiDetection/video_analyst
 ```
