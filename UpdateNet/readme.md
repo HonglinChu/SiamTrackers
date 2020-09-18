@@ -1,9 +1,8 @@
 # Pytorch implementation of UpdateNet
 
 ## Description
-My code: https://github.com/HonglinChu/UpdateNet
  
-BiliBili: https://www.bilibili.com/video/bv1Jg4y1B7tL
+[BiliBili](https://www.bilibili.com/video/bv1Jg4y1B7tL)
 - Note: About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
 ```
 
@@ -41,12 +40,12 @@ How to produce templates ? You can choose iou<0.2, iou<0.3,  iou<0.4
 
 python ./updatenet/create_template.py
 ```
-![image](../image/template.png)
+![image](./template.png)
 
 
 ## Model
 
-SiamRPNBIG.model:https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q password: b3b6
+[SiamRPNBIG.model](https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q) password: b3b6
 
 ## Train
 ```
@@ -76,6 +75,7 @@ checpoint1   EAO  xxx
 ...
 
 checkpoint50 EAO  xxx
+
 ```
 - Stage 1.2
 ```
@@ -143,3 +143,61 @@ checpoint1   EAO  xxx
 checkpoint50 EAO  xxx
 
 ```
+
+- My models 
+[BaiduYun](https://pan.baidu.com/s/15mwwxY8LLKCWu2UAnMWDFg) password: 1iii
+
+```
+step1.1  lr6-7
+--------------------------------------------------------------
+| Tracker Name | Accuracy | Robustness | Lost Number |  EAO  |
+--------------------------------------------------------------
+| checkpoint30 |  0.582  |   0.286    |    61.0      | 0.367 | 
+--------------------------------------------------------------
+
+step1.2 lr9-10（load checkpoint30 model from step1.1）
+--------------------------------------------------------------
+| Tracker Name | Accuracy | Robustness | Lost Number  |  EAO |
+--------------------------------------------------------------
+| checkpoint30 |  0.585   |   0.272    |    58.0      | 0.373| 
+--------------------------------------------------------------
+
+step2.1 lr5-6 （load checkpoint30 model from step1.2）
+--------------------------------------------------------------
+| Tracker Name | Accuracy | Robustness | Lost Number |  EAO  |
+--------------------------------------------------------------
+| checkpoint36 |  0.586   |   0.295    |    63.0     | 0.366 |
+--------------------------------------------------------------
+
+step2.2 lr8-9 （load checkpoint36 model from step2.1）
+--------------------------------------------------------------
+| Tracker Name | Accuracy | Robustness | Lost Number |  EAO  |
+--------------------------------------------------------------
+| checkpoint29 |  0.584   |   0.258    |    55.0     | 0.386 |
+--------------------------------------------------------------
+
+step3.1 lr6-7 (load checkpoint29 model from step2.2)
+--------------------------------------------------------------
+| Tracker Name | Accuracy | Robustness | Lost Number |  EAO  |
+--------------------------------------------------------------
+| checkpoint22 |  0.583   |   0.253    |    54.0     | 0.390 |
+--------------------------------------------------------------
+
+step3.2 lr8-9 (load checkpoint22 model from step3.1)
+--------------------------------------------------------------
+| Tracker Name | Accuracy | Robustness | Lost Number |  EAO  |
+--------------------------------------------------------------
+| checkpoint13 |  0.583   |   0.225    |    48.0     | 0.403 |
+--------------------------------------------------------------
+
+```
+
+# Contributor
+
+```
+Honglin Chu
+
+Zeyu Xi
+```
+
+
