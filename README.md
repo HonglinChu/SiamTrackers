@@ -92,9 +92,9 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 - GPU NVIDIA 1080 8G  
 - CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
 - CUDA 9.0
-- System ubuntu 16.04  64 bits
-- pytorch 1.1.0
-- python 3.7.3
+- Ubuntu 16.04  
+- PyTorch 1.1.0
+- Python 3.7.3
 - Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
 
 |   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
