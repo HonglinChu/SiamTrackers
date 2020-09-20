@@ -180,19 +180,6 @@ Due to the limitation of computer configuration, i only choose some high speed  
 
 - **OTB2013/2015**  [Github](https://github.com/HonglinChu/visual_tracker_benchmark)
 
-- **UAV123** [BaiduYun](https://pan.baidu.com/s/1wTahpGHIgS5gN0T3fqOjsg) password: zx9c
-
-- **UAV20L** [BaiduYun](https://pan.baidu.com/s/1oCe8vVMt6uY2xk17psOsyA) password: s1y8
-
-- **UAVDT** [BaiduYun](https://pan.baidu.com/s/1H80x6i2LlGpQL9Nix0bb7Q) password: f7ad
-
-- **VisDrone2019** [BaiduYun](https://pan.baidu.com/s/1LCWgBMW1StWTW6SrWf5d3w) password: 28lb
-
-- **TC128** [BaiduYun](https://pan.baidu.com/s/16dAEKDH41TbozV72KsfptQ) password: 7uif
-
-- **VOT2016** [BaiduYun](https://pan.baidu.com/s/1JGo_81vWSe4AHE52CEYl3A) password: 4orc
-
-- **VOT2018** [BaiduYun](https://pan.baidu.com/s/1G_uodEE5vTxwkGLqTtILwA) password: l5y4
 
 ### Python version
 
