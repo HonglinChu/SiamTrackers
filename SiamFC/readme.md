@@ -30,6 +30,9 @@ python ./bin/train_siamfc.py
 ```bash
 python ./bin/test_siamfc.py
 ```
+## Model
+
+[BaiduYun](https://pan.baidu.com/s/1r2CASAg5bMWsTAS_ODQVZA) password: sej8
 
 ## Benchmark results
 
