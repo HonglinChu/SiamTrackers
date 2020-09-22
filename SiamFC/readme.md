@@ -1,7 +1,8 @@
 
 # Pytorch implementation of SiamFC
 ## Description
-[My Code](https://github.com/HonglinChu/SiamFC)
+[My Code-VID](https://github.com/HonglinChu/SiamFC_VID)
+[My Code-GOT](https://github.com/HonglinChu/SiamFC_GOT)
 
 ## File Tree
 ```
