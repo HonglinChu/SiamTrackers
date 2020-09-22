@@ -32,9 +32,8 @@ python bin/test_siamrpn.py
 
 ## Model
 
-[Pretrained Model](https://drive.google.com/drive/folders/1HJOvl_irX3KFbtfj88_FVLtukMI1GTCR)
+[BaiduYun](https://pan.baidu.com/s/1tENmHYBzomQE31DO5PCmcQ)  password:myw6
 
-[Model with 0.6xx AUC](https://pan.baidu.com/s/1vSvTqxaFwgmZdS00U3YIzQ)  password:v91k
 ## Reference
 ```
 
