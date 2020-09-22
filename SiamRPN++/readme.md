@@ -16,6 +16,10 @@ The project are too big to upload, please refer to my follow files to modify the
 
 ./bin/my_eval.py
 ```
+## Model 
+
+[BaiduYun](https://pan.baidu.com/s/1ZE3UDZwCTH0TyLkCa1PnYw) password:1bbk (siamrpn_alex_dwxcorr_16gpu)
+
 ## Experiment
 
 My results of siamrpn++(siamrpn_alex_dwxcorr_16gpu) without hp search, using 4 training datasets(COCO, DET,VID,YTB)
