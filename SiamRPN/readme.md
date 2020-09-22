@@ -16,7 +16,10 @@ First get VID dataset and youtube-bb dataset.
 ```
 python bin/create_dataset_ytbid.py 
 ```
-The command above will get a dataset, you can download from [BaiduYun](https://pan.baidu.com/s/1QnQEM_jtc3alX8RyZ3i4-g) password:myq4 .
+The command above will get a dataset, you can download from 
+
+[BaiduYun](https://pan.baidu.com/s/1uPmigK3-O9gPWeWAis_D4g) password:fanm
+
 Then use the data to create lmdb.
 ```
 python bin/create_lmdb.py
