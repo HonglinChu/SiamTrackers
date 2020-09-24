@@ -47,4 +47,6 @@ python ./bin/test_siamfc.py
 [1] Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking. European conference on computer vision. Springer, Cham, 2016: 850-865.
 		
 [2] https://github.com/StrangerZhang/SiamFC-PyTorch
+
+[3] https://github.com/huanglianghua/siamfc-pytorch (Recommend!!! the siamfc code with GOT dataset is better than official )
 ```
