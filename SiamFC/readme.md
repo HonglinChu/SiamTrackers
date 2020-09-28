@@ -4,6 +4,7 @@
 
 [My Code-VID](https://github.com/HonglinChu/SiamFC-VID)
 
+
 [My Code-GOT](https://github.com/HonglinChu/SiamFC-GOT)
 
 ## File Tree
@@ -34,13 +35,12 @@ python ./bin/test_siamfc.py
 
 [BaiduYun](https://pan.baidu.com/s/1r2CASAg5bMWsTAS_ODQVZA) password: sej8
 
-## Benchmark results
+## Experiment
 
-#### OTB100
-
-|         Tracker        |       AUC       |
-| ---------------------- | --------------- |
-|         SiamFC         |      0.57x     |
+| Dataset       |  OTB2015         |     UAV123        |
+|:-----------   |:----------------:|:----------------:|
+| Success Score       | 0.577            |  0.484        |
+| Precision Score     | 0.761           |  0.678          |
 
 ## Reference
 ```bash
