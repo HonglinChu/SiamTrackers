@@ -1,6 +1,6 @@
-# packages in environment at /home/ubuntu/anaconda3/envs/pytorch:
+# packages in environment at /home/username/anaconda3/envs/pytorch:
 #
-# Name                    Version                   Build  Channel
+# Name                    Version                   Build    Channel
 _libgcc_mutex             0.1                        main    defaults
 absl-py                   0.9.0                     <pip>
 astor                     0.8.1                     <pip>
