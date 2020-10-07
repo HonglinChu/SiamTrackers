@@ -50,7 +50,9 @@ python ./updatenet/create_template.py
 
 ## Train
 ```
-python ./updatenet/train_upd.py
+# step=1,2,3
+
+python ./updatenet/train_upd.py 
 ```
 
 ## Test
