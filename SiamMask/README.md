@@ -3,7 +3,7 @@
 ## Description
 [Official Code](https://github.com/foolwood/SiamMask)
 
-![image](./image/siammask1.png)
+![image](../image/siammask1.png)
 
 ## Experiment
 My experiment results on VOT2016 and VOT2018
