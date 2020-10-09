@@ -171,7 +171,7 @@ Due to the limitation of computer configuration, i only choose some high speed  
 
 - **YTB-Crop511** [BaiduYun](https://pan.baidu.com/s/112zLS_02-Z2ouKGbnPlTjw) password: ebq1 （used in siamrpn++ and siammask）
 
-- **COCO** [Link](https://cocodataset.org/)
+- **COCO** [BaiduYun](https://pan.baidu.com/s/17AMGS2ezLVd8wFI2NbJQ3w) password: ggya 
 
 - **YTB-VOS** [BaiduYun](https://pan.baidu.com/s/1WMB0q9GJson75QBFVfeH5A) password: sf1m 
 
