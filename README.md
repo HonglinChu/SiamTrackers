@@ -6,7 +6,6 @@
 
  |Year |Conf| Trackers   |   Debug   | Train   | Test  |  Evaluation |  Toolkit | GPU | Version |Upload |
  | :--------- | :--------- | :---------|  :--------: | :------: |:------:  |:------: |:------: |  :------: |  :------: | :------: | 
- |2015|  | [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)    | ✔| ✔ |✔| ✔  |   | ✔|  | ✔|
   |2016| ECCV| [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)    | ✔ |  ✔|  ✔| ✔| got10k|✔|unofficial|✔|
 |2018 |CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN)     | ✔ |  ✔|  ✔| ✔| got10k|  ✔|unofficial|✔|
 | 2018 | ECCV| [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN)     | ✔ |  |  ✔| ✔| pysot| ✔| unofficial|✔|
