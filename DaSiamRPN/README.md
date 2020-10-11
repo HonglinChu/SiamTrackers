@@ -1,8 +1,8 @@
 # Pytorch implementation of DaSiamRPN
 ## Description
 
-[My Code](https://github.com/HonglinChu/DaSiamRPN)
-Support Python 3.7
+[Code](https://github.com/HonglinChu/DaSiamRPN)
+[-] Support Python 3.7
 
 ## File tree
 ```
