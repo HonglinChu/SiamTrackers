@@ -3,8 +3,11 @@
 ## Description
  
 - [BiliBili](https://www.bilibili.com/video/bv1Jg4y1B7tL)
-- [My Code](https://github.com/HonglinChu/UpdateNet)
+
+- [Code](https://github.com/HonglinChu/UpdateNet)
+
 - Note: About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
+
 ```
 
     if reset:   #reset=1 (default)            
