@@ -4,7 +4,7 @@
 
 [Official Code](https://github.com/STVIR/pysot) (Recommend)
 
-[My Code](https://github.com/HonglinChu/SiamRPNpp)
+[Code](https://github.com/HonglinChu/SiamRPNpp)
 
 The project are too big to upload, please refer to my follow files to modify the official code to achieve single-step debugging ,testing and  multi-GPU training on single CPU.
 ```
