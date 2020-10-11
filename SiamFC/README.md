@@ -2,10 +2,9 @@
 # Pytorch implementation of SiamFC
 ## Description
 
-[My Code-VID](https://github.com/HonglinChu/SiamFC-VID)
+[Code-VID](https://github.com/HonglinChu/SiamFC-VID)
 
-
-[My Code-GOT](https://github.com/HonglinChu/SiamFC-GOT)  (Recommend!!! The  results of siamfc with GOT dataset are better than official results)
+[Code-GOT](https://github.com/HonglinChu/SiamFC-GOT)  (Recommend!!! The  results of siamfc with GOT dataset are better than official results)
 
 ## File Tree
 ```
