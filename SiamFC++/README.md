@@ -3,7 +3,7 @@
 ## Description
 [Official Code](https://github.com/MegviiDetection/video_analyst) (Recommend)
 
-[My Code](https://github.com/HonglinChu/SiamFCpp) 
+[Code](https://github.com/HonglinChu/SiamFCpp) 
 
 ## SiamFC++
 
