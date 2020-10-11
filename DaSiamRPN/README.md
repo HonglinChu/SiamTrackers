@@ -3,7 +3,7 @@
 
 [Code](https://github.com/HonglinChu/DaSiamRPN)
 
-[-] Support Python 3.7
+- [-] Support Python 3.7
 
 ## File tree
 ```
