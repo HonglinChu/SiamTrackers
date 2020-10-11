@@ -1,7 +1,7 @@
 # Pytorch implementation of SiamRPN
 
 ## Description
-[My Code](https://github.com/HonglinChu/SiamRPN)
+[Code](https://github.com/HonglinChu/SiamRPN)
 
 ## File tree
 ```
