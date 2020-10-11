@@ -183,6 +183,11 @@ Due to the limitation of computer configuration, i only choose some high speed  
 
 - **OTB2013/2015**  [Github](https://github.com/HonglinChu/visual_tracker_benchmark)
 
+- **UAVDT**[BaiduYun](https://pan.baidu.com/s/1NdpaWZxv5hGfKnIqJznWYA) password: ehit
+
+- **VOT2016-toolkit** [BaiduYun](https://pan.baidu.com/s/1RbmH-fVExBpHv3TgjHzYGg) password: 272e
+
+- **VOT2018-toolkit**[BaiduYun](https://pan.baidu.com/s/1crv4XSFK6zQp2LiZtJcrPw) password: xpkb 
 
 ### Python version
 
