@@ -11,14 +11,14 @@
 └── siamrpn
 ```
 
-## Data preparation
+## Dataset
 First get VID dataset and youtube-bb dataset. 
 ```
 python bin/create_dataset_ytbid.py 
 ```
 The command above will get a dataset, you can download from 
 
-[BaiduYun](https://pan.baidu.com/s/1uPmigK3-O9gPWeWAis_D4g) password:fanm
+- **YTB&VID**  [BaiduYun](https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA) password: 6vkz 
 
 Then use the data to create lmdb.
 ```
