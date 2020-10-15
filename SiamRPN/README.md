@@ -16,7 +16,7 @@ First get VID dataset and youtube-bb dataset.
 ```
 python bin/create_dataset_ytbid.py 
 ```
-The command above will get a dataset, you can download from 
+The above command  will get a new dataset, you can download from 
 
 - **YTB&VID**  [BaiduYun](https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA) password: 6vkz 
 
