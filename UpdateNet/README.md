@@ -37,7 +37,7 @@
 └── updatenet
 ```
 
-## Data peparation
+## Dataset
 
 ```
 How to produce templates ? You can choose iou<0.2, iou<0.3,  iou<0.4
@@ -50,6 +50,8 @@ python ./updatenet/create_template.py
 ## Model
 
 [SiamRPNBIG.model](https://pan.baidu.com/s/10v3d3G7BYSRBanIgaL73_Q) password: b3b6
+
+[BaiduYun](https://pan.baidu.com/s/15mwwxY8LLKCWu2UAnMWDFg) password: 1iii
 
 ## Train
 ```
@@ -150,8 +152,7 @@ checkpoint50 EAO  xxx
 
 ```
 
-- My models 
-[BaiduYun](https://pan.baidu.com/s/15mwwxY8LLKCWu2UAnMWDFg) password: 1iii
+- My results
 
 ```
 step1.1  lr6-7
