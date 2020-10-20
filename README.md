@@ -6,7 +6,7 @@
 
 | Year | Conf | Trackers                                                     | Debug | Train | Test | Dataset | Dataset | Dataset | Dataset | Dataset | Dataset |    Toolkit    |   Source   |
 | :--- | :--- | :----------------------------------------------------------- | :---: | :---: | :--: | :-----: | ------- | :-----: | :-----: | :-----: | :-----: | :-----------: | :--------: |
-|      |      |                                                              |       |       |      |   VID   | DET     |  COCO   |   YTB   |   GOT010k   |  LaSOT  |               |            |
+|      |      |                                                              |       |       |      |   VID   |   DET   |  COCO   |   YTB   |   GOT010k   |  LaSOT  |               |            |
 | 2016 | ECCV | [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |         |    ✔    |         |    GOT-10k    | unofficial |
 | 2018 | CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |    ✔    |    ✔    |         |    GOT-10k    | unofficial |
 | 2018 | ECCV | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN) |   ✔   |       |  ✔   |         |         |    ✔    |    ✔    |         |         |     PySOT     |  official  |
