@@ -1,4 +1,4 @@
-# Pytorch implementation of SiamMask
+# SiamMask
 
 ## Description
 [Official Code](https://github.com/foolwood/SiamMask)
