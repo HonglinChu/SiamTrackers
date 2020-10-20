@@ -17,10 +17,6 @@
 | 2020 | AAAI | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++) |   ✔   |   ✔   |  ✔   |    ✔    |    ✔    |    ✔    |    ✔    |    ✔    |    ✔    | PySOT&GOT-10k | unofficial |
 
 
-
-
-
-
 - [BiliBili](https://www.bilibili.com/video/BV1Y64y1T7qs/) 
 
 - [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)
@@ -101,7 +97,7 @@ Add test scripts for 4 drone datasets.
 Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs).
 ```
 # Experiment
-- [x] GPU NVIDIA 1080 8G  
+- [x] GPU NVIDIA 1080 8G x 2 
 - [x] CPU Intel® Xeon(R) CPU E5-2650 v4 @ 2.20GHz × 24 
 - [x] CUDA 9.0
 - [x] Ubuntu 16.04  
