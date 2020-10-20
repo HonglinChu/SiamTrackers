@@ -16,6 +16,11 @@ If you download our code, you need download 2  other files("models" , "snapshots
 * [SOT_TRAINING.md](docs/TUTORIALS/SOT_TRAINING.md): details related to training
 * [SOT_TEST.md](docs/TUTORIALS/SOT_TEST.md): details related to test
 
+## Compile
+```
+sh compile.sh
+```
+
 ## Test
 ```
 python ./bin/my_test.py
