@@ -4,28 +4,18 @@
 
 # Description
 
- |Year |Conf| Trackers   |   Debug   | Train   | Test  |  Evaluation Toolkit | GPU | Version |Upload |
- | :--------- | :--------- | :---------|  :--------: | :------: |:------:  |:------:  |  :------: |  :------: | :------: | 
-  |2016| ECCV| [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)    | ✔ |  ✔|  ✔| got10k|✔|unofficial|✔|
-|2018 |CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN)     | ✔ |  ✔|  ✔|  got10k|  ✔|unofficial|✔|
-| 2018 | ECCV| [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN)     | ✔ |  |  ✔|  pysot| ✔| unofficial|✔|
-| 2019 | ICCV| [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet)  | ✔ |  ✔|  ✔|  pysot| ✔| unofficial|✔|
-| 2019 |CVPR | [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW)       |  ✔ |  ✔|  ✔|  | ✔|official| |
-| 2019  | CVPR| [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++)   |  ✔ |  ✔|  ✔|  pysot| ✔|official|✔|
-| 2019 | CVPR| [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)    |  ✔ |  ✔|  ✔|  pysot| ✔|official| |
- | 2020| AAAI | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔|  pysot&got10k| ✔|official|✔|
+| Year | Conf | Trackers                                                     | Debug | Train | Test | Dataset | Dataset | Dataset | Dataset | Dataset | Dataset |    Toolkit    |   Source   |
+| :--- | :--- | :----------------------------------------------------------- | :---: | :---: | :--: | :-----: | ------- | :-----: | :-----: | :-----: | :-----: | :-----------: | :--------: |
+|      |      |                                                              |       |       |      |   VID   | DET     |  COCO   |   YTB   |   GOT   |  LaSOT  |               |            |
+| 2016 | ECCV | [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |         |    ✔    |         |    GOT-10k    | unofficial |
+| 2018 | CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |    ✔    |    ✔    |         |    GOT-10k    | unofficial |
+| 2018 | ECCV | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN) |   ✔   |       |  ✔   |         |         |    ✔    |    ✔    |         |         |     PySOT     |  official  |
+| 2019 | ICCV | [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet) |   ✔   |   ✔   |  ✔   |         |         |         |         |         |    ✔    |     PySOT     | unofficial |
+| 2019 | CVPR | [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW) |   ✔   |   ✔   |  ✔   |    ✔    | ✔       |    ✔    |    ✔    |    ✔    |    ✔    |               |  official  |
+| 2019 | CVPR | [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++) |   ✔   |   ✔   |  ✔   |    ✔    | ✔       |    ✔    |    ✔    |         |         |     PySOT     | unofficial |
+| 2019 | CVPR | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask) |   ✔   |   ✔   |  ✔   |    ✔    | ✔       |    ✔    |    ✔    |         |         |     PySOT     |  official  |
+| 2020 | AAAI | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++) |   ✔   |   ✔   |  ✔   |    ✔    | ✔       |    ✔    |    ✔    |    ✔    |    ✔    | PySOT&GOT-10k | unofficial |
 
-
-| Year | Conf | Trackers                                                     | Debug | Train | Test | VID  | DET  | COCO | YTB  | GOT  | LaSOT |    Toolkit    |      |   Source   |
-| :--- | :--- | :----------------------------------------------------------- | :---: | :---: | :--: | :--: | ---- | :--: | ---- | :--: | :---: | :-----------: | ---- | :--------: |
-| 2016 | ECCV | [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC) |   ✔   |   ✔   |  ✔   |  ✔   |      |      |      |  ✔   |       |    GOT-10k    |      | unofficial |
-| 2018 | CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN) |   ✔   |   ✔   |  ✔   |  ✔   |      |      | ✔    |  ✔   |       |    GOT-10k    |      | unofficial |
-| 2018 | ECCV | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN) |   ✔   |       |  ✔   |      |      |  ✔   | ✔    |      |       |     PySOT     |      |  official  |
-| 2019 | ICCV | [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet) |   ✔   |   ✔   |  ✔   |      |      |      |      |      |   ✔   |     PySOT     |      | unofficial |
-| 2019 | CVPR | [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |  ✔   |   ✔   |               |      |  official  |
-| 2019 | CVPR | [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |      |       |     PySOT     |      | unofficial |
-| 2019 | CVPR | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |      |       |     PySOT     |      |  official  |
-| 2020 | AAAI | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |  ✔   |   ✔   | PySOT&GOT-10k |      | unofficial |
 
 
 
