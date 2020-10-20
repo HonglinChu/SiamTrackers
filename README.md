@@ -9,7 +9,7 @@
 |      |      |                                                              |       |       |      |   VID   |   DET   |  COCO   |   YTB   |   GOT010k   |  LaSOT  |               |            |
 | 2016 | ECCV | [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |         |    ✔    |         |    GOT-10k    | unofficial |
 | 2018 | CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |    ✔    |    ✔    |         |    GOT-10k    | unofficial |
-| 2018 | ECCV | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN) |   ✔   |       |  ✔   |         |         |    ✔    |    ✔    |         |         |     PySOT     |  official  |
+| 2018 | ECCV | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN) |   ✔   |       |  ✔   |         |         |        |         |         |         |     PySOT     |  official  |
 | 2019 | ICCV | [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet) |   ✔   |   ✔   |  ✔   |         |         |         |         |         |    ✔    |     PySOT     | unofficial |
 | 2019 | CVPR | [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW) |   ✔   |   ✔   |  ✔   |    ✔    | ✔       |    ✔    |    ✔    |    ✔    |    ✔    |               |  official  |
 | 2019 | CVPR | [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++) |   ✔   |   ✔   |  ✔   |    ✔    | ✔       |    ✔    |    ✔    |         |         |     PySOT     | unofficial |
