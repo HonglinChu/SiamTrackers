@@ -1,0 +1,80 @@
+train:
+  track:
+    exp_name: &TRAIN_NAME "siamfcpp_training_data"
+    exp_save: &TRAIN_SAVE "snapshots"
+    num_processes: 2
+    data:
+      exp_name: *TRAIN_NAME
+      exp_save: *TRAIN_SAVE
+      num_epochs: 20
+      minibatch: &MINIBATCH 32  # 64
+      num_workers: 32
+      nr_image_per_epoch: &NR_IMAGE_PER_EPOCH 400000
+      pin_memory: false
+      datapipeline:
+        name: "RegularDatapipeline"
+      sampler:
+        name: "TrackPairSampler"
+        TrackPairSampler:
+          negative_pair_ratio: 0.1
+        submodules:
+          dataset:
+            names: [
+              "TrackingNetDataset",
+              "COCODataset", 
+              "GOT10kDataset", 
+              "DETDataset", 
+              "VIDDataset", 
+              "LaSOTDataset", 
+              ]
+            GOT10kDataset: &GOT10KDATASET_CFG
+              ratio: 1.0
+              max_diff: 100
+              dataset_root: "datasets/GOT-10k"
+              subset: "train"
+              check_integrity: false  # no need to check integrity for visualization purpose
+            GOT10kDatasetFixed: *GOT10KDATASET_CFG  # got10k dataset with exclusion of unfixed sequences
+            LaSOTDataset:
+              ratio: 1.0
+              max_diff: 100
+              dataset_root: "datasets/LaSOT"
+              subset: "train_test"
+              check_integrity: false
+            VIDDataset:
+              ratio: 1.0
+              max_diff: 100
+              dataset_root: "datasets/ILSVRC2015"
+              subset: "train_val"
+            COCODataset:
+              ratio: 1.0
+              dataset_root: "datasets/COCO"
+              subset: "train2017" # train_val
+            DETDataset:
+              ratio: 1.0
+              dataset_root: "datasets/ILSVRC2015"
+              subset: "train"
+            TrackingNetDataset:
+              ratio: 1.0
+              max_diff: 100
+              dataset_root: "datasets/TrackingNet"
+              subset: "train0" # "train"
+              check_integrity: false  # no need to check integrity for visualization purpose
+          filter:
+            name: "TrackPairFilter"
+            TrackPairFilter:
+              max_area_rate: 0.6
+              min_area_rate: 0.001
+              max_ratio: 10
+      transformer:
+        names: ["RandomCropTransformer", ]
+        RandomCropTransformer:
+          max_scale: 0.3
+          max_shift: 0.4
+          x_size: 303
+      target:
+        name: "DenseboxTarget"
+        DenseboxTarget:
+          total_stride: 8
+          score_size: 17
+          x_size: 303
+          num_conv3x3: 3

@@ -1,0 +1,721 @@
+{
+    "UAV123": {
+        "bike1": {
+            "start_frame": 1,
+            "end_frame": 3085,
+            "folder_name": "bike1"
+        },
+        "bike2": {
+            "start_frame": 1,
+            "end_frame": 553,
+            "folder_name": "bike2"
+        },
+        "bike3": {
+            "start_frame": 1,
+            "end_frame": 433,
+            "folder_name": "bike3"
+        },
+        "bird1_1": {
+            "start_frame": 1,
+            "end_frame": 253,
+            "folder_name": "bird1"
+        },
+        "bird1_2": {
+            "start_frame": 775,
+            "end_frame": 1477,
+            "folder_name": "bird1"
+        },
+        "bird1_3": {
+            "start_frame": 1573,
+            "end_frame": 2437,
+            "folder_name": "bird1"
+        },
+        "boat1": {
+            "start_frame": 1,
+            "end_frame": 901,
+            "folder_name": "boat1"
+        },
+        "boat2": {
+            "start_frame": 1,
+            "end_frame": 799,
+            "folder_name": "boat2"
+        },
+        "boat3": {
+            "start_frame": 1,
+            "end_frame": 901,
+            "folder_name": "boat3"
+        },
+        "boat4": {
+            "start_frame": 1,
+            "end_frame": 553,
+            "folder_name": "boat4"
+        },
+        "boat5": {
+            "start_frame": 1,
+            "end_frame": 505,
+            "folder_name": "boat5"
+        },
+        "boat6": {
+            "start_frame": 1,
+            "end_frame": 805,
+            "folder_name": "boat6"
+        },
+        "boat7": {
+            "start_frame": 1,
+            "end_frame": 535,
+            "folder_name": "boat7"
+        },
+        "boat8": {
+            "start_frame": 1,
+            "end_frame": 685,
+            "folder_name": "boat8"
+        },
+        "boat9": {
+            "start_frame": 1,
+            "end_frame": 1399,
+            "folder_name": "boat9"
+        },
+        "building1": {
+            "start_frame": 1,
+            "end_frame": 469,
+            "folder_name": "building1"
+        },
+        "building2": {
+            "start_frame": 1,
+            "end_frame": 577,
+            "folder_name": "building2"
+        },
+        "building3": {
+            "start_frame": 1,
+            "end_frame": 829,
+            "folder_name": "building3"
+        },
+        "building4": {
+            "start_frame": 1,
+            "end_frame": 787,
+            "folder_name": "building4"
+        },
+        "building5": {
+            "start_frame": 1,
+            "end_frame": 481,
+            "folder_name": "building5"
+        },
+        "car1_1": {
+            "start_frame": 1,
+            "end_frame": 751,
+            "folder_name": "car1"
+        },
+        "car1_2": {
+            "start_frame": 751,
+            "end_frame": 1627,
+            "folder_name": "car1"
+        },
+        "car1_3": {
+            "start_frame": 1627,
+            "end_frame": 2629,
+            "folder_name": "car1"
+        },
+        "car2": {
+            "start_frame": 1,
+            "end_frame": 1321,
+            "folder_name": "car2"
+        },
+        "car3": {
+            "start_frame": 1,
+            "end_frame": 1717,
+            "folder_name": "car3"
+        },
+        "car4": {
+            "start_frame": 1,
+            "end_frame": 1345,
+            "folder_name": "car4"
+        },
+        "car5": {
+            "start_frame": 1,
+            "end_frame": 745,
+            "folder_name": "car5"
+        },
+        "car6_1": {
+            "start_frame": 1,
+            "end_frame": 487,
+            "folder_name": "car6"
+        },
+        "car6_2": {
+            "start_frame": 487,
+            "end_frame": 1807,
+            "folder_name": "car6"
+        },
+        "car6_3": {
+            "start_frame": 1807,
+            "end_frame": 2953,
+            "folder_name": "car6"
+        },
+        "car6_4": {
+            "start_frame": 2953,
+            "end_frame": 3925,
+            "folder_name": "car6"
+        },
+        "car6_5": {
+            "start_frame": 3925,
+            "end_frame": 4861,
+            "folder_name": "car6"
+        },
+        "car7": {
+            "start_frame": 1,
+            "end_frame": 1033,
+            "folder_name": "car7"
+        },
+        "car8_1": {
+            "start_frame": 1,
+            "end_frame": 1357,
+            "folder_name": "car8"
+        },
+        "car8_2": {
+            "start_frame": 1357,
+            "end_frame": 2575,
+            "folder_name": "car8"
+        },
+        "car9": {
+            "start_frame": 1,
+            "end_frame": 1879,
+            "folder_name": "car9"
+        },
+        "car10": {
+            "start_frame": 1,
+            "end_frame": 1405,
+            "folder_name": "car10"
+        },
+        "car11": {
+            "start_frame": 1,
+            "end_frame": 337,
+            "folder_name": "car11"
+        },
+        "car12": {
+            "start_frame": 1,
+            "end_frame": 499,
+            "folder_name": "car12"
+        },
+        "car13": {
+            "start_frame": 1,
+            "end_frame": 415,
+            "folder_name": "car13"
+        },
+        "car14": {
+            "start_frame": 1,
+            "end_frame": 1327,
+            "folder_name": "car14"
+        },
+        "car15": {
+            "start_frame": 1,
+            "end_frame": 469,
+            "folder_name": "car15"
+        },
+        "car16_1": {
+            "start_frame": 1,
+            "end_frame": 415,
+            "folder_name": "car16"
+        },
+        "car16_2": {
+            "start_frame": 415,
+            "end_frame": 1993,
+            "folder_name": "car16"
+        },
+        "car17": {
+            "start_frame": 1,
+            "end_frame": 1057,
+            "folder_name": "car17"
+        },
+        "car18": {
+            "start_frame": 1,
+            "end_frame": 1207,
+            "folder_name": "car18"
+        },
+        "group1_1": {
+            "start_frame": 1,
+            "end_frame": 1333,
+            "folder_name": "group1"
+        },
+        "group1_2": {
+            "start_frame": 1333,
+            "end_frame": 2515,
+            "folder_name": "group1"
+        },
+        "group1_3": {
+            "start_frame": 2515,
+            "end_frame": 3925,
+            "folder_name": "group1"
+        },
+        "group1_4": {
+            "start_frame": 3925,
+            "end_frame": 4873,
+            "folder_name": "group1"
+        },
+        "group2_1": {
+            "start_frame": 1,
+            "end_frame": 907,
+            "folder_name": "group2"
+        },
+        "group2_2": {
+            "start_frame": 907,
+            "end_frame": 1771,
+            "folder_name": "group2"
+        },
+        "group2_3": {
+            "start_frame": 1771,
+            "end_frame": 2683,
+            "folder_name": "group2"
+        },
+        "group3_1": {
+            "start_frame": 1,
+            "end_frame": 1567,
+            "folder_name": "group3"
+        },
+        "group3_2": {
+            "start_frame": 1567,
+            "end_frame": 2827,
+            "folder_name": "group3"
+        },
+        "group3_3": {
+            "start_frame": 2827,
+            "end_frame": 4369,
+            "folder_name": "group3"
+        },
+        "group3_4": {
+            "start_frame": 4369,
+            "end_frame": 5527,
+            "folder_name": "group3"
+        },
+        "person1": {
+            "start_frame": 1,
+            "end_frame": 799,
+            "folder_name": "person1"
+        },
+        "person2_1": {
+            "start_frame": 1,
+            "end_frame": 1189,
+            "folder_name": "person2"
+        },
+        "person2_2": {
+            "start_frame": 1189,
+            "end_frame": 2623,
+            "folder_name": "person2"
+        },
+        "person3": {
+            "start_frame": 1,
+            "end_frame": 643,
+            "folder_name": "person3"
+        },
+        "person4_1": {
+            "start_frame": 1,
+            "end_frame": 1501,
+            "folder_name": "person4"
+        },
+        "person4_2": {
+            "start_frame": 1501,
+            "end_frame": 2743,
+            "folder_name": "person4"
+        },
+        "person5_1": {
+            "start_frame": 1,
+            "end_frame": 877,
+            "folder_name": "person5"
+        },
+        "person5_2": {
+            "start_frame": 877,
+            "end_frame": 2101,
+            "folder_name": "person5"
+        },
+        "person6": {
+            "start_frame": 1,
+            "end_frame": 901,
+            "folder_name": "person6"
+        },
+        "person7_1": {
+            "start_frame": 1,
+            "end_frame": 1249,
+            "folder_name": "person7"
+        },
+        "person7_2": {
+            "start_frame": 1249,
+            "end_frame": 2065,
+            "folder_name": "person7"
+        },
+        "person8_1": {
+            "start_frame": 1,
+            "end_frame": 1075,
+            "folder_name": "person8"
+        },
+        "person8_2": {
+            "start_frame": 1075,
+            "end_frame": 1525,
+            "folder_name": "person8"
+        },
+        "person9": {
+            "start_frame": 1,
+            "end_frame": 661,
+            "folder_name": "person9"
+        },
+        "person10": {
+            "start_frame": 1,
+            "end_frame": 1021,
+            "folder_name": "person10"
+        },
+        "person11": {
+            "start_frame": 1,
+            "end_frame": 721,
+            "folder_name": "person11"
+        },
+        "person12_1": {
+            "start_frame": 1,
+            "end_frame": 601,
+            "folder_name": "person12"
+        },
+        "person12_2": {
+            "start_frame": 601,
+            "end_frame": 1621,
+            "folder_name": "person12"
+        },
+        "person13": {
+            "start_frame": 1,
+            "end_frame": 883,
+            "folder_name": "person13"
+        },
+        "person14_1": {
+            "start_frame": 1,
+            "end_frame": 847,
+            "folder_name": "person14"
+        },
+        "person14_2": {
+            "start_frame": 847,
+            "end_frame": 1813,
+            "folder_name": "person14"
+        },
+        "person14_3": {
+            "start_frame": 1813,
+            "end_frame": 2923,
+            "folder_name": "person14"
+        },
+        "person15": {
+            "start_frame": 1,
+            "end_frame": 1339,
+            "folder_name": "person15"
+        },
+        "person16": {
+            "start_frame": 1,
+            "end_frame": 1147,
+            "folder_name": "person16"
+        },
+        "person17_1": {
+            "start_frame": 1,
+            "end_frame": 1501,
+            "folder_name": "person17"
+        },
+        "person17_2": {
+            "start_frame": 1501,
+            "end_frame": 2347,
+            "folder_name": "person17"
+        },
+        "person18": {
+            "start_frame": 1,
+            "end_frame": 1393,
+            "folder_name": "person18"
+        },
+        "person19_1": {
+            "start_frame": 1,
+            "end_frame": 1243,
+            "folder_name": "person19"
+        },
+        "person19_2": {
+            "start_frame": 1243,
+            "end_frame": 2791,
+            "folder_name": "person19"
+        },
+        "person19_3": {
+            "start_frame": 2791,
+            "end_frame": 4357,
+            "folder_name": "person19"
+        },
+        "person20": {
+            "start_frame": 1,
+            "end_frame": 1783,
+            "folder_name": "person20"
+        },
+        "person21": {
+            "start_frame": 1,
+            "end_frame": 487,
+            "folder_name": "person21"
+        },
+        "person22": {
+            "start_frame": 1,
+            "end_frame": 199,
+            "folder_name": "person22"
+        },
+        "person23": {
+            "start_frame": 1,
+            "end_frame": 397,
+            "folder_name": "person23"
+        },
+        "truck1": {
+            "start_frame": 1,
+            "end_frame": 463,
+            "folder_name": "truck1"
+        },
+        "truck2": {
+            "start_frame": 1,
+            "end_frame": 385,
+            "folder_name": "truck2"
+        },
+        "truck3": {
+            "start_frame": 1,
+            "end_frame": 535,
+            "folder_name": "truck3"
+        },
+        "truck4_1": {
+            "start_frame": 1,
+            "end_frame": 577,
+            "folder_name": "truck4"
+        },
+        "truck4_2": {
+            "start_frame": 577,
+            "end_frame": 1261,
+            "folder_name": "truck4"
+        },
+        "uav1_1": {
+            "start_frame": 1,
+            "end_frame": 1555,
+            "folder_name": "uav1"
+        },
+        "uav1_2": {
+            "start_frame": 1555,
+            "end_frame": 2377,
+            "folder_name": "uav1"
+        },
+        "uav1_3": {
+            "start_frame": 2473,
+            "end_frame": 3469,
+            "folder_name": "uav1"
+        },
+        "uav2": {
+            "start_frame": 1,
+            "end_frame": 133,
+            "folder_name": "uav2"
+        },
+        "uav3": {
+            "start_frame": 1,
+            "end_frame": 265,
+            "folder_name": "uav3"
+        },
+        "uav4": {
+            "start_frame": 1,
+            "end_frame": 157,
+            "folder_name": "uav4"
+        },
+        "uav5": {
+            "start_frame": 1,
+            "end_frame": 139,
+            "folder_name": "uav5"
+        },
+        "uav6": {
+            "start_frame": 1,
+            "end_frame": 109,
+            "folder_name": "uav6"
+        },
+        "uav7": {
+            "start_frame": 1,
+            "end_frame": 373,
+            "folder_name": "uav7"
+        },
+        "uav8": {
+            "start_frame": 1,
+            "end_frame": 301,
+            "folder_name": "uav8"
+        },
+        "wakeboard1": {
+            "start_frame": 1,
+            "end_frame": 421,
+            "folder_name": "wakeboard1"
+        },
+        "wakeboard2": {
+            "start_frame": 1,
+            "end_frame": 733,
+            "folder_name": "wakeboard2"
+        },
+        "wakeboard3": {
+            "start_frame": 1,
+            "end_frame": 823,
+            "folder_name": "wakeboard3"
+        },
+        "wakeboard4": {
+            "start_frame": 1,
+            "end_frame": 697,
+            "folder_name": "wakeboard4"
+        },
+        "wakeboard5": {
+            "start_frame": 1,
+            "end_frame": 1675,
+            "folder_name": "wakeboard5"
+        },
+        "wakeboard6": {
+            "start_frame": 1,
+            "end_frame": 1165,
+            "folder_name": "wakeboard6"
+        },
+        "wakeboard7": {
+            "start_frame": 1,
+            "end_frame": 199,
+            "folder_name": "wakeboard7"
+        },
+        "wakeboard8": {
+            "start_frame": 1,
+            "end_frame": 1543,
+            "folder_name": "wakeboard8"
+        },
+        "wakeboard9": {
+            "start_frame": 1,
+            "end_frame": 355,
+            "folder_name": "wakeboard9"
+        },
+        "wakeboard10": {
+            "start_frame": 1,
+            "end_frame": 469,
+            "folder_name": "wakeboard10"
+        },
+        "car1_s": {
+            "start_frame": 1,
+            "end_frame": 1475,
+            "folder_name": "car1_s"
+        },
+        "car2_s": {
+            "start_frame": 1,
+            "end_frame": 320,
+            "folder_name": "car2_s"
+        },
+        "car3_s": {
+            "start_frame": 1,
+            "end_frame": 1300,
+            "folder_name": "car3_s"
+        },
+        "car4_s": {
+            "start_frame": 1,
+            "end_frame": 830,
+            "folder_name": "car4_s"
+        },
+        "person1_s": {
+            "start_frame": 1,
+            "end_frame": 1600,
+            "folder_name": "person1_s"
+        },
+        "person2_s": {
+            "start_frame": 1,
+            "end_frame": 250,
+            "folder_name": "person2_s"
+        },
+        "person3_s": {
+            "start_frame": 1,
+            "end_frame": 505,
+            "folder_name": "person3_s"
+        }
+    },
+    "UAV20L": {
+        "bike1": {
+            "start_frame": 1,
+            "end_frame": 3085,
+            "folder_name": "bike1"
+        },
+        "bird1": {
+            "start_frame": 1,
+            "end_frame": 2437,
+            "folder_name": "bird1"
+        },
+        "car1": {
+            "start_frame": 1,
+            "end_frame": 2629,
+            "folder_name": "car1"
+        },
+        "car3": {
+            "start_frame": 1,
+            "end_frame": 1717,
+            "folder_name": "car3"
+        },
+        "car6": {
+            "start_frame": 1,
+            "end_frame": 4861,
+            "folder_name": "car6"
+        },
+        "car8": {
+            "start_frame": 1,
+            "end_frame": 2575,
+            "folder_name": "car8"
+        },
+        "car9": {
+            "start_frame": 1,
+            "end_frame": 1879,
+            "folder_name": "car9"
+        },
+        "car16": {
+            "start_frame": 1,
+            "end_frame": 1993,
+            "folder_name": "car16"
+        },
+        "group1": {
+            "start_frame": 1,
+            "end_frame": 4873,
+            "folder_name": "group1"
+        },
+        "group2": {
+            "start_frame": 1,
+            "end_frame": 2683,
+            "folder_name": "group2"
+        },
+        "group3": {
+            "start_frame": 1,
+            "end_frame": 5527,
+            "folder_name": "group3"
+        },
+        "person2": {
+            "start_frame": 1,
+            "end_frame": 2623,
+            "folder_name": "person2"
+        },
+        "person4": {
+            "start_frame": 1,
+            "end_frame": 2743,
+            "folder_name": "person4"
+        },
+        "person5": {
+            "start_frame": 1,
+            "end_frame": 2101,
+            "folder_name": "person5"
+        },
+        "person7": {
+            "start_frame": 1,
+            "end_frame": 2065,
+            "folder_name": "person7"
+        },
+        "person14": {
+            "start_frame": 1,
+            "end_frame": 2923,
+            "folder_name": "person14"
+        },
+        "person17": {
+            "start_frame": 1,
+            "end_frame": 2347,
+            "folder_name": "person17"
+        },
+        "person19": {
+            "start_frame": 1,
+            "end_frame": 4357,
+            "folder_name": "person19"
+        },
+        "person20": {
+            "start_frame": 1,
+            "end_frame": 1783,
+            "folder_name": "person20"
+        },
+        "uav1": {
+            "start_frame": 1,
+            "end_frame": 3469,
+            "folder_name": "uav1"
+        }
+    }
+}

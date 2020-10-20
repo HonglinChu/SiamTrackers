@@ -1,0 +1,76 @@
+test:
+  vos:
+    exp_name: &TEST_NAME "sat_res50_davis17"
+    exp_save: &TEST_SAVE "logs"
+    tracker_model:
+      backbone:
+        name: "AlexNet"
+        AlexNet:
+          pretrain_model_path: ""
+      losses:
+        names: []
+      task_head:
+        name: "DenseboxHead"
+        DenseboxHead:
+          total_stride: 8
+          score_size: 17
+          x_size: 303
+          num_conv3x3: 3
+          head_conv_bn: [False, False, True]
+      task_model:
+        name: "SiamTrack"
+        SiamTrack:
+          corr_fea_output: True
+          pretrain_model_path: "models/siamfcpp/siamfcpp-alexnet-vot-md5_18fd31a2f94b0296c08fff9b0f9ad240.pkl"
+    tracker_pipeline:
+      name: "SiamFCppTracker"
+      SiamFCppTracker:
+        test_lr: 0.512
+        window_influence: 0.254
+        penalty_k: 0.064
+        num_conv3x3: 3
+        corr_fea_output: True
+
+
+    segmenter:
+      encoder_basemodel:
+        name: "ResNet50_M"
+        ResNet50_M:
+          pretrain_model_path: ""
+      encoder:
+        name: "JointEncoder"
+        JointEncoder:
+          pretrain_model_path: ""
+      gml_extractor:
+        name: "ResNet50_M"
+        ResNet50_M:
+          pretrain_model_path: ""
+      task_head:
+        name: "DecoderHead"
+      losses:
+        names: []
+      task_model:
+        name: "SatVOS"
+        SatVOS:
+          pretrain_model_path: "models/sat/sat_res50_davis17_b81fa.pkl"
+    pipeline:
+      name: "StateAwareTracker"
+      StateAwareTracker:
+        save_patch: &save_patch False
+        mask_pred_thresh: 0.35
+        mask_filter_thresh: 0.45
+        state_score_thresh: 0.8
+        seg_ema_u: 0.6
+        seg_ema_s: 0.6
+        track_failed_score_th: 0.0
+        update_global_fea_th: 0.2
+    tester:
+        names: ["DAVISTester",]
+        DAVISTester:
+          exp_name: *TEST_NAME
+          exp_save: *TEST_SAVE
+          device_num: 4
+          dataset_names: ["DAVIS2017"]
+          save_video: False
+          save_patch: *save_patch
+

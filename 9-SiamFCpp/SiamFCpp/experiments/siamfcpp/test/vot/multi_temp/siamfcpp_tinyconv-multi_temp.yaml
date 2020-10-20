@@ -1,0 +1,42 @@
+test:
+  track:
+    exp_name: &TEST_NAME "siamfcpp_tinyconv_multi_temp"
+    exp_save: &TEST_SAVE "logs"
+    model:
+      backbone:
+        name: "TinyConv"
+        TinyConv:
+          pretrain_model_path: ""
+      losses:
+        names: []
+      task_head:
+        name: "DenseboxHead"
+        DenseboxHead:
+          total_stride: 8
+          score_size: 17
+          x_size: 303
+          num_conv3x3: 3
+          head_conv_bn: [False, False, True]
+          head_width: 64
+      task_model:
+        name: "SiamTrack"
+        SiamTrack:
+          pretrain_model_path: "models/siamfcpp/siamfcpp-tinyconv-vot-md5_cb9c2e8c7851ebf79677522269444cb2.pkl"
+          head_width: 64
+    pipeline:
+      name: "SiamFCppMultiTempTracker"
+      SiamFCppMultiTempTracker:
+        test_lr: 0.52
+        window_influence: 0.21
+        penalty_k: 0.04
+        num_conv3x3: 3
+        mem_step: 5
+        mem_len: 5
+        mem_coef: 0.5
+    tester:
+      names: ["VOTTester",]
+      VOTTester:
+        exp_name: *TEST_NAME
+        exp_save: *TEST_SAVE
+        device_num: 1
+        dataset_names: ["VOT2018"]

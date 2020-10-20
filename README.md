@@ -4,28 +4,39 @@
 
 # Description
 
-| Year | Conf | Trackers                                                     | Debug | Train | Test | Dataset | Dataset | Dataset | Dataset | Dataset | Dataset |    Toolkit    |   Source   |
-| :--- | :--- | :----------------------------------------------------------- | :---: | :---: | :--: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----------: | :--------: |
-|      |      |                                                              |       |       |      |   VID   |   DET   |  COCO   |   YTB   | GOT10k |  LaSOT  |            |            |
-| 2016 | ECCV | [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |         |    ✔    |         |    GOT-10k    | unofficial |
-| 2018 | CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN) |   ✔   |   ✔   |  ✔   |    ✔    |         |         |    ✔    |    ✔    |         |    GOT-10k    | unofficial |
-| 2018 | ECCV | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN) |   ✔   |       |  ✔   |         |         |         |         |         |         |     PySOT     |  official  |
-| 2019 | ICCV | [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet) |   ✔   |   ✔   |  ✔   |         |         |         |         |         |    ✔    |     PySOT     | unofficial |
-| 2019 | CVPR | [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW) |   ✔   |   ✔   |  ✔   |    ✔    |    ✔    |    ✔    |    ✔    |    ✔    |    ✔    |               |  official  |
-| 2019 | CVPR | [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++) |   ✔   |   ✔   |  ✔   |    ✔    |    ✔    |    ✔    |    ✔    |         |         |     PySOT     | unofficial |
-| 2019 | CVPR | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask) |   ✔   |   ✔   |  ✔   |    ✔    |    ✔    |    ✔    |    ✔    |         |         |     PySOT     |  official  |
-| 2020 | AAAI | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++) |   ✔   |   ✔   |  ✔   |    ✔    |    ✔    |    ✔    |    ✔    |    ✔    |    ✔    | PySOT&GOT-10k | unofficial |
+| Year | Conf |               Trackers               | Debug | Train | Test |      |      | Data | Set  |      |       |   Toolkit    |   Source   |
+| :--- | :--- | :----------------------------------: | ----- | :---: | :--: | :--: | :--: | :--: | :--: | :--: | :---: | :----------: | :--------: |
+|      |      |                                      |       |       |      | VID  | DET  | COCO | YTB  | GOT  | LaSOT |              |            |
+| 2016 | ECCV |     [SiamFC](./2-SiamFC/SiamFC)      | ✔     |   ✔   |  ✔   |  ✔   |      |      |      |      |       |    got10k    | unofficial |
+|      |      |                                      | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
+|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
+| 2018 | CVPR |    [SiamRPN](./3-SiamRPN/SiamRPN)    | ✔     |   ✔   |  ✔   |  ✔   |      |      |  ✔   |      |       |    got10k    | unofficial |
+|      |      |                                      | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
+|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
+| 2018 | ECCV |      [DaSiamRPN](./4-DaSiamRPN)      | ✔     |       |  ✔   |      |      |      |      |      |       |    pysot     | unofficial |
+|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
+| 2019 | ICCV |      [UpdateNet](./5-UpdateNet)      | ✔     |   ✔   |  ✔   |      |      |      |      |      |   ✔   |    pysot     | unofficial |
+|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
+| 2019 | CVPR |         [SiamDW](./6-SiamDW)         | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |   ✔   |              |  official  |
+|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
+| 2019 | CVPR | [SiamRPNpp](./7-SiamRPNpp/SiamRPNpp) | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     |  unofficial|
+|      |      |                                      | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    pysot     |  unofficial|
+|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
+| 2019 | CVPR |       [SiamMask](./8-SiamMask)       | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     |  official  |
+|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
+| 2020 | AAAI |  [SiamFCpp](./9-SiamFCpp/SiamFCpp)   | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |   ✔   | pysot&got10k | unofficial |
+|      |      |                                      | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       | pysot&got10k | unofficial |
 
 
 - [BiliBili](https://www.bilibili.com/video/BV1Y64y1T7qs/) 
 
-- [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)
+- [Siamese](./1-SiamFace)
 ![image](./image/siamese.png)
 ```
 The implementation of simple face classification based on siamese network.
 ```
 
-- [2016-ECCV-SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC)
+- [2016-ECCV-SiamFC](./2-SiamFC)
 ![image](./image/siamfc.png)
 ```
 Add GOT10K toolkit and optimize the interface. 
@@ -35,7 +46,7 @@ We use the VID data set for training .
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
 
-- [2018-CVPR-SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN)
+- [2018-CVPR-SiamRPN](./3-SiamRPN)
 ![image](./image/siamrpn.png)
 ```
 Add GOT10K toolkit and optimize the interface. 
@@ -44,7 +55,7 @@ We use YTB and VID  data sets for training.
 
 The testing results are slightly lower than the paper(without hyperparameter adjustment). 
 ```
-- [2018-ECCV-DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN)
+- [2018-ECCV-DaSiamRPN](./4-DaSiamRPN)
 ```
 Add PYSOT toolkit and optimize the interface. 
 
@@ -54,7 +65,7 @@ The results of testing are consistent with the paper.
 
 Note that you shound have python3  environment.
 ```
-- [2019-ICCV-UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet)   
+- [2019-ICCV-UpdateNet](./5-UpdateNet)   
 ![image](./image/updatenet.png)
 ```
 Add PYSOT toolkit and optimize the interface. 
@@ -63,12 +74,12 @@ The model is sensitive to learning rate.
 
 Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
 ```
-- [2019-CVPR-SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW)
+- [2019-CVPR-SiamDW](./6-SiamDW)
 ```
 The paper mainly analyzed the impact of padding on the tracking network. 
 ```
-- [2019-CVPR-SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++)
-![image](./image/siamrpn++.png)
+- [2019-CVPR-SiamRPNpp](./7-SiamRPNpp)
+![image](./image/SiamRPNpp.png)
 ```
 Support VScode single-step debugging.
 
@@ -76,9 +87,9 @@ Add test scripts for 4 drone datasets.
 
 Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel.
 
-Train SiamRPN++ AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs ).
+Train SiamRPNpp AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs ).
 ```
-- [2019-CVPR-SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)
+- [2019-CVPR-SiamMask](./8-SiamMask)
 ![image](./image/siammask2.png)
 ```
 Support VScode single-step debugging.
@@ -87,8 +98,8 @@ Support testing and training.
 
 The results of my test are  inconsistent with the author's, please refer to my SiamMask branch.
 ```
-- [2020-AAAI-SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)
-![image](./image/siamfc++.png)
+- [2020-AAAI-SiamFCpp](./9-SiamFCpp)
+![image](./image/SiamFCpp.png)
 ```
 Support VScode single-step debugging.
 
@@ -106,7 +117,7 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 
 Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
 
-|   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPN++ |SiamRPN|SiamFC++ |
+|   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPNpp |SiamRPN|SiamFCpp |
 |:---------:|:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
 |           |       |           |            |         |         |       |        |
 |  Backbone |   -    | AlexNet |  AlexNet(OTB/VOT)  |AlexNet(BIG)    | AlexNet(DW)    |AlexNet(UP)    |AlexNet|
@@ -146,7 +157,7 @@ Due to the limitation of computer configuration, i only choose some high speed  
 
 - **TColor128** [BaiduYun](https://pan.baidu.com/s/1v4J6zWqZwj8fHi5eo5EJvQ) password: 26d4
 
-- **GOT10k** [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds (siamfc-got, siamrpn-got, siamdw, siamfc++)
+- **GOT10k** [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds (SiamFC-GOT, SiamRPN-GOT, SiamDW, SiamFCpp)
 
 - **NFS** [BaiduYun](https://pan.baidu.com/s/1ei54oKNA05iBkoUwXPOB7g) password: vng1
 
@@ -166,23 +177,23 @@ Due to the limitation of computer configuration, i only choose some high speed  
 
 - **VisDrone2019** [BaiduYun](https://pan.baidu.com/s/1Y6ubKHuYX65mK_iDVSfKPQ) password: yxb6 
 
-- **LaSOT** [BaiduYun](https://pan.baidu.com/s/1A_QWSzNdr4G9CR6rZ7n9Mg) password: ygtx   (siamdw, siamfc++)
+- **LaSOT** [BaiduYun](https://pan.baidu.com/s/1A_QWSzNdr4G9CR6rZ7n9Mg) password: ygtx   (SiamDW, SiamFCpp)
 
-- **YTB&VID**  [BaiduYun](https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA) password: 6vkz (siamrpn)
+- **YTB&VID**  [BaiduYun](https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA) password: 6vkz (SiamRPN)
 
-- **ILSVRC2015 VID** [BaiDuYun](https://pan.baidu.com/s/1CXWgpAG4CYpk-WnaUY5mAQ) password: uqzj (siamfc, siamrpn++, siammask, siamdw, siamfc++)
+- **ILSVRC2015 VID** [BaiDuYun](https://pan.baidu.com/s/1CXWgpAG4CYpk-WnaUY5mAQ) password: uqzj (SiamFC, SiamRPNpp, SiamMask, siamdw, SiamFCpp)
 
-- **ILSVRC2015 DET** [BaiDuYun](https://pan.baidu.com/s/1t2IgiYGRu-sdfOYwfeemaQ) password: 6fu7 (siamrpn++, siammask, siamdw, siamfc++)
+- **ILSVRC2015 DET** [BaiDuYun](https://pan.baidu.com/s/1t2IgiYGRu-sdfOYwfeemaQ) password: 6fu7 (SiamRPNpp, SiamMask, SiamDW, SiamFCpp)
 
-- **YTB-Crop511** [BaiduYun](https://pan.baidu.com/s/112zLS_02-Z2ouKGbnPlTjw) password: ebq1 (siamrpn++, siammask, siamdw,siamfc++)
+- **YTB-Crop511** [BaiduYun](https://pan.baidu.com/s/112zLS_02-Z2ouKGbnPlTjw) password: ebq1 (SiamRPNpp, SiamMask, SiamDW,SiamFCpp)
 
-- **COCO** [BaiduYun](https://pan.baidu.com/s/17AMGS2ezLVd8wFI2NbJQ3w) password: ggya  (siamrpn++, siammask, siamdw, siamfc++)
+- **COCO** [BaiduYun](https://pan.baidu.com/s/17AMGS2ezLVd8wFI2NbJQ3w) password: ggya  (SiamRPNpp, SiamMask, SiamDW, SiamFCpp)
 
-- **YTB-VOS** [BaiduYun](https://pan.baidu.com/s/1WMB0q9GJson75QBFVfeH5A) password: sf1m  (siammask)
+- **YTB-VOS** [BaiduYun](https://pan.baidu.com/s/1WMB0q9GJson75QBFVfeH5A) password: sf1m  (SiamMask)
 
-- **DAVIS2017** [BaiduYun](https://pan.baidu.com/s/1JTsumpnkWotEJQE7KQmh6A) password: c9qp (siammask)
+- **DAVIS2017** [BaiduYun](https://pan.baidu.com/s/1JTsumpnkWotEJQE7KQmh6A) password: c9qp (SiamMask)
 
-- **TrackingNet** [BaiduYun](https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw) password: nkb9  (Note that this link is provided by SiamFC++ author) (siamfc++)
+- **TrackingNet** [BaiduYun](https://pan.baidu.com/s/1PXSRAqcw-KMfBIJYUtI4Aw) password: nkb9  (Note that this link is provided by SiamFCpp author) (SiamFCpp)
 
 # Toolkit
 ### Matlab version
@@ -233,15 +244,15 @@ Zhang L, Gonzalez-Garcia A, Weijer J, et al. Learning the Model Update for Siame
 
 Zhang Z, Peng H. Deeper and wider siamese networks for real-time visual tracking. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4591-4600.
 
-[6] SiamRPN++
+[6] SiamRPNpp
 
-Li B, Wu W, Wang Q, et al. Siamrpn++: Evolution of siamese visual tracking with very deep networks.Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4282-4291.
+Li B, Wu W, Wang Q, et al. SiamRPNpp: Evolution of siamese visual tracking with very deep networks.Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4282-4291.
 
 [7] SiamMask
 
 Wang Q, Zhang L, Bertinetto L, et al. Fast online object tracking and segmentation: A unifying approach. Proceedings of the IEEE conference on computer vision and pattern recognition. 2019: 1328-1338.
    
-[8] SiamFC++
+[8] SiamFCpp
 
-Xu Y, Wang Z, Li Z, et al. SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. arXiv preprint arXiv:1911.06188, 2019.
+Xu Y, Wang Z, Li Z, et al. SiamFCpp: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. arXiv preprint arXiv:1911.06188, 2019.
 ```
