@@ -15,6 +15,21 @@
 | 2019 | CVPR| [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask)    |  ✔ |  ✔|  ✔|  pysot| ✔|official| |
  | 2020| AAAI | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++)   | ✔ |  ✔|  ✔|  pysot&got10k| ✔|official|✔|
 
+
+| Year | Conf | Trackers                                                     | Debug | Train | Test | VID  | DET  | COCO | YTB  | GOT  | LaSOT |    Toolkit    |      |   Source   |
+| :--- | :--- | :----------------------------------------------------------- | :---: | :---: | :--: | :--: | ---- | :--: | ---- | :--: | :---: | :-----------: | ---- | :--------: |
+| 2016 | ECCV | [SiamFC](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC) |   ✔   |   ✔   |  ✔   |  ✔   |      |      |      |  ✔   |       |    GOT-10k    |      | unofficial |
+| 2018 | CVPR | [SiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN) |   ✔   |   ✔   |  ✔   |  ✔   |      |      | ✔    |  ✔   |       |    GOT-10k    |      | unofficial |
+| 2018 | ECCV | [DaSiamRPN](https://github.com/HonglinChu/SiamTrackers/tree/master/DaSiamRPN) |   ✔   |       |  ✔   |      |      |  ✔   | ✔    |      |       |     PySOT     |      |  official  |
+| 2019 | ICCV | [UpdateNet](https://github.com/HonglinChu/SiamTrackers/tree/master/UpdateNet) |   ✔   |   ✔   |  ✔   |      |      |      |      |      |   ✔   |     PySOT     |      | unofficial |
+| 2019 | CVPR | [SiamDW](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamDW) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |  ✔   |   ✔   |               |      |  official  |
+| 2019 | CVPR | [SiamRPN++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamRPN++) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |      |       |     PySOT     |      | unofficial |
+| 2019 | CVPR | [SiamMask](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamMask) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |      |       |     PySOT     |      |  official  |
+| 2020 | AAAI | [SiamFC++](https://github.com/HonglinChu/SiamTrackers/tree/master/SiamFC++) |   ✔   |   ✔   |  ✔   |  ✔   | ✔    |  ✔   | ✔    |  ✔   |   ✔   | PySOT&GOT-10k |      | unofficial |
+
+
+
+
 - [BiliBili](https://www.bilibili.com/video/BV1Y64y1T7qs/) 
 
 - [Siamese](https://github.com/HonglinChu/SiamTrackers/tree/master/Siamese)
