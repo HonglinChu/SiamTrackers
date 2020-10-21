@@ -21,11 +21,6 @@
 
 you should download GOT-10k dataset [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds
 
-```
-python bin/create_dataset.py
-
-```
-
 ## Training
 ```bash
 python ./bin/train.py
