@@ -17,15 +17,15 @@
 └── siamfc
 ```
 
-## Data preparation
+## Dataset
 
 you should download GOT-10k dataset [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds
 
-## Training
+## Train
 ```bash
 python ./bin/train.py
 ```
-## Testing
+## Test
 ```bash
 python ./bin/test.py
 ```
