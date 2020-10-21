@@ -1,7 +1,5 @@
 # SiamFC
 
-# SiamFC
-
 ## Description
 
 - [x] Support VSCode debug
