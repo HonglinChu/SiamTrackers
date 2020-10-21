@@ -14,7 +14,7 @@
 |      |      |    [SiamRPN](./3-SiamRPN/SiamRPN-GOT)| ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
 | 2018 | ECCV |      [DaSiamRPN](./4-DaSiamRPN/DaSiamRPN)      | ✔     |       |  ✔   |      |      |      |      |      |       |    pysot     | unofficial |
-|      |      |      [DaSiamRPN](./4-DaSiamRPN/DaSiamRPN-GOT)      |       |       |      |      |      |      |      |      |       |              |            |
+|      |      |      [DaSiamRPN](./4-DaSiamRPN/DaSiamRPN-GOT)  |   ✔   |   ✔    |   ✔   |      |      |      |      |  ✔    |       |  pysot | unofficial   |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
 | 2019 | ICCV |      [UpdateNet](./5-UpdateNet)      | ✔     |   ✔   |  ✔   |      |      |      |      |      |   ✔   |    pysot     | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
