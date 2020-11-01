@@ -155,7 +155,7 @@ Due to the limitation of computer configuration, i only choose some high speed  
 
 # Dataset
 
--  **All json file** [BaiduYun](https://pan.baidu.com/s/1RL1kwdP93fdBVOrPc5y0bQ) parrword: xm5w(provided by [pysot](https://github.com/STVIR/pysot))
+-  **All json files** [BaiduYun](https://pan.baidu.com/s/1RL1kwdP93fdBVOrPc5y0bQ) parrword: xm5w (The json files are provided by [pysot](https://github.com/STVIR/pysot))
 
 - **OTB2015**  [BaiduYun](https://pan.baidu.com/s/1ZjKgRMYSHfR_w3Z7iQEkYA) password: t5i1
 
