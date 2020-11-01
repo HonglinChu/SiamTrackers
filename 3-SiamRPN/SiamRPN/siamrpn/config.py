@@ -10,9 +10,9 @@ class Config:
 
     # training related
     exem_stretch = False
-    ohem_pos = True #原始都是False 训练的时候没有对anchors非极大值抑制，具体参考loss.py函数rpn_cross_entropy_balance（）
-    ohem_neg = True #原始都是False 训练的时候没有对anchors非极大值抑制，具体参考loss.py函数rpn_cross_entropy_balance（）
-    ohem_reg = True #原始都是False 训练的时候没有对anchors非极大值抑制，具体参考loss.py函数rpn_smoothL1（）
+    ohem_pos = False #原始都是False 训练的时候没有对anchors非极大值抑制，具体参考loss.py函数rpn_cross_entropy_balance（）
+    ohem_neg = False #原始都是False 训练的时候没有对anchors非极大值抑制，具体参考loss.py函数rpn_cross_entropy_balance（）
+    ohem_reg = False #原始都是False 训练的时候没有对anchors非极大值抑制，具体参考loss.py函数rpn_smoothL1（）
     fix_former_3_layers = True
     scale_range = (0.001, 0.7)
     ratio_range = (0.1, 10)
