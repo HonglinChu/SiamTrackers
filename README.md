@@ -19,8 +19,8 @@
 |  |  | UpdateNet(DA) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | official |
 |  |  | UpdateNet(DW) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | CVPR |       SiamDW(FC)       | ✔     |   ✔   |  ✔   |      |      |      |      |      |   ✔   | got10k |  unofficial  |
-|  |  | SiamDW(UP) | ✔ | ✔ | ✔ |  |  |  |  |  | ✔ | got10k | unofficial |
+| 2019 | CVPR |       SiamDW(FC)       | ✔     |   ✔   |  ✔   |      |      |      |      |   ✔    |     | got10k |  unofficial  |
+|  |  | SiamDW(UP) | ✔ | ✔ | ✔ |  |  |  |  | ✔  |  | got10k | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
 | 2019 | CVPR | SiamRPNpp(DW) | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     | official |
 |      |      |SiamRPNpp(DW)| ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    pysot     |  unofficial|
