@@ -1,0 +1,11 @@
+lmdb
+torch
+torchvision
+fire
+opencv-python
+panda
+sklearn
+tensorboardX
+visdom
+tqdm
+matplotlib

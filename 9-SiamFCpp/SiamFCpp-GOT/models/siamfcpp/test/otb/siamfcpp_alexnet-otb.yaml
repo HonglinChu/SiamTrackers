@@ -1,0 +1,43 @@
+test:
+  track:
+    exp_name: siamfcpp_alexnet-got-train
+    exp_save: results
+    model:
+      backbone:
+        AlexNet:
+          pretrain_model_path: ''
+        name: AlexNet
+      losses:
+        names: []
+      task_head:
+        DenseboxHead:
+          head_conv_bn:
+          - false
+          - false
+          - true
+          num_conv3x3: 3
+          score_size: 17
+          total_stride: 8
+          x_size: 303
+        name: DenseboxHead 
+      task_model:
+        SiamTrack:
+          pretrain_model_path: 'models/snapshots/siamfcpp_alexnet-got/epoch-11.pkl'
+        name: SiamTrack
+    pipeline:
+      SiamFCppTracker:
+        num_conv3x3: 3
+        penalty_k: 0.05413758904760692 
+        test_lr: 0.5249642198880932 
+        window_influence: 0.23153228172839774 
+        x_size: 303
+      name: SiamFCppTracker
+    tester:
+      OTBTester:
+        device_num: 1
+        exp_name: siamfcpp_alexnet-got-train
+        exp_save: results
+        subsets:
+        - otb2015
+      names:
+      - OTBTester

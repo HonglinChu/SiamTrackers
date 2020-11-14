@@ -1,0 +1,6 @@
+{
+    "editor.fontWeight": "bold",
+    "python.pythonPath": "/chuhonglin/anaconda3/bin/python",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true
+}

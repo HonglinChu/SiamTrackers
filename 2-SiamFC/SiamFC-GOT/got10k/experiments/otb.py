@@ -5,12 +5,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 import json
+from tqdm import tqdm
 from PIL import Image
 
 from ..datasets import OTB
 from ..utils.metrics import rect_iou, center_error
 from ..utils.viz import show_frame
-
 
 class ExperimentOTB(object):
     """Experiment pipeline and evaluation toolkit for OTB dataset.
@@ -41,11 +41,11 @@ class ExperimentOTB(object):
         print('Running tracker %s on %s...' % (tracker.name, type(self.dataset).__name__)) # type(xxx).__name__ 类型的名字
         
         # loop over the complete dataset
-        for s, (img_files, anno) in enumerate(self.dataset):
+        for s, (img_files, anno) in tqdm(enumerate(self.dataset), total=len(self.dataset)):
             
             seq_name = self.dataset.seq_names[s]
     
-            print('--Sequence %d/%d: %s' % (s + 1, len(self.dataset), seq_name))
+            #print('--Sequence %d/%d: %s' % (s + 1, len(self.dataset), seq_name))
             # skip if results exist
             record_file = os.path.join(self.result_dir, tracker.name, '%s.txt' % seq_name)
             # if os.path.exists(record_file):
@@ -131,14 +131,14 @@ class ExperimentOTB(object):
                 'precision_score': prec_score,
                 'success_rate': succ_rate,
                 'speed_fps': avg_speed})
-
+            #print('prec_score:%s --succ_score:%s --succ_rate:%s' % (prec_score,succ_score,succ_rate)) # type(xxx).__name__ 类型的名字
         # report the performance
         with open(report_file, 'w') as f:
             json.dump(performance, f, indent=4)
         # plot precision and success curves
         self.plot_curves(tracker_names)
 
-        return performance
+        return prec_score,succ_score,succ_rate
 
     def show(self, tracker_names, seq_names=None, play_speed=1):
         if seq_names is None:
@@ -152,8 +152,8 @@ class ExperimentOTB(object):
         assert play_speed > 0
 
         for s, seq_name in enumerate(seq_names):
-            print('[%d/%d] Showing results on %s...' % (
-                s + 1, len(seq_names), seq_name))
+            # print('[%d/%d] Showing results on %s...' % (
+            #     s + 1, len(seq_names), seq_name))
             
             # load all tracking results
             records = {}
@@ -265,7 +265,7 @@ class ExperimentOTB(object):
         ax.grid(True)
         fig.tight_layout()
         
-        print('Saving success plots to', succ_file)
+        #print('Saving success plots to', succ_file)
         fig.savefig(succ_file,
                     bbox_extra_artists=(legend,),
                     bbox_inches='tight',
@@ -300,5 +300,5 @@ class ExperimentOTB(object):
         ax.grid(True)
         fig.tight_layout()
         
-        print('Saving precision plots to', prec_file)
+        #print('Saving precision plots to', prec_file)
         fig.savefig(prec_file, dpi=300)

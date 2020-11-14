@@ -1,0 +1,41 @@
+test:
+  track:
+    exp_name: &TEST_NAME "siamfcpp_googlenet_multi_temp"
+    exp_save: &TEST_SAVE "logs"
+    model:
+      backbone:
+        name: "Inception3"
+        Inception3:
+          crop_pad: 4
+          pruned: True
+      losses:
+        names: []
+      task_head:
+        name: "DenseboxHead"
+        DenseboxHead:
+          total_stride: 8
+          score_size: 19
+          x_size: 303
+          num_conv3x3: 2
+          head_conv_bn: [False, False]
+      task_model:
+        name: "SiamTrack"
+        SiamTrack:
+          pretrain_model_path: "models/pretrained_models/siamfcpp-googlenet-vot-md5_f2680ba074213ee39d82fcb84533a1a6.pkl"
+    pipeline:
+      name: "SiamFCppMultiTempTracker"
+      SiamFCppMultiTempTracker:
+        test_lr: 0.52
+        window_influence: 0.21
+        penalty_k: 0.04
+        num_conv3x3: 2
+        mem_step: 5
+        mem_len: 4
+        mem_coef: 0.4
+    tester:
+      names: ["VOTTester",]
+      VOTTester:
+        exp_name: *TEST_NAME
+        exp_save: *TEST_SAVE
+        device_num: 1
+        dataset_names: ["VOT2018"]

@@ -1,0 +1,241 @@
+test:
+  track:
+    exp_name: &TEST_NAME "siamfcpp_googlenet-fulldata-dist"
+    exp_save: &TEST_SAVE "logs"
+    model:
+      backbone:
+        name: "Inception3"
+        Inception3:
+          pretrain_model_path: ""
+          crop_pad: 4
+          pruned: True
+      losses:
+        names: []
+      task_head:
+        name: "DenseboxHead"
+        DenseboxHead:
+          total_stride: 8
+          score_size: 19
+          x_size: 303
+          num_conv3x3: 2
+          head_conv_bn: [False, False]
+      task_model:
+        name: "SiamTrack"
+        SiamTrack:
+          pretrain_model_path: "snapshots/siamfcpp_googlenet-fulldata-dist/epoch-19.pkl"
+    pipeline:
+      name: "SiamFCppTracker"
+      SiamFCppTracker:
+        test_lr: 0.52
+        window_influence: 0.21
+        penalty_k: 0.04
+        num_conv3x3: 2
+    tester:
+      names: ["VOTTester",] # (VOTTester|GOT10kTester|LaSOTTester)
+      VOTTester:
+        exp_name: *TEST_NAME
+        exp_save: *TEST_SAVE
+        device_num: 1
+        dataset_names: ["VOT2018"]
+      GOT10kTester:
+        exp_name: *TEST_NAME
+        exp_save: *TEST_SAVE
+        subsets: ["val", "test"]  # (val|test)
+      LaSOTTester:
+        exp_name: *TEST_NAME
+        exp_save: *TEST_SAVE
+        subsets: ["test"]  # (train_test|test)
+train:
+  track:
+    exp_name: &TRAIN_NAME "siamfcpp_googlenet-fulldata-dist"
+    exp_save: &TRAIN_SAVE "snapshots"
+    num_processes: 4
+    model:
+      backbone:
+        name: "Inception3"
+        Inception3:
+          crop_pad: 4
+          pruned: True
+          pretrain_model_path: "models/googlenet/inception_v3_google-1a9a5a14-961cad7697695cca7d9ca4814b17a88d.pth"
+      losses:
+        names: ["SigmoidCrossEntropyRetina",
+                "SigmoidCrossEntropyCenterness",
+                "IOULoss",]
+        SigmoidCrossEntropyRetina:
+          name: "cls"
+          weight: 1.0
+          alpha: 0.75
+          gamma: 2.0
+        SigmoidCrossEntropyCenterness:
+          name: "ctr"
+          weight: 1.0
+        IOULoss:
+          name: "reg"
+          weight: 3.0
+      task_head:
+        name: "DenseboxHead"
+        DenseboxHead:
+          total_stride: 8
+          score_size: 17
+          x_size: 289
+          num_conv3x3: 2
+          head_conv_bn: [False, False]
+      task_model:
+        name: "SiamTrack"
+        SiamTrack:
+          pretrain_model_path: ""
+# ==================================================
+    data:
+      exp_name: *TRAIN_NAME
+      exp_save: *TRAIN_SAVE
+      num_epochs: &NUM_EPOCHS 20
+      minibatch: &MINIBATCH 128
+      num_workers: 16 # 32
+      nr_image_per_epoch: &NR_IMAGE_PER_EPOCH 150000
+      pin_memory: false
+      datapipeline:
+        name: "RegularDatapipeline"
+      sampler:
+        name: "TrackPairSampler"
+        TrackPairSampler:
+          negative_pair_ratio: 0.33
+        submodules:
+          dataset:
+            names: [
+              "TrackingNetDataset",
+              "COCODataset", 
+              "GOT10kDataset", 
+              "DETDataset", 
+              "VIDDataset", 
+              "LaSOTDataset", 
+              ]
+            GOT10kDataset: &GOT10KDATASET_CFG
+              ratio: 0.2
+              max_diff: 100
+              dataset_root: "datasets/GOT-10k"
+              subset: "train"
+            GOT10kDatasetFixed: *GOT10KDATASET_CFG  # got10k dataset with exclusion of unfixed sequences
+            LaSOTDataset:
+              ratio: 0.3
+              max_diff: 100
+              dataset_root: "datasets/LaSOT"
+              subset: "train_test"
+              check_integrity: false
+            VIDDataset:
+              ratio: 0.2
+              max_diff: 100
+              dataset_root: "datasets/ILSVRC2015"
+              subset: "train_val"
+            COCODataset:
+              ratio: 0.07
+              dataset_root: "datasets/COCO"
+              subsets: ["train2017",]
+            DETDataset:
+              ratio: 0.08
+              dataset_root: "datasets/ILSVRC2015"
+              subset: "train"
+            TrackingNetDataset:
+              ratio: 0.65 # set to 0.65 if all chunks are available
+              max_diff: 100
+              dataset_root: "datasets/TrackingNet"
+              subset: "train" # "train"
+              check_integrity: false  # no need to check integrity for visualization purpose
+          filter:
+            name: "TrackPairFilter"
+            TrackPairFilter:
+              max_area_rate: 0.6
+              min_area_rate: 0.001
+              max_ratio: 10
+      transformer:
+        names: ["RandomCropTransformer", ]
+        RandomCropTransformer:
+          max_scale: 0.3
+          max_shift: 0.4
+          x_size: 289
+      target:
+        name: "DenseboxTarget"
+        DenseboxTarget:
+          total_stride: 8
+          score_size: 17
+          x_size: 289
+          num_conv3x3: 2
+    trainer:
+      name: "DistributedRegularTrainer"
+      DistributedRegularTrainer:
+        exp_name: *TRAIN_NAME
+        exp_save: *TRAIN_SAVE
+        max_epoch: *NUM_EPOCHS
+        minibatch: *MINIBATCH
+        nr_image_per_epoch: *NR_IMAGE_PER_EPOCH
+        snapshot: ""
+      monitors:
+        names: ["TextInfo"]  # "TensorboardLogger"
+        TextInfo:
+          {}
+        TensorboardLogger:
+          exp_name: *TRAIN_NAME
+          exp_save: *TRAIN_SAVE
+
+# ==================================================
+    optim:
+      optimizer:
+        name: "SGD"
+        SGD:
+          # to adjust learning rate, please modify "start_lr" and "end_lr" in lr_policy module bellow
+          momentum: 0.9
+          weight_decay: 0.0001
+          minibatch: *MINIBATCH
+          nr_image_per_epoch: *NR_IMAGE_PER_EPOCH
+          lr_policy:
+          - >
+            {
+            "name": "LinearLR",
+            "start_lr": 0.000001,
+            "end_lr": 0.08,
+            "max_epoch": 1
+            }
+          - >
+            {
+            "name": "CosineLR",
+            "start_lr": 0.08,
+            "end_lr": 0.000001,
+            "max_epoch": 19
+            }
+          lr_multiplier:
+          - >
+            {
+            "name": "backbone",
+            "regex": "basemodel",
+            "ratio": 0.1
+            }
+          - >
+            {
+            "name": "other",
+            "regex": "^((?!basemodel).)*$",
+            "ratio": 1
+            }
+      grad_modifier:
+        name: "DynamicFreezer"
+        DynamicFreezer:
+          schedule:
+          - >
+            {
+            "name": "isConv",
+            "regex": "basemodel.*\\.conv\\.",
+            "epoch": 0,
+            "freezed": true
+            }
+          - >
+            {
+            "name": "isConvStage4",
+            "regex": "basemodel\\.Mixed_6.*\\.conv\\.",
+            "epoch": 10,
+            "freezed": false
+            }
+          - >
+            {
+            "name": "isConvStage3",
+            "regex": "basemodel\\.Mixed_5.*\\.conv\\.",
+            "epoch": 10,
+            "freezed": false
+            }

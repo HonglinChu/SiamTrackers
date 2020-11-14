@@ -1,0 +1,10 @@
+.*
+*.py[cod]
+*.log
+__pycache__/
+results/
+reports/
+cache/
+pretrained/
+checkpoints/
+!.gitignore
