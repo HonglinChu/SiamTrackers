@@ -7,27 +7,34 @@
 | Year | Conf |               Trackers               | Debug | Train | Test |      |      | Data | Set  |      |       |   Toolkit    |   Source   |
 | :--- | :--- | :----------------------------------: | ----- | :---: | :--: | :--: | :--: | :--: | :--: | :--: | :---: | :----------: | :--------: |
 |      |      |                                      |       |       |      | VID  | DET  | COCO | YTB  | GOT  | LaSOT |              |            |
-| 2016 | ECCV |     [SiamFC](./2-SiamFC/SiamFC)      | ✔     |   ✔   |  ✔   |  ✔   |      |      |      |      |       |    got10k    | unofficial |
-|      |      | [SiamFC](./2-SiamFC/SiamFC-GOT)      | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
+| 2016 | ECCV |     SiamFC      | ✔     |   ✔   |  ✔   |  ✔   |      |      |      |      |       |    got10k    | unofficial |
+|      |      | SiamFC      | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2018 | CVPR |    [SiamRPN](./3-SiamRPN/SiamRPN)    | ✔     |   ✔   |  ✔   |  ✔   |      |      |  ✔   |      |       |    got10k    | unofficial |
-|      |      |    [SiamRPN](./3-SiamRPN/SiamRPN-GOT)| ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
+| 2018 | CVPR |    SiamRPN   | ✔     |   ✔   |  ✔   |  ✔   |      |      |  ✔   |      |       |    got10k    | unofficial |
+|      |      | SiamRPN | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2018 | ECCV |      [DaSiamRPN](./4-DaSiamRPN/DaSiamRPN)      | ✔     |       |  ✔   |      |      |      |      |      |       |    pysot     | unofficial |
-|      |      |      [DaSiamRPN](./4-DaSiamRPN/DaSiamRPN-GOT)  |   ✔   |   ✔    |   ✔   |      |      |      |      |  ✔    |       |  pysot | unofficial   |
+| 2018 | ECCV |      DaSiamRPN     | ✔     |       |  ✔   | ✔ | ✔ | ✔ | ✔ |      |       |    pysot     | official |
+|      |      |      DaSiamRPN  |   ✔   |   ✔    |   ✔   |      |      |      |      |  ✔    |       |  pysot | unofficial   |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | ICCV |      [UpdateNet](./5-UpdateNet)      | ✔     |   ✔   |  ✔   |      |      |      |      |      |   ✔   |    pysot     | unofficial |
+| 2019 | ICCV |     UpdateNet(FC)     | ✔     |   ✔   |  ✔   |      |      |      |      |      |   ✔   |    pysot     | unofficial |
+|  |  | UpdateNet(UP) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | unofficial |
+|  |  | UpdateNet(DA) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | official |
+|  |  | UpdateNet(DW) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | CVPR |         [SiamDW](./6-SiamDW)         | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |   ✔   |              |  official  |
+| 2019 | CVPR |       SiamDW(FC)       | ✔     |   ✔   |  ✔   |      |      |      |      |      |   ✔   | got10k |  unofficial  |
+|  |  | SiamDW(UP) | ✔ | ✔ | ✔ |  |  |  |  |  | ✔ | got10k | unofficial |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | CVPR | [SiamRPNpp](./7-SiamRPNpp/SiamRPNpp) | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     |  unofficial|
-|      |      |[SiamRPNpp](./7-SiamRPNpp/SiamRPNpp-GOT)| ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    pysot     |  unofficial|
+| 2019 | CVPR | SiamRPNpp(DW) | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     | official |
+|      |      |SiamRPNpp(DW)| ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    pysot     |  unofficial|
+| | |SiamRPNpp(UP)| ✔ | ✔ | ✔ | | | | | ✔ | | pysot | unofficial |
+| | |SiamRPNpp(DA)| ✔ | ✔ | ✔ | | | | | ✔ | | pysot | unofficial |
+| | |SiamRPNpp(ResNet)| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  | | pysot | official |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | CVPR |       [SiamMask](./8-SiamMask)       | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     |  official  |
+| 2019 | CVPR |       SiamMask      | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     |  official  |
 |      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2020 | AAAI |  [SiamFCpp](./9-SiamFCpp/SiamFCpp)   | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |   ✔   | pysot&got10k | unofficial |
-|      |      | [SiamFCpp](./9-SiamFCpp/SiamFCpp-GOT)| ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       | pysot&got10k | unofficial |
-
+| 2020 | AAAI |  SiamFCpp | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |   ✔   | pysot&got10k | official |
+|      |      | SiamFCpp | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       | pysot&got10k | unofficial |
+| | | SiamFCpp(GoogleNet) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | pysot&got10k | official |
 
 - [BiliBili](https://www.bilibili.com/video/BV1Y64y1T7qs/) 
 
@@ -119,39 +126,40 @@ Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 
 
 Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
 
-|   Trackers|       | SiamFC   | DaSiamRPN   |DaSiamRPN | SiamRPNpp |SiamRPN|SiamFCpp |
-|:------------:|:-----:|:--------:| :------:    |:------:  |:------:   |:------: |:------:|
-|           |       |           |            |         |         |       |        |
-|  Backbone |   -    | AlexNet |  AlexNet(OTB/VOT)  |AlexNet(BIG)    | AlexNet(DW)    |AlexNet(UP)    |AlexNet|
-|     FPS   |     |   85   |   >120         |   >120 |    >120      |    >120       |    >120     |
-|           |       |           |            |         |         |       |        |
-| OTB100    |  AUC   |  0.570    |   0.655   |  0.646   |   0.648  | 0.637  | **0.680**    |
-|           |  DP   |   0.767    |   0.880   |  0.859   |  0.853   |0.851   | **0.884**   |
-|           |     |           |            |         |         |       |        |
-| UAV123    |  AUC  |   0.504    |   0.586   |  0.604   |  0.578   |0.527   |  **0.623**    |
-|           |  DP   |    0.702   |   0.796   | **0.801**    |  0.769   |0.748   |  0.781   |
-|           |     |           |            |         |         |       |        |
-| UAV20L    |  AUC  |  0.410     |         |   0.524  |  **0.530**   |0.454   |  0.516  |
-|           |  DP   |   0.566    |         | **0.691**   |  0.695   |0.617   |  0.613   |
-|           |     |           |            |         |         |       |        |
-| DTB70     |  AUC  |    0.487   |          |  0.554|   0.588  |        | **0.639**   |
-|           |  DP   |    0.735   |         |   0.766|   0.797  |        |  **0.826**   |
-|           |       |           |            |         |         |       |        |
-| UAVDT     |  AUC  |   0.451 |           |  0.593  |  0.566   |       |  **0.632**    |
-|           | DP    |   0.710 |           |  0.836  |  0.793   |       |   **0.846**   |
-|           |     |           |            |         |         |       |        |
-| VisDrone-Train  | AUC   |    0.510|           |   0.547 |  0.572   |       |  **0.588**    |
-|           |  DP   |    0.698|           |   0.722 |   0.764  |       |  **0.784**    |
-|           |     |           |            |         |         |       |        |
-| VOT2016   |  A  |   0.538    |  0.61      |  0.625   |  0.618   |0.56    |  **0.626**    |
-|           | R     |    0.424   |  0.22      |  0.224   |  0.238   |0.26    |   **0.144**   |
-|           | E     |    0.262   |  0.411     |  0.439   |  0.393   | 0.344  |  **0.460**    |
-|           |Lost   |    91      |           |  48      |  51      |       |    31  |
-|           |     |           |            |         |         |       |        |
-| VOT2018   | A     |     0.501  |   0.56     |  **0.586**   | 0.576    |0.49    | 0.577   |
-|           |  R    |    0.534   |   0.34     |  0.276   |  0.290   |0.46    | **0.183**   |
-|           | E     |    0.223   |   0.326    | 0.383    |  0.352   |0.244   | **0.385**   |
-|           | Lost  |   114      |           |  59      |   62       |       |   39     |
+|   Trackers|       | SiamFC   | SiamRPN | SiamRPN | DaSiamRPN |DaSiamRPN | SiamRPNpp | SiamRPNpp | SiamRPNpp | SiamRPNpp | SiamFCpp |SiamFCpp |
+|:------------:|:-----:|:--------:   | :------:    |:------:  |:------: |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| Train Set |       | GOT | official | GOT | official | official | official | GOT | GOT | GOT | GOT | official |
+|  Backbone |  | Group | AlexNet | AlexNet |  AlexNet  |    DA     | DW    | DW  | UP | DA | AlexNet |AlexNet|
+|     FPS   |     |   85   |   >120   |   >120   |   >120        |   >120 |    >120      |    >120  |    >120  | >120  | >120 |    >120 |
+|           |       |           |           |           |            |         |         |         |         |         |         |        |
+| OTB100    |  AUC   |  0.589  | 0.637 | 0.603 |   0.655   |  0.646   |   0.648  |  0.623  |  0.619  |  0.634  |  0.629  | **0.680**    |
+|           |  DP   |   0.794   | 0.851 | 0.820 |   0.880   |  0.859   |  0.853   |  0.837  |  0.823  |  0.846  |  0.830  | **0.884**   |
+|           |     |           |           |           |            |         |         |         |         |         |         |        |
+| UAV123    |  AUC  |   0.504    | 0.527 |  |   0.586   |  0.604   |  0.578   |     |     |     |     |  **0.623**    |
+|           |  DP   |    0.702   | 0.748   |    |   0.796   | **0.801**    |  0.769   |     |     |     |     |  0.781   |
+|           |     |           |           |           |            |         |         |         |         |         |         |        |
+| UAV20L    |  AUC  |  0.410     | 0.454 |  |         |   0.524  |  **0.530**   |     |     |     |     |  0.516  |
+|           |  DP   |   0.566    | 0.617 |  |         | **0.691**   |  0.695   |     |     |     |     |  0.613   |
+|           |     |           |           |           |            |         |         |         |         |         |         |        |
+| DTB70     |  AUC  |    0.487   |       |       |          |  0.554|   0.588  |     |     |     |     | **0.639**   |
+|           |  DP   |    0.735   |       |       |         |   0.766|   0.797  |     |     |     |     |  **0.826**   |
+|           |       |           |           |           |            |         |         |         |         |         |         |        |
+| UAVDT     |  AUC  |   0.451 |    |    |           |  0.593  |  0.566   |     |     |     |     |  **0.632**    |
+|           | DP    |   0.710 |    |    |           |  0.836  |  0.793   |     |     |     |     |   **0.846**   |
+|           |     |           |           |           |            |         |         |         |         |         |         |        |
+| VisDrone-Train  | AUC   |    0.510|    |    |           |   0.547 |  0.572   |     |     |     |     |  **0.588**    |
+|           |  DP   |    0.698|    |    |           |   0.722 |   0.764  |     |     |     |     |  **0.784**    |
+|           |     |           |           |           |            |         |         |         |         |         |         |        |
+| VOT2016   |  A  |   0.538    |  0.56 |   |  0.61      |  0.625   |  0.618   | 0.582 |     |     | 0.612 |  **0.626**    |
+|           | R     |    0.424   | 0.26   |    |  0.22      |  0.224   |  0.238   | 0.266 |     |     | 0.266 |   **0.144**   |
+|           | E     |    0.262   | 0.344   |    |  0.411     |  0.439   |  0.393   | 0.372 |     |     | 0.357 |  **0.460**    |
+|           |Lost   |    91      |          |          |           |  48      |  51      | 57 |        |        | 57 |    31  |
+|           |     |           |           |           |            |         |         |         |         |         |         |        |
+| VOT2018   | A     |     0.501  | 0.49  |   |   0.56     |  **0.586**   | 0.576    | 0.563 | 0.555/0.562 | 0.557 | 0.584 | 0.577   |
+|           |  R    |    0.534   | 0.46   |    |   0.34     |  0.276   |  0.290   |  0.375  |  0.384/0.398  |  0.412  | 0.342 | **0.183**   |
+|           | E     |    0.223   | 0.244   |    |   0.326    | 0.383    |  0.352   |  0.300  |  0.292/0.292  |  0.275  | 0.308 | **0.385**   |
+|           | Lost  |   114      |         |         |           |  59      |   62       |   80     |   82/85   |   88   | 73 |   39     |
+
 
 # Dataset
 
