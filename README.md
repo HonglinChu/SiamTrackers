@@ -1,4 +1,4 @@
-# SiamTrackers
+# [SiamTrackers](https://www.bilibili.com/video/BV1pt4y1e7PY/?spm_id_from=333.788.recommend_more_video.8) 
 
 ![image](./image/new_siamtrackers.png)
 
@@ -36,7 +36,7 @@
 |      |      | SiamFCpp | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       | pysot&got10k | unofficial |
 | | | SiamFCpp(GoogleNet) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | pysot&got10k | official |
 
-- [BiliBili](https://www.bilibili.com/video/BV1Y64y1T7qs/) 
+- [BiliBili](https://www.bilibili.com/video/BV1pt4y1e7PY/?spm_id_from=333.788.recommend_more_video.8) 
 
 - [SiamFace](./1-SiamFace)
 ![image](./image/siamese.png)
