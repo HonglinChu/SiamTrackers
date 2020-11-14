@@ -1,6 +1,6 @@
 # SiamTrackers
 
-![image](./image/siamtrackers2.png)
+![image](./image/new_siamtrackers.png)
 
 # Description
 
