@@ -105,7 +105,7 @@ Support testing and training.
 The results of my test are  inconsistent with the author's, please refer to my SiamMask branch.
 ```
 - [2020-AAAI-SiamFCpp](./9-SiamFCpp)
-![image](./image/SiamFCpp.png)
+![image](./image/siamfc++.png)
 ```
 Support VScode single-step debugging.
 
