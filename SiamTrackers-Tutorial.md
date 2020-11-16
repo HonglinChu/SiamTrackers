@@ -1,7 +1,7 @@
 # VSCode
 ## 1 Install 
 
-    Download ubuntu from   https://code.visualstudio.com/Download
+    Download ubuntu version from   https://code.visualstudio.com/Download
     
     sudo dpkg -i  xxx.deb  
 
