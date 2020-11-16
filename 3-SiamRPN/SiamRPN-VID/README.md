@@ -25,11 +25,11 @@ python bin/create_lmdb.py
 ```
 ## Train
 ```bash
-python bin/train_siamrpn.py 
+python bin/my_train.py 
 ```
 ## Test
 ```bash
-python bin/test_siamrpn.py 
+python bin/my_test.py 
 ```
 
 ## Model
