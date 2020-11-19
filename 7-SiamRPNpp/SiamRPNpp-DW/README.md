@@ -4,15 +4,25 @@
 
 [Official Code](https://github.com/STVIR/pysot) (Recommend)
 
-The project are too big to upload, please refer to my follow files to modify the official code to achieve single-step debugging ,testing and  multi-GPU training on single CPU.
+## Compile
 ```
-./bin/my_demo.py
-
-./bin/my_test.py
-
-./bin/my_train.py
-
-./bin/my_eval.py
+cd  /home/xxx/xxx/SiamTrackers-master/7-SiamRPNpp/SiamRPNpp-DW 
+python setup.py build_ext —-inplace
+```
+## Train
+```
+cd  /home/xxx/xxx/SiamTrackers-master/7-SiamRPNpp/SiamRPNpp-DW 
+python ./bin/my_train.py
+```
+## Test
+```
+cd  /home/xxx/xxx/SiamTrackers-master/7-SiamRPNpp/SiamRPNpp-DW 
+python ./bin/my_test.py
+```
+## Eval
+```
+cd  /home/xxx/xxx/SiamTrackers-master/7-SiamRPNpp/SiamRPNpp-DW 
+python ./bin/my_eval.py
 ```
 ## Model 
 
