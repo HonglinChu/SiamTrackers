@@ -12,14 +12,17 @@
 
 ## Compile
 ```
+cd  /home/xxx/xxx/SiamTrackers-master/9-SiamFCpp/SiamFCpp-GOT 
 sh compile.sh
 ```
 ## Test
 ```
+cd  /home/xxx/xxx/SiamTrackers-master/9-SiamFCpp/SiamFCpp-GOT 
 python ./bin/my_test.py
 ```
 ## Train
 ```
+cd  /home/xxx/xxx/SiamTrackers-master/9-SiamFCpp/SiamFCpp-GOT 
 python ./bin/my_train.py
 ```
 
