@@ -3,9 +3,6 @@
 ## Description
 [Official Code](https://github.com/MegviiDetection/video_analyst) (Recommend)
 
-## SiamFC++
-
-
 ## SOT 
  [Official Guide](https://github.com/MegviiDetection/video_analyst)
 * [SOT_SETUP.md](docs/TUTORIALS/SOT_SETUP.md): instructions for setting-up
