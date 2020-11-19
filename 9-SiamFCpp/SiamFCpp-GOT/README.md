@@ -5,7 +5,6 @@
 
 ## SiamFC++
 
-If you download our code, you need download 2  other files("models" , "snapshots") from [BaiDuYun](https://pan.baidu.com/s/1UELKI7DNFCjQ-BM9ebL5_w) password: 7qt8 , and put them into the project.
 
 ## SOT 
  [Official Guide](https://github.com/MegviiDetection/video_analyst)
@@ -26,6 +25,10 @@ python ./bin/my_test.py
 ```
 python ./bin/my_train.py
 ```
+
+## Model
+
+[BaiduYun](https://pan.baidu.com/s/1AnMZm-9gH-fxOuqCrRxkrw) password: q8ma
 
 ## Dataset
 
