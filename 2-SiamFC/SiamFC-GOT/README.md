@@ -8,25 +8,20 @@
 
 - [x] Support 9 datasets evaluation
 
-## File Tree
+## Train
+```bash
+cd  /home/xxx/xxx/SiamTrackers-master/2-SiamFC/SiamFC-GOT 
+python ./bin/train.py
 ```
-├── bin
-├── got10k
-└── siamfc
+## Test
+```bash
+cd  /home/xxx/xxx/SiamTrackers-master/2-SiamFC/SiamFC-GOT 
+python ./bin/test.py
 ```
 
 ## Dataset
 
 you should download GOT-10k dataset [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds
-
-## Train
-```bash
-python ./bin/train.py
-```
-## Test
-```bash
-python ./bin/test.py
-```
 
 ## Model
 
