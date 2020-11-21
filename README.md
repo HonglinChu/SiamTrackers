@@ -234,7 +234,16 @@ You can scan the following QR code to join the SiamTrackers group. Let's communi
 
 
 # Reference
+
 ```
+https://github.com/foolwood
+
+https://github.com/huanglianghua
+
+https://github.com/STVIR/pysot
+
+https://github.com/MegviiDetection/video_analyst
+
 [1] SiamFC
 
 Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking.European conference on computer vision. Springer, Cham, 2016: 850-865.
