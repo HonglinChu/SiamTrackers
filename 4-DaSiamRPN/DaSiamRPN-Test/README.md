@@ -33,8 +33,9 @@ python ./bin/my_eval.py
 [SiamRPNBIG.model](https://pan.baidu.com/s/1D-8Ke0xnTUiNtbCIegKfjg) password: 3p53 
 
 ## Reference
+
+[Wang Qiang](https://github.com/foolwood/DaSiamRPN)
+
 ```
 [1] Zhu Z, Wang Q, Li B, et al. Distractor-aware siamese networks for visual object tracking.Proceedings of the European Conference on Computer Vision (ECCV). 2018: 101-117.
-
-[2] https://github.com/foolwood/DaSiamRPN
 ```
