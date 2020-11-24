@@ -128,7 +128,7 @@ Due to the limitation of computer configuration, i only choose some high speed  
 |   Trackers|       | SiamFC   | SiamRPN | SiamRPN | DaSiamRPN |DaSiamRPN | SiamRPNpp | SiamRPNpp | SiamRPNpp | SiamRPNpp | SiamFCpp |SiamFCpp |
 |:------------:|:-----:|:--------:   | :------:    |:------:  |:------: |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | Train Set |       | GOT | official | GOT | official | official | official | GOT | GOT | GOT | GOT | official |
-|  Backbone |  | Group | AlexNet | AlexNet |  AlexNet  |    DA     | DW    | DW  | UP | DA | AlexNet |AlexNet|
+|  Backbone |  | AlexNet | AlexNet | AlexNet |  AlexNet  |    AlexNet-DA     | AlexNet-DW    | AlexNet-DW  | AlexNet-UP | AlexNet-DA | AlexNet |AlexNet|
 |     FPS   |     |   85   |   >120   |   >120   |   >120        |   >120 |    >120      |    >120  |    >120  | >120  | >120 |    >120 |
 |           |       |           |           |           |            |         |         |         |         |         |         |        |
 | OTB100    |  AUC   |  0.589  | 0.637 | 0.603 |   0.655   |  0.646   |   0.648  |  0.623  |  0.619  |  0.634  |  0.629  | **0.680**    |
