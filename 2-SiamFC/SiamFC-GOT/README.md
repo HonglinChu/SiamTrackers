@@ -34,13 +34,12 @@ you should download GOT-10k dataset [BaiduYun](https://pan.baidu.com/s/172oiQPA_
 | Precision Score     | 0.767           |  0.735         |0.566|0.702|0.710|
 
 ## Reference
-```bash
+
+[Huang Lianghua](https://github.com/huanglianghua/siamfc-pytorch)
+```
 
 [1] Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking. European conference on computer vision. Springer, Cham, 2016: 850-865.
 		
-[2] https://github.com/StrangerZhang/SiamFC-PyTorch (The results of siamfc with VID dataset)    
-
-[3] https://github.com/huanglianghua/siamfc-pytorch (Recommend!!! The  results of siamfc with GOT dataset are better than official )
 ```
 
 
