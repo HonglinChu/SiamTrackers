@@ -91,8 +91,7 @@ python ./bin/my_train.py
 |           | Lost  |   114      |          59      |   62           |   39     |
 
 ## Reference
+[Megvii](https://github.com/MegviiDetection/video_analyst)
 ```
 [1] Xu Y, Wang Z, Li Z, et al. SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. arXiv preprint arXiv:1911.06188, 2019.
-
-[2] https://github.com/MegviiDetection/video_analyst
 ```
