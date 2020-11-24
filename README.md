@@ -36,7 +36,7 @@
 | | | SiamFCpp(GoogleNet) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | pysot&got10k | official |
 
 - [哔哩哔哩](https://www.bilibili.com/video/BV1pt4y1e7PY/?spm_id_from=333.788.recommend_more_video.8) 
-
+- [使用教程](./SiamTrackers-Tutorial.md)
 - [SiamFace](./1-SiamFace)
 ![image](./image/siamese.png)
 ```
@@ -159,18 +159,11 @@ Due to the limitation of computer configuration, i only choose some high speed  
 |           | E     |    0.223   | 0.244   |    |   0.326    | 0.383    |  0.352   |  0.300  |  0.292  |  0.275  | 0.308 | **0.385**   |
 |           | Lost  |   114      |         |         |           |  59      |   62       |   80     |   82   |   88   | 73 |   39     |
 
-
 # Dataset
 
 -  **All json files** [BaiduYun](https://pan.baidu.com/s/1RL1kwdP93fdBVOrPc5y0bQ) parrword: xm5w (The json files are provided by [pysot](https://github.com/STVIR/pysot))
 
 - **OTB2015**  [BaiduYun](https://pan.baidu.com/s/1ZjKgRMYSHfR_w3Z7iQEkYA) password: t5i1
-
-- **TColor128** [BaiduYun](https://pan.baidu.com/s/1v4J6zWqZwj8fHi5eo5EJvQ) password: 26d4
-
-- **GOT10k** [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds (SiamFC-GOT, SiamRPN-GOT, SiamDW, SiamFCpp)
-
-- **NFS** [BaiduYun](https://pan.baidu.com/s/1ei54oKNA05iBkoUwXPOB7g) password: vng1
 
 - **VOT2016** [BaiduYun](https://pan.baidu.com/s/1ihsivizX62WhsKBFxwu84w) password: v7vq 
 
@@ -187,6 +180,12 @@ Due to the limitation of computer configuration, i only choose some high speed  
 - **UAVDT** [BaiduYun](https://pan.baidu.com/s/1K8oo53mPYCxUFVMXIGLhVA) password: keva
 
 - **VisDrone2019** [BaiduYun](https://pan.baidu.com/s/1Y6ubKHuYX65mK_iDVSfKPQ) password: yxb6 
+
+- **TColor128** [BaiduYun](https://pan.baidu.com/s/1v4J6zWqZwj8fHi5eo5EJvQ) password: 26d4
+
+- **NFS** [BaiduYun](https://pan.baidu.com/s/1ei54oKNA05iBkoUwXPOB7g) password: vng1
+
+- **GOT10k** [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds (SiamFC-GOT, SiamRPN-GOT, SiamDW, SiamFCpp)
 
 - **LaSOT** [BaiduYun](https://pan.baidu.com/s/1A_QWSzNdr4G9CR6rZ7n9Mg) password: ygtx   (SiamDW, SiamFCpp)
 
@@ -227,23 +226,9 @@ Due to the limitation of computer configuration, i only choose some high speed  
 
 [BaiduYun](https://pan.baidu.com/s/1nyXMesdAUHzdSQkM88AvWQ) password: fukj
 
- # :star2:Welcome To Join Us! :star2:
-
-You can scan the following QR code to join the SiamTrackers group. Let's communicate and make progress together! 
-![image](./image/wx.png)
-
-
 # Reference
 
 ```
-https://github.com/foolwood
-
-https://github.com/huanglianghua
-
-https://github.com/STVIR/pysot
-
-https://github.com/MegviiDetection/video_analyst
-
 [1] SiamFC
 
 Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking.European conference on computer vision. Springer, Cham, 2016: 850-865.
