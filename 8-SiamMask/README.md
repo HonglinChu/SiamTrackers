@@ -27,9 +27,9 @@ My experiment results on VOT2016 and VOT2018
 | SiamMask-LD  |    | 0.456    |   0.622     |    0.244  |          | 0.421     | 0.598  | 0.234|
 
 ## Reference
+
+[Wang Qiang](https://github.com/foolwood/SiamMask)
 ```
 [1] Wang Q, Zhang L, Bertinetto L, et al. Fast online object tracking and segmentation: A unifying approach. Proceedings of the IEEE conference on computer vision and pattern recognition. 2019: 1328-1338.
-
-[2] https://github.com/foolwood/SiamMask
 
 ```
