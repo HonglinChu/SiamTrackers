@@ -159,7 +159,7 @@
 
 # SiamFC
 
-## 1 SiamFC(VID)
+## 1 SiamFC-VID
 
 	1 Train 
 		python ./bin/my_train.py
