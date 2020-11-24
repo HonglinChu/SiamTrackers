@@ -45,12 +45,11 @@ python ./bin/test_siamfc.py
 | Precision Score     | 0.761           |  0.678          |
 
 ## Reference
-```bash
 
+[Zhang Fangyi](https://github.com/StrangerZhang/SiamFC-PyTorch)
+
+```bash
 [1] Bertinetto L, Valmadre J, Henriques J F, et al. Fully-convolutional siamese networks for object tracking. European conference on computer vision. Springer, Cham, 2016: 850-865.
 		
-[2] https://github.com/StrangerZhang/SiamFC-PyTorch (The results of siamfc with VID dataset)    
-
-[3] https://github.com/huanglianghua/siamfc-pytorch (Recommend!!! The  results of siamfc with GOT dataset are better than official )
 ```
 
