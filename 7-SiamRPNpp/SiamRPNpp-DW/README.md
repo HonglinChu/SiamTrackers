@@ -2,7 +2,7 @@
 
 ## Description
 
-[Official Code](https://github.com/STVIR/pysot) (Recommend)
+[Official Code](https://github.com/STVIR/pysot)(Recommend)
 
 ## Compile
 ```
@@ -171,9 +171,7 @@ VOT2019  E-A-R  0.260/0.573/0.547
 ```
 
 ## Reference
+[SenseTime](https://github.com/STVIR/pysot)
 ```
 [1] Li B, Wu W, Wang Q, et al. Siamrpn++: Evolution of siamese visual tracking with very deep networks.Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 4282-4291.
-
-[2] https://github.com/STVIR/pysot
-
 ```
