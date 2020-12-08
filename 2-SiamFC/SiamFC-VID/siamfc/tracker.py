@@ -126,16 +126,16 @@ class SiamFCTracker:
         self.s_x = max(self.min_s_x, min(self.max_s_x, self.s_x))
         self.target_sz = ((1 - config.scale_lr) + config.scale_lr * scale) * self.target_sz #尺度更新
 
-        box = (self.pos[0] - self.target_sz[0]/2 + 1, # xmin   convert to 1-based
-                 self.pos[1] - self.target_sz[1]/2 + 1, # ymin
-                 self.pos[0] + self.target_sz[0]/2 + 1, # xmax
-                 self.pos[1] + self.target_sz[1]/2 + 1) # ymax
-        #x,y,w,h   # top-left  w,h
+#         box = (self.pos[0] - self.target_sz[0]/2 + 1, # xmin   convert to 1-based
+#                  self.pos[1] - self.target_sz[1]/2 + 1, # ymin
+#                  self.pos[0] + self.target_sz[0]/2 + 1, # xmax
+#                  self.pos[1] + self.target_sz[1]/2 + 1) # ymax
+       # x,y,w,h   # top-left  w,h
 
-        #box=np.array([                                   
-         #   self.pos[0] + 1 - (self.target_sz[0]) / 2,
-          #  self.pos[1] + 1 - (self.target_sz[1]) / 2,
-           # self.target_sz[0], self.target_sz[1]])
+        box=np.array([                                   
+           self.pos[0] + 1 - (self.target_sz[0]) / 2,
+           self.pos[1] + 1 - (self.target_sz[1]) / 2,
+           self.target_sz[0], self.target_sz[1]])
 
         return box
     #获取视频序列，进行测试
