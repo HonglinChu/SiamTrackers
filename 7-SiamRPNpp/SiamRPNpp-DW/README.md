@@ -26,11 +26,13 @@ python ./bin/my_eval.py
 ```
 ## Model 
 
-[BaiduYun](https://pan.baidu.com/s/1ZE3UDZwCTH0TyLkCa1PnYw) password:1bbk (siamrpn_alex_dwxcorr_16gpu)
+[BaiduYun](https://pan.baidu.com/s/1ZE3UDZwCTH0TyLkCa1PnYw) password:1bbk (siamrpnpp-dw with VID DET COCO YTB)
 
-[BaiduYun](https://pan.baidu.com/s/1OPNJcBYASMAXPKm-DaoWSQ) password: qyep (siamrpnpp-dw only use GOT10k)
+[BaiduYun](https://pan.baidu.com/s/1OPNJcBYASMAXPKm-DaoWSQ) password: qyep (siamrpnpp-dw with GOT10k)
 
 ## Dataset
+How to crop GOT-10k dataset
+[BaiDuYun](https://pan.baidu.com/s/17daZiLQj5moUm3F0R2p_fQ)  password:vmhc
 
 - **ILSVRC2015 VID** [BaiDuYun](https://pan.baidu.com/s/1CXWgpAG4CYpk-WnaUY5mAQ) password: uqzj 
 
