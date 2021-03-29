@@ -1,22 +1,81 @@
-# packages in environment at /home/username/anaconda3/envs/pytorch:
+#!/bin/bash
 
-python                    3.7.3               
-pytorch                   1.1.0       
-cudatoolkit               9.0 
-matplotlib                3.1.1                    
-numpy                     1.18.1                   
-opencv-python             4.1.0.25    
-colorama                  0.4.1
-easydict                  1.9                      
-fire                      0.2.1                           
-pandas                    0.25.0           
-pillow                    6.1.0           
-protobuf                  3.11.0                  
-scikit-image              0.15.0                  
-scikit-learn              0.22                     
-scipy                     1.4.1                     
-tensorboardX              1.4                       
-torchvision               0.3.0           
-tqdm                      4.43.0                    
-visdom                    0.1.8.8                  
-yacs                      0.1.6                    
+# （1） 在运行install.sh 文件之前，你应该先创建一个虚拟环境，我这里的虚拟环境名字为 ‘pytorch’，
+# conda create -y -n pytorch  python=3.7 
+# （2） 激活你的虚拟环境，然后在你的虚拟环境下运行install.sh 文件
+# conda activate  pytorch
+
+echo ""
+echo ""
+echo "****************** Installing pytorch with cuda10 ******************"
+#  pytorch 版本建议你选择1.5以上版本， 我这里选择的是1.1低版本
+conda install pytorch==1.1.0  torchvision==0.3.0 cudatoolkit=10.0
+
+echo ""
+echo ""
+echo "****************** Installing matplotlib 2.2.2 ******************"
+conda install -y matplotlib
+
+echo ""
+echo ""
+echo "****************** Installing pandas ******************"
+conda install -y pandas
+
+echo ""
+echo ""
+echo "****************** Installing opencv ******************"
+pip install opencv-python
+
+echo ""
+echo ""
+echo "****************** Installing tensorboardX ******************"
+pip install tensorboardX
+
+echo ""
+echo ""
+echo "****************** Installing cython ******************"
+conda install cython
+
+
+echo ""
+echo ""
+echo "****************** Installing yacs ******************"
+pip install yacs
+
+echo ""
+echo ""
+echo "****************** Installing skimage ******************"
+pip install scikit-image
+
+echo ""
+echo ""
+echo "****************** Installing pillow ******************"
+pip install 'pillow<7.0.0'
+
+echo ""
+echo ""
+echo "****************** Installing scipy ******************"
+pip install scipy
+
+echo ""
+echo ""
+echo "****************** Installing shapely ******************"
+pip install shapely
+
+echo ""
+echo ""
+echo "****************** Installing tqdm ******************"
+pip install tqdm
+
+echo ""
+echo ""
+echo "****************** Installing easydict ******************"
+pip install easydict
+
+echo ""
+echo ""
+echo "****************** Installing jpeg4py python wrapper ******************"
+pip install jpeg4py 
+pip install mpi4py
+pip install ray==0.8.7
+pip install hyperopt
