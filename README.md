@@ -114,6 +114,13 @@ Add test scripts for 4 drone datasets.
 
 Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs).
 ```
+
+- [2020-CVPR-SiamCAR](./9-SiamCAR)
+![image](./image/siamcar.png)
+```
+Support VScode single-step debugging.
+
+```
 # Experiment
 
 - [x] GPU NVIDIA 1080 8G x 2 
