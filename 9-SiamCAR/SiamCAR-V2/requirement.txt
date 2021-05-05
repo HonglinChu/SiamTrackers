@@ -1,0 +1,10 @@
+numpy
+pytorch==1.2.0
+opencv-python
+pyyaml
+yacs
+tqdm
+colorama
+matplotlib
+cython
+tensorboardX
