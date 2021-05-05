@@ -1,6 +1,25 @@
 # SiamCAR-V1
 
-`
+[Official Code](https://github.com/ohhhyeahhh/SiamCAR)
+
+[哔哩哔哩](https://www.bilibili.com/video/BV1N5411Y7cA?from=search&seid=1639036191308901519)
+
+## Train
+
+```
+We only use GOT-10k to train siamcar network
+
+sh ./bin/cmd_dist_train.sh 
+
+```
+
+## Test
+```
+sh ./bin/cmd_test.sh 
+```
+
+## Results
+```
 Speed: 255.8fps
 checkpoint_e25.pth VOT2018 lr-0.35  pk-_0.2  win-_0.45
 ------------------------------------------------------------
@@ -30,8 +49,7 @@ checkpoint_e39.pth VOT2018  lr-0.35  pk-_0.2    win -_0.45
 |  siamcar   |  0.567   |   0.384    |    82.0     | 0.286 |
 ------------------------------------------------------------
 
-
-load  checkpoint_e27.pth  VOT2018 lr-0.35  pk-_0.2  win-_0.45 
+hp_search load checkpoint_e27.pth  VOT2018 lr-0.35  pk-_0.2  win-_0.45 
 ------------------------------------------------------------------------------------------------
 |                  Tracker Name                  | Accuracy | Robustness | Lost Number |  EAO  |
 ------------------------------------------------------------------------------------------------
@@ -51,4 +69,11 @@ load  checkpoint_e27.pth  VOT2018 lr-0.35  pk-_0.2  win-_0.45
 | checkpoint_e27_r255_pk-0.240_wi-0.440_lr-0.380 |  0.568   |   0.328    |    70.0     | 0.308 |
 | checkpoint_e27_r255_pk-0.180_wi-0.440_lr-0.350 |  0.573   |   0.318    |    68.0     | 0.308 |
 ------------------------------------------------------------------------------------------------
-`
+```
+# Reference
+```
+https://github.com/ohhhyeahhh/SiamCAR
+
+[1] Guo D ,  Wang J ,  Cui Y , et al. SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking[C]//CVPR,2020.
+
+```
