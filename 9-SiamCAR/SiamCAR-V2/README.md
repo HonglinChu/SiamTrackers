@@ -12,7 +12,6 @@ We rename siamcar-v2 as siamfc++
 We only use GOT-10k to train siamcar network
 
 sh ./bin/cmd_dist_train.sh 
-
 ```
 
 # Test
