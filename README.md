@@ -262,9 +262,12 @@ Li B, Wu W, Wang Q, et al. SiamRPNpp: Evolution of siamese visual tracking with 
 
 [7] SiamMask
 
-Wang Q, Zhang L, Bertinetto L, et al. Fast online object tracking and segmentation: A unifying approach. Proceedings of the IEEE conference on computer vision and pattern recognition. 2019: 1328-1338.
+Wang Q, Zhang L, Bertinetto L, et al. Fast online object tracking and segmentation: A unifying approach. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 1328-1338.
    
 [8] SiamFCpp
 
-Xu Y, Wang Z, Li Z, et al. SiamFCpp: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. arXiv preprint arXiv:1911.06188, 2019.
+Xu Y, Wang Z, Li Z, et al. SiamFCpp: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines. AAAI, 2020.
+
+[9] SiamCAR
+Guo D ,  Wang J ,  Cui Y , et al. SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.2020.
 ```
