@@ -77,7 +77,7 @@ class SiamCARTracker(SiameseTracker):
         return penalty
 
     def accurate_location(self, max_r_up, max_c_up):
-        dist = int((cfg.TRACK.INSTANCE_SIZE - (cfg.TRACK.SCORE_SIZE - 1) * 8) / 2) #？？？？193不是和255一一对应的么，怎么感觉是从255中扣出来的。
+        dist = int((cfg.TRACK.INSTANCE_SIZE - (cfg.TRACK.SCORE_SIZE - 1) * cfg.TRACK.STRIDE)/ 2) #？？？？193不是和255一一对应的么，怎么感觉是从255中扣出来的。
         max_r_up += dist
         max_c_up += dist
         p_cool_s = np.array([max_r_up, max_c_up])
