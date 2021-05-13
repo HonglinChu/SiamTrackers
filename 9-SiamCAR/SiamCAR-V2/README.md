@@ -1,6 +1,6 @@
 # SiamCAR-V2
 
-We rename siamcar-v2 as siamfc++
+We reproduced siamfc++（siamcar-v2） based on siamcar
 
 [Official Code](https://github.com/MegviiDetection/video_analyst)
 
