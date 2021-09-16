@@ -5,7 +5,7 @@
 - [哔哩哔哩1](https://www.bilibili.com/video/bv1Jg4y1B7tL)
 - [哔哩哔哩2](https://www.bilibili.com/video/BV1yV411y7Qj)
 
-- Note: About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
+- Note1: About create_template.py at line:138  'get_axis_aligned_rect' not exist， please comment get_axis_aigned_rect function
 
 ```
 
@@ -23,6 +23,7 @@
 
             break   
 ``` 
+-Note2： About“ cannnot import region error”， you can refer  https://github.com/STVIR/pysot/blob/master/INSTALL.md ， and try to run “ python setup.py build_ext —-inplace”
 
 ## File tree
 ```
