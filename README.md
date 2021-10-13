@@ -3,7 +3,7 @@
 # Description
 
 - [哔哩哔哩](https://www.bilibili.com/video/BV1pt4y1e7PY/?spm_id_from=333.788.recommend_more_video.8) 
-- [使用教程](./SiamTrackers-Tutorial.md)
+- [使用教程](./Tutorial.md)
 - [SiamFace](./1-SiamFace)
 ![image](./image/siamese.png)
 ```
