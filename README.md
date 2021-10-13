@@ -1,37 +1,6 @@
 # SiamTrackers 
 
 # Description
-| Year | Conf |               Trackers               | Debug | Train | Test |      |      | Data | Set  |      |       |   Toolkit    |   Source   |
-| :--- | :--- | :----------------------------------: | ----- | :---: | :--: | :--: | :--: | :--: | :--: | :--: | :---: | :----------: | :--------: |
-|      |      |                                      |       |       |      | VID  | DET  | COCO | YTB  | GOT  | LaSOT |              |            |
-| 2016 | ECCV |     SiamFC      | ✔     |   ✔   |  ✔   |  ✔   |      |      |      |      |       |    got10k    | unofficial |
-|      |      | SiamFC      | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
-|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2018 | CVPR |    SiamRPN   | ✔     |   ✔   |  ✔   |  ✔   |      |      |  ✔   |      |       |    got10k    | unofficial |
-|      |      | SiamRPN | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    got10k    | unofficial |
-|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2018 | ECCV |      DaSiamRPN     | ✔     |       |  ✔   | ✔ | ✔ | ✔ | ✔ |      |       |    pysot     | official |
-|      |      |      DaSiamRPN  |   ✔   |   ✔    |   ✔   |      |      |      |      |  ✔    |       |  pysot | unofficial   |
-|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | ICCV |     UpdateNet(FC)     | ✔     |   ✔   |  ✔   |      |      |      |      |      |   ✔   |    pysot     | unofficial |
-|  |  | UpdateNet(UP) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | unofficial |
-|  |  | UpdateNet(DA) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | official |
-|  |  | UpdateNet(DW) | ✔ | ✔ | ✔ | | | | | | ✔ | pysot | unofficial |
-|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | CVPR |       SiamDW(FC)       | ✔     |   ✔   |  ✔   |      |      |      |      |   ✔    |     | got10k |  unofficial  |
-|  |  | SiamDW(UP) | ✔ | ✔ | ✔ |  |  |  |  | ✔  |  | got10k | unofficial |
-|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | CVPR | SiamRPNpp(DW) | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     | official |
-|      |      |SiamRPNpp(DW)| ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       |    pysot     |  unofficial|
-| | |SiamRPNpp(UP)| ✔ | ✔ | ✔ | | | | | ✔ | | pysot | unofficial |
-| | |SiamRPNpp(DA)| ✔ | ✔ | ✔ | | | | | ✔ | | pysot | unofficial |
-| | |SiamRPNpp(ResNet)| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  | | pysot | official |
-|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2019 | CVPR |       SiamMask      | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |      |       |    pysot     |  official  |
-|      |      |                                      |       |       |      |      |      |      |      |      |       |              |            |
-| 2020 | AAAI |  SiamFCpp | ✔     |   ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |  ✔   |   ✔   | pysot&got10k | official |
-|      |      | SiamFCpp | ✔     |   ✔   |  ✔   |      |      |      |      |  ✔   |       | pysot&got10k | unofficial |
-| | | SiamFCpp(GoogleNet) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | pysot&got10k | official |
 
 - [哔哩哔哩](https://www.bilibili.com/video/BV1pt4y1e7PY/?spm_id_from=333.788.recommend_more_video.8) 
 - [使用教程](./SiamTrackers-Tutorial.md)
