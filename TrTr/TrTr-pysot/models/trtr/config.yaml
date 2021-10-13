@@ -1,0 +1,94 @@
+META_ARC: "trtr_alexnet"
+
+BACKBONE:
+    TYPE: "alexnet" #"resnet50"
+    KWARGS:
+        width_mult: 1.0 
+    PRETRAINED: 'models/pretrained/alexnet-bn.pth'
+    TRAIN_LAYERS:  ['layer4', 'layer5']
+    TRAIN_EPOCH: 10 
+    LAYERS_LR: 0.1
+
+ADJUST:
+    ADJUST: True
+    TYPE: 'AdjustLayer' 
+    KWARGS:
+        in_channels:  256 
+        out_channels: 256  
+
+BAN:
+    BAN: True
+    TYPE: 'DepthwiseBAN' 
+    KWARGS: 
+        in_channels:  256  
+        out_channels: 256
+     
+POINT:
+    STRIDE: 8
+
+TRACK:
+    TYPE: 'SiamBANTracker' 
+    WINDOW_INFLUENCE: 0.48  
+    PENALTY_K: 0.15  
+    LR:  0.38 
+
+    EXEMPLAR_SIZE: 127
+    INSTANCE_SIZE: 255
+    BASE_SIZE: 8
+    CONTEXT_AMOUNT: 0.5
+
+TRAIN:
+    EPOCH: 50  #20
+    START_EPOCH: 0 # 0 or resume checkpoint
+    BATCH_SIZE: 64  # 28
+    NUM_WORKERS: 4  
+    BASE_LR: 0.005 
+    CLS_WEIGHT: 1.0
+    LOC_WEIGHT: 1.0
+    NUM_CONVS: 4 
+    BASE_SIZE: 8 #
+    OUTPUT_SIZE: 22 
+    RESUME: '' # '' 
+    PRETRAINED: # 
+    SNAPSHOT_DIR: './models/snapshot'  
+    
+    LR:
+        TYPE: 'log'
+        KWARGS:
+            start_lr: 0.005
+            end_lr: 0.0005 # 0.0005 
+    LR_WARMUP:
+        TYPE: 'step'
+        EPOCH: 5
+        KWARGS:
+            start_lr: 0.001
+            end_lr: 0.005
+            step: 1
+
+DATASET:
+    NAMES:
+    - 'GOT'
+    - 'VID'
+    - 'YOUTUBEBB'
+    - 'COCO'
+    - 'DET'
+    - 'LASOT'
+
+    VIDEOS_PER_EPOCH: 400000 # 
+
+    TEMPLATE:
+        SHIFT: 4
+        SCALE: 0.05
+        BLUR: 0.0
+        FLIP: 0.0
+        COLOR: 1.0
+
+    SEARCH:
+        SHIFT: 64
+        SCALE: 0.18
+        BLUR: 0.2
+        FLIP: 0.0
+        COLOR: 1.0 
+
+    NEG: 0.2
+    GRAY: 0.0

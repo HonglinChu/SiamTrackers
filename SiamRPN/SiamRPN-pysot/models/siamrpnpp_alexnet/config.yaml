@@ -1,0 +1,89 @@
+META_ARC: "SiamRPN-UP"
+
+BACKBONE:
+    TYPE: "alexnet"  #这里可以替换
+    KWARGS:
+        width_mult: 1.0   # 这里改成2.0, backbone的特征提取输出就是512通道, 同时,加载的预训练模型alexnet 要替换掉
+    PRETRAINED: './models/pretrained_models/alexnet-bn.pth'
+    TRAIN_LAYERS: ['layer4', 'layer5'] 
+    TRAIN_EPOCH: 10
+    LAYERS_LR: 1.0
+
+ADJUST:
+    ADJUST: False
+
+RPN:
+    TYPE: 'UPChannelRPN'   #  UPChannelRPN 代表普通的SiamRPN网络   DepthwiseRPN 代表 深度可分离卷积版本的SiamRPN网络
+    KWARGS:
+        anchor_num: 5
+        in_channels: 256   # 
+        out_channels: 256  # UPChannelRPN 没有 out_channels
+MASK:
+    MASK: False
+
+ANCHOR:
+    STRIDE: 8
+    RATIOS: [0.33, 0.5, 1, 2, 3]
+    SCALES: [8]
+    ANCHOR_NUM: 5
+
+TRACK:
+    TYPE: 'SiamRPNTracker'
+    PENALTY_K: 0.12 #0.16 #0.12  
+    WINDOW_INFLUENCE: 0.38 #0.40  #0.38 
+    LR: 0.32 # 0.30 # 0.32
+    EXEMPLAR_SIZE: 127
+    INSTANCE_SIZE: 287  # 271 or 255
+    BASE_SIZE: 0
+    CONTEXT_AMOUNT: 0.5
+
+TRAIN:
+    EPOCH: 50
+    NUM_WORKERS: 8
+    START_EPOCH: 0
+    BATCH_SIZE: 16
+    BASE_SIZE: 0
+    OUTPUT_SIZE: 17
+    BASE_LR: 0.005
+    CLS_WEIGHT: 1.0
+    LOC_WEIGHT: 1.2
+    LOG_DIR: './models/siamrpnpp_alexnet/logs'
+    SNAPSHOT_DIR: './models/siamrpnpp_alexnet/snapshot'  #checkpoint
+    RESUME: ''    # from checkpoint   
+
+    LR:
+        TYPE: 'log'
+        KWARGS:
+            start_lr: 0.01
+            end_lr: 0.0005
+    LR_WARMUP:
+        TYPE: 'step'
+        EPOCH: 5
+        KWARGS:
+            start_lr: 0.005
+            end_lr: 0.01
+            step: 1
+DATASET:
+    NAMES:
+    # - 'VID'
+    # - 'YOUTUBEBB'
+    # - 'COCO'
+    # - 'DET'
+    - 'GOT'   
+
+    TEMPLATE:
+        SHIFT: 4  
+        SCALE: 0.05
+        BLUR: 0.0
+        FLIP: 0.0
+        COLOR: 1.0
+
+    SEARCH:
+        SHIFT: 64
+        SCALE: 0.18
+        BLUR: 0.2
+        FLIP: 0.0
+        COLOR: 1.0
+
+    NEG: 0.05
+    GRAY: 0.0

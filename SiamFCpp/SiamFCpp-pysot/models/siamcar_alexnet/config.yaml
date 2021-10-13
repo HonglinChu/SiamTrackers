@@ -1,0 +1,88 @@
+META_ARC: "siamcar_alex"
+
+BACKBONE:
+    TYPE: "alexnet"
+    KWARGS:
+        width_mult: 1.0   # 这里改成2.0, backbone的特征提取输出就是512通道, 同时,加载的预训练模型alexnet 要替换掉
+    PRETRAINED: './models/pretrained_models/alexnet-bn.pth'
+    TRAIN_LAYERS: ['layer4','layer5']
+    TRAIN_EPOCH: 10
+    LAYERS_LR: 0.1
+
+ADJUST:
+    ADJUST: False
+    # TYPE: "AdjustAllLayer"
+    # KWARGS:
+    #     in_channels: [512, 1024, 2048]
+    #     out_channels: [256, 256, 256]
+
+MASK:
+    MASK: False
+#  checkpoint_e20_r255_pk-0.250_wi-0.460_lr-0.340 |  0.568   |   0.300    |    64.0     | 0.353 
+TRACK:
+    TYPE: 'SiamCARTracker'
+    PENALTY_K:  0.25 #
+    WINDOW_INFLUENCE: 0.46
+    LR: 0.34
+    EXEMPLAR_SIZE: 127
+    INSTANCE_SIZE: 255
+    CONTEXT_AMOUNT: 0.5 
+    STRIDE: 8
+    SCORE_SIZE: 17  # 注意要修改，resnet：25
+
+TRAIN:
+    EPOCH: 50
+    START_EPOCH: 0
+    BATCH_SIZE: 64  # 默认 80
+    NUM_WORKERS: 8 # 注意默认设置为1 速度会很慢，
+    EXEMPLAR_SIZE: 127
+    SEARCH_SIZE: 255
+    BASE_LR: 0.005
+    CLS_WEIGHT: 1.0
+    LOC_WEIGHT: 3.0
+    CEN_WEIGHT: 1.0  # 注意这里三个误差项 CLS：LOC：CEN=1:3:1，，siamcar-resnet 的 CLS：LOC=1 : 1.2
+    RESUME: ''
+    NUM_CLASSES: 2 #
+    NUM_CONVS: 4   #
+    PRIOR_PROB: 0.01
+    OUTPUT_SIZE: 17 # 255 注意这里的 resnet:25
+    PRETRAINED: './models/snapshot/checkpoint_e41.pth'
+    SNAPSHOT_DIR: './models/snapshot'
+
+    LR:
+        TYPE: 'log'
+        KWARGS:
+            start_lr: 0.005
+            end_lr: 0.0005
+    LR_WARMUP:
+        TYPE: 'step'
+        EPOCH: 5
+        KWARGS:
+            start_lr: 0.001
+            end_lr: 0.005
+            step: 1
+
+DATASET:
+    NAMES: 
+    # - 'VID'
+    # - 'YOUTUBEBB'
+    # - 'COCO'
+    # - 'DET'
+    - 'GOT'
+
+    TEMPLATE:
+        SHIFT: 4
+        SCALE: 0.05
+        BLUR: 0.0
+        FLIP: 0.0
+        COLOR: 1.0
+
+    SEARCH:
+        SHIFT: 64
+        SCALE: 0.18
+        BLUR: 0.2
+        FLIP: 0.0
+        COLOR: 1.0
+
+    NEG: 0.0
+    GRAY: 0.0

@@ -1,0 +1,107 @@
+META_ARC: "siamrpn_r50_l234_dwxcorr"
+
+BACKBONE:
+    TYPE: "resnet50"
+    KWARGS:
+        used_layers: [0, 1, 2, 3]
+    PRETRAINED: './models/pretrained_models/resnet50.model'
+    TRAIN_LAYERS: ['layer2','layer3']
+    TRAIN_EPOCH: 10
+    LAYERS_LR: 0.01
+
+ADJUST:
+    ADJUST: True
+    TYPE: "AdjustAllLayer"
+    KWARGS:
+        in_channels: [1024]
+        out_channels: [256]
+
+RPN:
+    TYPE: 'DepthwiseRPN'
+    KWARGS:
+        anchor_num: 5
+        in_channels: 256
+        out_channels: 256
+
+MASK:
+    MASK: True
+    TYPE: 'MaskCorr'  #'MultiMaskCorr' #'MaskCorr'
+    KWARGS:
+        oSz: 63
+        weighted: true
+
+REFINE:
+    REFINE: False  
+    TYPE: 'Refine'
+
+ANCHOR:
+    STRIDE: 8
+    RATIOS: [0.33, 0.5, 1, 2, 3]
+    SCALES: [8]
+    ANCHOR_NUM: 5
+
+TRACK:
+    TYPE: 'SiamMaskTracker'
+    PENALTY_K: 0.10
+    WINDOW_INFLUENCE: 0.41
+    LR: 0.32
+    EXEMPLAR_SIZE: 127
+    INSTANCE_SIZE: 255
+    BASE_SIZE: 8
+    CONTEXT_AMOUNT: 0.5
+    MASK_THERSHOLD: 0.15
+    MASK_OUTPUT_SIZE: 63
+
+TRAIN:
+    EPOCH: 50
+    START_EPOCH: 9
+    BATCH_SIZE: 16
+    NUM_WORKERS: 8
+    BASE_LR: 0.005
+    CLS_WEIGHT: 1.0
+    LOC_WEIGHT: 1.2
+    MASK_WEIGHT: 36
+    PRINT_FREQ: 40
+    LOG_DIR: './models/siammask_resnet/logs'
+    SNAPSHOT_DIR: './models/siammask_resnet/snapshot'  #checkpoint
+    RESUME: './models/siammask_resnet/snapshot/checkpoint_e10.pth'    # './models/pretrained_models/checkpoint_e41-16-up.pth'    # from checkpoint   
+
+    LR:
+        TYPE: 'log'
+        KWARGS:
+            start_lr: 0.005
+            end_lr: 0.0005
+    LR_WARMUP:
+        TYPE: 'step'
+        EPOCH: 5
+        KWARGS:
+            start_lr: 0.001
+            end_lr: 0.005
+            step: 1
+
+DATASET:
+    NAMES:
+    - 'VOS'
+    # - 'VID'
+    # - 'COCO'
+    # - 'DET'
+    - 'GOT'
+    # - 'YOUTUBEBB'
+    - 'LaSOT'
+
+    TEMPLATE:
+        SHIFT: 4
+        SCALE: 0.05
+        BLUR: 0.0
+        FLIP: 0.0
+        COLOR: 1.0
+
+    SEARCH:
+        SHIFT: 64  # 64
+        SCALE: 0.18
+        BLUR: 0.18
+        FLIP: 0.0
+        COLOR: 1.0
+
+    NEG: 0.1  # 0.2
+    GRAY: 0.1  # 0.25

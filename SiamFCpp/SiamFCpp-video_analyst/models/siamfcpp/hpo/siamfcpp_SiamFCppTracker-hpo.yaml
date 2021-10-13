@@ -1,0 +1,9 @@
+test:
+  track:
+    exp_name: &TEST_NAME "siamfcpp-hpo"
+    exp_save: &TEST_SAVE "logs/hpo"
+    pipeline:
+      SiamFCppTracker:
+        test_lr_hpo_range: [0.50, 0.58] # 0.52
+        window_influence_hpo_range: [0.20, 0.26] # 0.21
+        penalty_k_hpo_range: [0.04, 0.08] # 0.04
