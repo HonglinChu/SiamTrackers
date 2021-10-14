@@ -1,7 +1,5 @@
 # SiamBAN 
 
-The code we reproduce will soon be open source！
-
 [official code](https://github.com/hqucv/siamban)
 
 # Reference
