@@ -1,5 +1,7 @@
 # SiamBAN
 
+https://www.bilibili.com/read/cv13575458
+
 ```
 checkpoint_e45.pth VOT2018  lr-0.38  pk-_0.15  win-_0.48
 ------------------------------------------------------------
