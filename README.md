@@ -72,7 +72,6 @@ Support VScode single-step debugging.
 
 Support testing and training.
 
-The results of my test are  inconsistent with the author's, please refer to my SiamMask branch.
 ```
 - [2020-AAAI-SiamFCpp](./SiamFCpp)
 ![image](./image/siamfc++.png)
@@ -92,9 +91,20 @@ Support VScode single-step debugging.
 ```
 - [2020-CVPR-SiamBAN](./SiamBAN)
 ![image](./image/siamban.png)
+```
+Support VScode single-step debugging.
 
+Support testing and training.
+
+```
 - [2021-TrTr](./TrTr)
 ![image](./image/trtr.png)
+```
+Support VScode single-step debugging.
+
+Support testing and training.
+
+```
 
 # Experiment
 
