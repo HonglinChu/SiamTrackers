@@ -4,7 +4,7 @@
 
 - NanoTrack is a FCOS-style one-stage anchor-free object trakcing model which mainly referring to SiamBAN and LightTrack
 
-- NanoTrack is a simple, lightweight and high speed tracking network, and it is very suitable for deployment on embedded or mobile devices. We provide [Android demo](https://github.com/HonglinChu/NanoTrack/ncnn_android_nanotrack) and [MacOS demo](https://github.com/HonglinChu/NanoTrack/ncnn_macos_nanotrack) based on ncnn inference framework. 
+- NanoTrack is a simple, lightweight and high speed tracking network, and it is very suitable for deployment on embedded or mobile devices. We provide [Android demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_android_nanotrack) and [MacOS demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_macos_nanotrack) based on ncnn inference framework. 
 ![macs](https://github.com/HonglinChu/SiamTrackers/tree/master/image/calculate.png) 
 
 - We provide [PyTorch code](https://github.com/HonglinChu/SiamTrackers/NanoTrack). It is very friendly for training with much lower GPU memory cost than other models. We only use GOT-10k as tranining set, and it only takes two hours to train on GPU3090
