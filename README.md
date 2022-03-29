@@ -94,7 +94,7 @@ Support VScode single-step debugging.
 ```
 Support VScode single-step debugging.
 
-Support testing and training.
+Support testing and training.◊
 
 ```
 - [2021-TrTr](./TrTr)
@@ -105,6 +105,8 @@ Support VScode single-step debugging.
 Support testing and training.
 
 ```
+- [NanoTrack](./NanoTrack)
+![image](./image/nanotrack_network.png)
 
 # Experiment
 

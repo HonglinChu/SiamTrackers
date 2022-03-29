@@ -1,0 +1,90 @@
+META_ARC: "nanotrack"
+
+BACKBONE:
+    TYPE: "mobilenetv3_small"
+    KWARGS:
+        used_layers:  [4] #
+    PRETRAINED:  './models/pretrained/mobilenetv3_small_1.0.pth'  
+    TRAIN_LAYERS:  ['features'] # 
+    TRAIN_EPOCH: 10 
+    LAYERS_LR: 0.1
+
+ADJUST: 
+    ADJUST: True
+    TYPE: 'AdjustLayer' 
+    KWARGS:
+        in_channels:  64  
+        out_channels: 64  
+
+BAN: 
+    BAN: True 
+    TYPE: DepthwiseBAN 
+    KWARGS: 
+        in_channels:  64  
+        out_channels: 64 
+        
+CUDA: True 
+
+POINT:
+    STRIDE: 16  
+
+TRACK:
+    TYPE: 'NanoTracker' 
+    WINDOW_INFLUENCE: 0.455  
+    PENALTY_K: 0.15  
+    LR:  0.37
+    EXEMPLAR_SIZE: 127
+    INSTANCE_SIZE: 255
+    BASE_SIZE:  7   
+    CONTEXT_AMOUNT: 0.5 
+
+TRAIN:
+    EPOCH: 50  
+    START_EPOCH: 0 
+    BATCH_SIZE: 32 
+    NUM_WORKERS: 8
+    BASE_LR: 0.005 
+    CLS_WEIGHT: 1.0
+    LOC_WEIGHT: 1.0
+    NUM_CONVS: 4 
+    BASE_SIZE: 7  
+    OUTPUT_SIZE: 16  
+    RESUME: '' 
+    PRETRAINED: ''   
+    SNAPSHOT_DIR: './models/snapshot'  
+    
+    LR:
+        TYPE: 'log'
+        KWARGS:
+            start_lr: 0.005 
+            end_lr: 0.0005  
+    LR_WARMUP:
+        TYPE: 'step'
+        EPOCH: 5
+        KWARGS:
+            start_lr: 0.001
+            end_lr: 0.005
+            step: 1
+
+DATASET:
+    NAMES:
+    - 'GOT'
+
+    VIDEOS_PER_EPOCH: 100000 
+
+    TEMPLATE:
+        SHIFT: 4 
+        SCALE: 0.05 
+        BLUR: 0.0
+        FLIP: 0.0 
+        COLOR: 1.0  
+
+    SEARCH:
+        SHIFT: 64 
+        SCALE: 0.18
+        BLUR: 0.2 
+        FLIP: 0.0 
+        COLOR: 1.0 
+
+    NEG: 0.2 
+    GRAY: 0.0 
