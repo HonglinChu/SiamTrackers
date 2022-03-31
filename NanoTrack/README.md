@@ -24,11 +24,11 @@ python  setup.py build_ext --inplace
 1. cd xxx/xxx/NanoTrack 
 
 2. mkdir data
-Download [GOT-10k](https://pan.baidu.com/s/1L77mtmQI4pZfnEyfwz7QgA) password: 87d8 
+Download GOT-10k https://pan.baidu.com/s/1L77mtmQI4pZfnEyfwz7QgA password: 87d8 
 Put your training data into data directory 
 
 3. mkdir datasets
-Download [VOT2018](https://pan.baidu.com/s/1MOWZ5lcxfF0wsgSuj5g4Yw) password: e5eh  
+Download VOT2018 https://pan.baidu.com/s/1MOWZ5lcxfF0wsgSuj5g4Yw password: e5eh  
 Put your testing data into datasets directory 
 
 ```
