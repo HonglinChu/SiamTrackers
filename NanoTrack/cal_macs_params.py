@@ -1,27 +1,26 @@
-
-import argparse
-import os
-
-import torch
-import sys 
-sys.path.append(os.path.abspath('.'))
-
 import argparse
 import os
 
 import torch 
-import sys 
+import sys        
+sys.path.append(os.path.abspath('.')) # 
+
+import argparse  
+import os         
+
+import torch   
+import sys     
 sys.path.append(os.getcwd())  
 
 from nanotrack.core.config import cfg 
 
-from nanotrack.models.model_builder import ModelBuilder 
+from nanotrack.models.model_builder import ModelBuilder  
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0" 
 
 from thop import profile 
 
-from thop.utils import clever_format
+from thop.utils import clever_format 
 
 def main():
 
