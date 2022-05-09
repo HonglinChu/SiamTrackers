@@ -49,7 +49,7 @@ python ./bin/eval.py
 ```
 
 ```
-checkpoint_e26.pth VOT2018  lr-0.38  pk-_0.15  win-_0.476
+checkpoint_e26.pth VOT2018  
 ------------------------------------------------------------
 |Tracker Name| Accuracy | Robustness | Lost Number |  EAO  |
 ------------------------------------------------------------
