@@ -13,7 +13,7 @@ from glob import glob
 from tqdm import tqdm
 from multiprocessing import Pool
 from toolkit.datasets import OTBDataset, UAVDataset, LaSOTDataset, \
-        VOTDataset, NFSDataset, VOTLTDataset
+        VOTDataset, NFSDataset, VOTLTDataset ,DTB70Dataset
 from toolkit.evaluation import OPEBenchmark, AccuracyRobustnessBenchmark, \
         EAOBenchmark, F1Benchmark
 
@@ -102,7 +102,7 @@ def eval(args):
     elif 'GOT-10k' in args.dataset:
         root_dir = os.path.abspath('datasets/GOT-10k') 
         e = ExperimentGOT10k(root_dir) 
-        ao, sr, speed=e.report(['siamban'])
+        ao, sr, speed=e.report([args.tracker_name])
         ss='ao:%.3f --sr:%.3f -speed:%.3f' % (float(ao),float(sr),float(speed))
         print(ss)
 
@@ -203,7 +203,7 @@ if __name__ == '__main__':
     
     tracker_name='nanotrack'
     
-    dataset='VOT2018'
+    dataset='DTB70'
 
     parser = argparse.ArgumentParser(description='tracking evaluation')
     parser.add_argument('--tracker_path', '-p', default='./results', type=str,

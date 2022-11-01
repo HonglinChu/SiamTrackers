@@ -139,15 +139,15 @@ class VOTLTVideo(Video):
         video_dir: video directory
         init_rect: init rectangle
         img_names: image names
-        gt_rect: groundtruth rectangle
+        gt_rect: groundtruth rectangle   
     """
     def __init__(self, name, root, video_dir, init_rect, img_names,
             gt_rect, load_img=False):
         super(VOTLTVideo, self).__init__(name, root, video_dir,
                 init_rect, img_names, gt_rect, None, load_img)
         self.gt_traj = [[0] if np.isnan(bbox[0]) else bbox
-                for bbox in self.gt_traj]
-        if not load_img:
+                for bbox in self.gt_traj]  
+        if not load_img:    
             img_name = os.path.join(root, self.img_names[0])
             img = np.array(Image.open(img_name), np.uint8)
             self.width = img.shape[1]
