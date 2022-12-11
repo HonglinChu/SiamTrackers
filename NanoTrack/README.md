@@ -43,7 +43,7 @@ Put your testing data into datasets directory
 file: ./nanotrack/models/head/__init__.py
 from nanotrack.models.head.ban_v1 import UPChannelBAN, DepthwiseBAN
 
-file: ./models/config/config_v1.yaml
+file: ./models/config/configv1.yaml
 WINDOW_INFLUENCE: 0.462 
 PENALTY_K: 0.148  
 LR: 0.390 
@@ -54,10 +54,10 @@ LR: 0.390
 file: ./nanotrack/models/head/__init__.py
 from nanotrack.models.head.ban_v2 import UPChannelBAN, DepthwiseBAN
 
-file: ./models/config/config_v2.yaml
+file: ./models/config/configv2.yaml
 WINDOW_INFLUENCE: 0.490
-PENALTY_K: 0.150  
-LR: 0.385 
+PENALTY_K: 0.150
+LR: 0.385
 ```
 
 - Train
