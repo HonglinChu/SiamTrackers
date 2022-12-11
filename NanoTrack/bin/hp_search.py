@@ -31,16 +31,16 @@ def parse_range_int(range_str):
     return np.array(param) 
 
 parser = argparse.ArgumentParser(description='Hyperparamter Search')
-parser.add_argument('--snapshot', default='./models/snapshot/checkpoint_e26.pth',type=str, help='snapshot of model')
+parser.add_argument('--snapshot', default='models/pretrained/nanotrackv2.pth',type=str, help='snapshot of model')
 parser.add_argument('--dataset', default='VOT2018',type=str, help='dataset name to eval')
 parser.add_argument('--penalty-k', default='0.145, 0.148, 0.150, 0.152, 0.155', type=parse_range) 
 parser.add_argument('--lr', default='0.385, 0.390, 0.395, 0.400, 0.405, 0.410, 0.415, 0.420', type=parse_range)  
 parser.add_argument('--window-influence', default='0.462, 0.465, 0.468, 0.470, 0.472, 0.475', type=parse_range) #0.40  
 
 parser.add_argument('--search-region', default='255', type=parse_range_int) 
-parser.add_argument('--config', default='./models/config/config.yaml', type=str)  
+parser.add_argument('--config', default='./models/config/configv2.yaml', type=str)  
 args = parser.parse_args() 
- 
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"    
 
 def run_tracker(tracker, img, gt, video_name, restart=True):

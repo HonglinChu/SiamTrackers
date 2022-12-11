@@ -126,7 +126,7 @@ class DepthwiseBAN(BAN):
     def __init__(self, in_channels=64, out_channels=64, weighted=False):
         super(DepthwiseBAN, self).__init__()
 
-        #self.corr_dw = DepthwiseXCorr(in_channels, out_channels)
+        # NanoTrackV1
         self.corr_pw = PixelwiseXCorr(in_channels, out_channels)
         
         cls_tower = []

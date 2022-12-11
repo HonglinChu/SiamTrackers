@@ -3,8 +3,11 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-from nanotrack.models.head.ban import UPChannelBAN, DepthwiseBAN
+# # NanoTrackV1
+# from nanotrack.models.head.ban_v1 import UPChannelBAN, DepthwiseBAN
 
+# NanoTrackV2
+from nanotrack.models.head.ban_v2 import UPChannelBAN, DepthwiseBAN
 
 BANS = {
         'UPChannelBAN': UPChannelBAN,

@@ -19,14 +19,13 @@ from nanotrack.models.model_builder import ModelBuilder
 from nanotrack.tracker.tracker_builder import build_tracker
 from nanotrack.utils.model_load import load_pretrain
 
-torch.set_num_threads(1)  
-
+torch.set_num_threads(1)
 
 parser = argparse.ArgumentParser(description='tracking demo') 
 
-parser.add_argument('--config', default='./models/config/config.yaml',type=str, help='config file')
+parser.add_argument('--config', default='./models/config/configv2.yaml',type=str, help='config file')
 
-parser.add_argument('--snapshot', default='./models/snapshot/checkpoint_e26.pth', type=str, help='model name')
+parser.add_argument('--snapshot', default='models/pretrained/nanotrackv2.pth', type=str, help='model name')
 
 parser.add_argument('--video_name', default='./bin/girl_dance.mp4', type=str, help='videos or image files')
 
