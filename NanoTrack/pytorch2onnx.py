@@ -42,12 +42,12 @@ def main():
     # backbone input-xf 
     backbone_x = torch.randn([1, 3, 255, 255], device=device) 
     export_onnx_file_path= './models/onnx/nanotrack_backbone.onnx' 
-    torch.onnx.export(backbone_net, backbone_x, export_onnx_file_path, input_names=['input'], output_names=['output'], verbose=True, opset_version=13)   
+    torch.onnx.export(backbone_net, backbone_x, export_onnx_file_path, input_names=['input'], output_names=['output'], verbose=True, opset_version=14)   
     
     # head  change forward  /media/dell/Data/NanoTrack/nanotrack/models/model_builder.py
     head_zf, head_xf = torch.randn([1, 48, 8, 8],device=device), torch.randn([1, 48, 16, 16],device=device)
     export_onnx_file_path= './models/onnx/nanotrack_head.onnx' 
-    torch.onnx.export(head_net,(head_zf,head_xf), export_onnx_file_path, input_names=['input1','input2'], output_names=['output1','output2'],verbose=True,opset_version=13) 
+    torch.onnx.export(head_net,(head_zf,head_xf), export_onnx_file_path, input_names=['input1','input2'], output_names=['output1','output2'],verbose=True,opset_version=14) 
     
     # 模型简化,否则onnx转换成ncnn会报错
 
