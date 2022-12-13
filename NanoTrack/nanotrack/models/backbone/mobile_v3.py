@@ -20,19 +20,19 @@ def _make_divisible(v, divisor, min_value=None):
 class h_sigmoid(nn.Module):
     def __init__(self, inplace=True):
         super(h_sigmoid, self).__init__()
-        self.relu = nn.ReLU6(inplace=inplace)
+        self.hard_sigmoid = nn.Hardsigmoid(inplace=inplace)
 
     def forward(self, x):
-        return self.relu(x + 3) / 6
+        return self.hard_sigmoid(x)
 
 
 class h_swish(nn.Module):
     def __init__(self, inplace=True):
         super(h_swish, self).__init__()
-        self.sigmoid = h_sigmoid(inplace=inplace)
+        self.hard_swish = nn.Hardswish(inplace=True)
 
     def forward(self, x):
-        return x * self.sigmoid(x)
+        return self.hard_swish(x)
 
 
 class SELayer(nn.Module):
