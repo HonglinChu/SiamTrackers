@@ -2,7 +2,7 @@
 
 ![network](../image/nanotrack_network.png)
 
-- NanoTrack is a lightweight and high speed tracking network which mainly referring to SiamBAN and LightTrack. It is suitable for deployment on embedded or mobile devices. In fact, it can run at >120FPS on Apple M1 CPU.
+- NanoTrack is a lightweight and high speed tracking network which mainly referring to SiamBAN and LightTrack. It is suitable for deployment on embedded or mobile devices. In fact, it can run at **> 200FPS** on Apple M1 CPU.
 ![macs](../image/calculate.png) 
 - Experiments show that NanoTrack algorithm has good performance on tracking datasets.
 
