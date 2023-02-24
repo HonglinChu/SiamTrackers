@@ -24,7 +24,7 @@ from thop.utils import clever_format
 
 def main():
 
-    cfg.merge_from_file('./models/config/configv2.yaml')
+    cfg.merge_from_file('./models/config/configv3.yaml')
     
     model = ModelBuilder() 
 
