@@ -5,9 +5,15 @@
 
 - NanoTrack is a lightweight and high speed tracking network which mainly referring to SiamBAN and LightTrack. It is suitable for deployment on embedded or mobile devices. In fact, V1 and V2 can run at **> 200FPS** on Apple M1 CPU.
 
+| Trackers|  Backbone Size(*.onnx)  |Head Size (*.onnx) | FLOPs| Params  |  
+| :------------: |:------------: | :------------: | :------------: | :------------: |
+| NanoTrackV1  | 752K  | 384K  | 75.6M  | 287.9K  |  
+|  NanoTrackV2 | 1.0M  | 712K  |84.6M   |334.1K   |
+| NanoTrackV3  | 1.4M| 1.1K|115.6M  | 541.4K  | 
+
 - Experiments show that NanoTrack has good performance on tracking datasets.
 
-| Trackers            |   Backbone   | ModeSize | VOT2018 EAO | VOT2019 EAO | GOT-10k-Val AO | GOT-10k-Val SR | DTB70 Success | DTB70 Precision |
+| Trackers            |   Backbone   | Model Size(*.pth) | VOT2018 EAO | VOT2019 EAO | GOT-10k-Val AO | GOT-10k-Val SR | DTB70 Success | DTB70 Precision |
 | :------------------ | :----------: | :------: | :---------: | :---------: | :------------: | :------------: | :-----------: | :-------------: |
 | NanoTrackV1         | MobileNetV3  |  2.4MB   |    0.311    |    0.247    |     0.604      |     0.724      |     0.532     |      0.727      |
 | NanoTrackV2         | MobileNetV3  |  2.0MB   |    0.352    |    0.270    |     0.680      |     0.817      |     0.584     |      0.753      |
