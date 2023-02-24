@@ -12,8 +12,11 @@ from nanotrack.utils.bbox import corner2center
 class NanoTracker(SiameseTracker):
     def __init__(self, model):
         super(NanoTracker, self).__init__()
-        self.score_size = (cfg.TRACK.INSTANCE_SIZE - cfg.TRACK.EXEMPLAR_SIZE) // \
-            cfg.POINT.STRIDE + 1 + cfg.TRACK.BASE_SIZE
+        # self.score_size = (cfg.TRACK.INSTANCE_SIZE - cfg.TRACK.EXEMPLAR_SIZE) // \
+        #     cfg.POINT.STRIDE + 1 + cfg.TRACK.BASE_SIZE
+
+        self.score_size =cfg.TRACK.OUTPUT_SIZE
+
         hanning = np.hanning(self.score_size)
         window = np.outer(hanning, hanning)
         self.cls_out_channels = 2

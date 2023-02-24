@@ -249,5 +249,7 @@ __C.TRACK.INSTANCE_SIZE = 255
 # Base size
 __C.TRACK.BASE_SIZE = 8
 
+__C.TRACK.OUTPUT_SIZE = 16
+
 # Context amount
 __C.TRACK.CONTEXT_AMOUNT = 0.5

@@ -29,13 +29,13 @@ from bin.eval import eval
 
 parser = argparse.ArgumentParser(description='nanotrack') 
 
-parser.add_argument('--dataset', default='VOT2018', type=str,help='datasets')
+parser.add_argument('--dataset', default='GOT-10k', type=str,help='datasets')
 
 parser.add_argument('--tracker_name', '-t', default='nanotrack',type=str,help='tracker name')
 
-parser.add_argument('--config', default='./models/config/configv2.yaml',  type=str,help='config file')
+parser.add_argument('--config', default='./models/config/configv3.yaml',  type=str,help='config file')
 
-parser.add_argument('--snapshot', default='models/pretrained/nanotrackv2.pth', type=str,help='snapshot of models to eval')
+parser.add_argument('--snapshot', default='models/pretrained/nanotrackv3.pth', type=str,help='snapshot of models to eval')
 
 parser.add_argument('--save_path', default='./results', type=str, help='snapshot of models to eval')
 

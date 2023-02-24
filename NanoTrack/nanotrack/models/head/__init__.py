@@ -6,8 +6,11 @@ from __future__ import unicode_literals
 # # NanoTrackV1
 # from nanotrack.models.head.ban_v1 import UPChannelBAN, DepthwiseBAN
 
-# NanoTrackV2
-from nanotrack.models.head.ban_v2 import UPChannelBAN, DepthwiseBAN
+# # NanoTrackV2
+# from nanotrack.models.head.ban_v2 import UPChannelBAN, DepthwiseBAN
+
+# NanoTrackV3
+from nanotrack.models.head.ban_v3 import UPChannelBAN, DepthwiseBAN
 
 BANS = {
         'UPChannelBAN': UPChannelBAN,

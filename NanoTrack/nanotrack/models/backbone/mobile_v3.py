@@ -16,7 +16,24 @@ def _make_divisible(v, divisor, min_value=None):
         new_v += divisor
     return new_v
 
+##(1) Original training method
+# class h_sigmoid(nn.Module):
+#     def __init__(self, inplace=True):
+#         super(h_sigmoid, self).__init__()
+#         self.relu = nn.ReLU6(inplace=inplace)
 
+#     def forward(self, x):
+#         return self.relu(x + 3) / 6
+
+# class h_swish(nn.Module):
+#     def __init__(self, inplace=True):
+#         super(h_swish, self).__init__()
+#         self.sigmoid = h_sigmoid(inplace=inplace)
+
+#     def forward(self, x):
+#         return x * self.sigmoid(x)
+
+#(2) If you want to run faster, before you convert to onnx model, you should use the following operators，since onnx can better optimize them
 class h_sigmoid(nn.Module):
     def __init__(self, inplace=True):
         super(h_sigmoid, self).__init__()
@@ -25,7 +42,6 @@ class h_sigmoid(nn.Module):
     def forward(self, x):
         return self.hard_sigmoid(x)
 
-
 class h_swish(nn.Module):
     def __init__(self, inplace=True):
         super(h_swish, self).__init__()
@@ -33,7 +49,6 @@ class h_swish(nn.Module):
 
     def forward(self, x):
         return self.hard_swish(x)
-
 
 class SELayer(nn.Module):
     def __init__(self, channel, reduction=4):
@@ -167,5 +182,24 @@ def mobilenetv3_small(**kwargs):
         [5,    3,  48, 1, 1, 1],
         [5,    3,  48, 1, 1, 1],
     ]
+
+    return MobileNetV3(cfgs, mode='small', **kwargs)
+
+def mobilenetv3_small_v3(**kwargs):
+    """
+    Constructs a MobileNetV3-Small model 
+    """
+    cfgs = [
+        # k, t, c, SE, HS, s 
+        [3,    1,  16, 1, 0, 2],
+        [3,  4.5,  24, 0, 0, 2],
+        [3, 3.67,  24, 0, 0, 1],
+        [5,    4,  40, 1, 1, 2],
+        [5,    6,  40, 1, 1, 1],
+        [5,    6,  40, 1, 1, 1],
+        [5,    3,  48, 1, 1, 1],
+        [5,    3,  48, 1, 1, 1], 
+        [5,    6,  96, 1, 1, 1], # s=2 --> s=1 
+    ] 
 
     return MobileNetV3(cfgs, mode='small', **kwargs)
