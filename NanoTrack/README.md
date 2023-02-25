@@ -1,11 +1,13 @@
 # NanoTrack 
+【2023.02.25】Update NanoTrackV3
+
 <center>NanoTrackV1 Architecture</center>
 
 ![network](../image/nanotrack_network.png)
 
 - NanoTrack is a lightweight and high speed tracking network which mainly referring to SiamBAN and LightTrack. It is suitable for deployment on embedded or mobile devices. In fact, V1 and V2 can run at **> 200FPS** on Apple M1 CPU.
 
-| Trackers|  Backbone Size(*.onnx)  |Head Size (*.onnx) | FLOPs| Params  |  
+| Trackers|  Backbone Size(*.onnx)  |Head Size (*.onnx) | FLOPs| Parameters  |  
 | :------------: |:------------: | :------------: | :------------: | :------------: |
 | NanoTrackV1  | 752K  | 384K  | 75.6M  | 287.9K  |  
 |  NanoTrackV2 | 1.0M  | 712K  |84.6M   |334.1K   |
@@ -24,7 +26,7 @@
 | IROS2021 SiamAPN++  |   AlexNet    |  187MB   |    0.268    |    0.234    |     0.635      |      0.73      |     0.594     |      0.791      |
 - We provide [Android demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_android_nanotrack) and [MacOS demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_macos_nanotrack) based on ncnn inference framework. 
 
-- We also provide [PyTorch code](https://github.com/HonglinChu/SiamTrackers/tree/master/NanoTrack). It is friendly for training with much lower GPU memory cost than other models. NanoTrack only uses GOT-10k dataset to train, which only takes two hours on GPU3090.
+- We also provide [PyTorch code](https://github.com/HonglinChu/SiamTrackers/tree/master/NanoTrack). It is friendly for training with much lower GPU memory cost than other models. NanoTrackV1 only uses GOT-10k dataset to train, which only takes two hours on GPU3090.
 
 # PyTorch  
 
