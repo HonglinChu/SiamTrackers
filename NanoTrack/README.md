@@ -11,7 +11,7 @@
 | :------------: |:------------: | :------------: | :------------: | :------------: |
 | NanoTrackV1  | 752K  | 384K  | 75.6M  | 287.9K  |  
 |  NanoTrackV2 | 1.0M  | 712K  |84.6M   |334.1K   |
-| NanoTrackV3  | 1.4M| 1.1K|115.6M  | 541.4K  | 
+| NanoTrackV3  | 1.4M| 1.1M|115.6M  | 541.4K  | 
 
 - Experiments show that NanoTrack has good performance on tracking datasets.
 
