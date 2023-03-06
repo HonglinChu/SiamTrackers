@@ -40,7 +40,7 @@ python  setup.py build_ext --inplace
 
 2. mkdir data
 Download GOT-10k https://pan.baidu.com/s/10crE2uKR182fA93XRB3jyg password: 5ebm
-How to crop GOT-10k https://pan.baidu.com/s/1ouqVMVAsLtXDWeanPYTkHw password: owlo
+How to crop GOT-10k https://pan.baidu.com/s/1yzXnRUqjreSeojEQOmluQg  password: un47
 Put your training data into data directory 
 
 3. mkdir datasets
