@@ -4,8 +4,6 @@
 
 - [bilibili](https://www.bilibili.com/video/BV1pt4y1e7PY/?spm_id_from=333.788.recommend_more_video.8) 
 
-- [Tutorial](./Tutorial.md)
-
 - [SiamFace](./1-SiamFace)
 ![image](./image/siamese.png)
 ```
