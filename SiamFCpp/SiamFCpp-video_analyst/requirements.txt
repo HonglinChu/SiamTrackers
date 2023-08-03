@@ -17,7 +17,7 @@ shapely==1.7.0
 scipy==1.2.1
 tensorboard
 future==0.18.2
-loguru==0.4.1
+loguru==0.5.3
 scikit-image
 pycocotools
 pandas
