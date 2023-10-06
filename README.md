@@ -108,6 +108,29 @@ Support testing and training.
 
 # Experiment
 
+- NanoTrack is a lightweight and high speed tracking network which mainly referring to SiamBAN and LightTrack. It is suitable for deployment on embedded or mobile devices. In fact, V1 and V2 can run at **> 200FPS** on Apple M1 CPU.
+
+| Trackers|  Backbone Size(*.onnx)  |Head Size (*.onnx) | FLOPs| Parameters  |  
+| :------------: |:------------: | :------------: | :------------: | :------------: |
+| NanoTrackV1  | 752K  | 384K  | 75.6M  | 287.9K  |  
+|  NanoTrackV2 | 1.0M  | 712K  |84.6M   |334.1K   |
+| NanoTrackV3  | 1.4M| 1.1M|115.6M  | 541.4K  | 
+
+- Experiments show that NanoTrack has good performance on tracking datasets.
+
+| Trackers            |   Backbone   | Model Size(*.pth) | VOT2018 EAO | VOT2019 EAO | GOT-10k-Val AO | GOT-10k-Val SR | DTB70 Success | DTB70 Precision |
+| :------------------ | :----------: | :------: | :---------: | :---------: | :------------: | :------------: | :-----------: | :-------------: |
+| NanoTrackV1         | MobileNetV3  |  2.4MB   |    0.311    |    0.247    |     0.604      |     0.724      |     0.532     |      0.727      |
+| NanoTrackV2         | MobileNetV3  |  2.0MB   |    0.352    |    0.270    |     0.680      |     0.817      |     0.584     |      0.753      |
+| NanoTrackV3         | MobileNetV3  |  3.4MB   |    0.449    |    0.296    |     0.719      |     0.848      |     0.628     |      0.815      |
+| CVPR2021 LightTrack | MobileNetV3  |  7.7MB   |    0.418    |    0.328    |      0.75      |     0.877      |     0.591     |      0.766      |
+| WACV2022 SiamTPN    | ShuffleNetV2 |  62.2MB  |    0.191    |    0.209    |     0.728      |     0.865      |     0.572     |      0.728      |
+| ICRA2021 SiamAPN    |   AlexNet    | 118.7MB  |    0.248    |    0.235    |     0.622      |     0.708      |     0.585     |      0.786      |
+| IROS2021 SiamAPN++  |   AlexNet    |  187MB   |    0.268    |    0.234    |     0.635      |      0.73      |     0.594     |      0.791      |
+- We provide [Android demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_android_nanotrack) and [MacOS demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_macos_nanotrack) based on ncnn inference framework. 
+
+- We also provide [PyTorch code](https://github.com/HonglinChu/SiamTrackers/tree/master/NanoTrack). It is friendly for training with much lower GPU memory cost than other models. NanoTrackV1 only uses GOT-10k dataset to train, which only takes two hours on GPU3090.
+
 - [x] CUDA 10.0
 - [x] Ubuntu 18 
 - [x] PyTorch 1.7.0
