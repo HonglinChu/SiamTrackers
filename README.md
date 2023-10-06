@@ -1,8 +1,4 @@
-# SiamTrackers 
-
-# Description
-
-- [bilibili](https://www.bilibili.com/video/BV1pt4y1e7PY/?spm_id_from=333.788.recommend_more_video.8) 
+# SiamTrackers
 
 - [SiamFace](./1-SiamFace)
 ![image](./image/siamese.png)
@@ -13,12 +9,8 @@
 - [2018-CVPR-SiamRPN](./SiamRPN)
 ![image](./image/siamrpn.png)
 
-- [2018-ECCV-DaSiamRPN](./DaSiamRPN)
-
 - [2019-ICCV-UpdateNet](./UpdateNet)   
 ![image](./image/updatenet.png)
-
-- [2019-CVPR-SiamDW](./SiamDW)
 
 - [2019-CVPR-SiamRPNpp](./SiamRPNpp)
 ![image](./image/siamrpn++.png)
@@ -38,7 +30,7 @@
 - [2021-TrTr](./TrTr)
 ![image](./image/trtr.png)
 
-- [NanoTrack](./NanoTrack)
+- [NanoTrackV1](./NanoTrack)
 ![image](./image/nanotrack_network.png)
 
 # Experiment
@@ -62,10 +54,14 @@
 | WACV2022 SiamTPN    | ShuffleNetV2 |  62.2MB  |    0.191    |    0.209    |     0.728      |     0.865      |     0.572     |      0.728      |
 | ICRA2021 SiamAPN    |   AlexNet    | 118.7MB  |    0.248    |    0.235    |     0.622      |     0.708      |     0.585     |      0.786      |
 | IROS2021 SiamAPN++  |   AlexNet    |  187MB   |    0.268    |    0.234    |     0.635      |      0.73      |     0.594     |      0.791      |
-- We provide [Android demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_android_nanotrack) and [MacOS demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_macos_nanotrack) based on ncnn inference framework. 
+- For NanoTrackV1, we provide [Android demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_android_nanotrack) and [MacOS demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_macos_nanotrack) based on ncnn inference framework. 
 
-- We also provide [PyTorch code](https://github.com/HonglinChu/SiamTrackers/tree/master/NanoTrack). It is friendly for training with much lower GPU memory cost than other models. NanoTrackV1 only uses GOT-10k dataset to train, which only takes two hours on GPU3090.
+- We also provide [PyTorch code](https://github.com/HonglinChu/SiamTrackers/tree/master/NanoTrack). It is friendly for training with much lower GPU memory cost than other models. NanoTrackV1 only uses GOT-10k dataset to train, which only takes two hours on RTX3090.
 
+# OpenCV API
+
+- https://docs.opencv.org/4.x/d8/d69/classcv_1_1TrackerNano.html
+  
 # Dataset
 
 -  **All json files** [BaiduYun](https://pan.baidu.com/s/1RL1kwdP93fdBVOrPc5y0bQ) parrword: xm5w (The json files are provided by [pysot](https://github.com/STVIR/pysot))
@@ -95,8 +91,6 @@
 - **GOT10k** [BaiduYun](https://pan.baidu.com/s/172oiQPA_Ky2iujcW5Irlow) password: uxds (SiamFC-GOT, SiamRPN-GOT, SiamDW, SiamFCpp)
 
 - **LaSOT** [BaiduYun](https://pan.baidu.com/s/1A_QWSzNdr4G9CR6rZ7n9Mg) password: ygtx   (SiamDW, SiamFCpp)
-
-- **YTB&VID**  [BaiduYun](https://pan.baidu.com/s/1gF8PSZDzw-7EAVrdYHQwsA) password: 6vkz (SiamRPN)
 
 - **ILSVRC2015 VID** [BaiDuYun](https://pan.baidu.com/s/1CXWgpAG4CYpk-WnaUY5mAQ) password: uqzj (SiamFC, SiamRPNpp, SiamMask, siamdw, SiamFCpp)
 
@@ -176,5 +170,8 @@ Chen Z, Zhong B, Li G, et al. Siamese box adaptive network for visual tracking[C
 
 [11] TrTr 
 Zhao M, Okada K, Inaba M. TrTr: Visual Tracking with Transformer[J]. arXiv preprint arXiv:2105.03817, 2021.
+
+[12] LightTrack 
+Yan B, Peng H, Wu K, et al. Lighttrack: Finding lightweight neural networks for object tracking via one-shot architecture search[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021: 15180-15189.
 
 ```
