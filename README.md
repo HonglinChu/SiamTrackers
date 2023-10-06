@@ -6,103 +6,38 @@
 
 - [SiamFace](./1-SiamFace)
 ![image](./image/siamese.png)
-```
-The implementation of simple face classification based on siamese network.
-```
 
 - [2016-ECCV-SiamFC](./SiamFC)
 ![image](./image/siamfc.png)
-```
-Add GOT10K toolkit and optimize the interface. 
-
-We use the VID data set for training . 
-
-The testing results are slightly lower than the paper(without hyperparameter adjustment). 
-```
 
 - [2018-CVPR-SiamRPN](./SiamRPN)
 ![image](./image/siamrpn.png)
-```
-Add GOT10K toolkit and optimize the interface. 
 
-We use YTB and VID  data sets for training. 
-
-The testing results are slightly lower than the paper(without hyperparameter adjustment). 
-```
 - [2018-ECCV-DaSiamRPN](./DaSiamRPN)
-```
-Add PYSOT toolkit and optimize the interface. 
 
-You can  debug, train and test easily.  
-
-The results of testing are consistent with the paper.
-
-Note that you shound have python3  environment.
-```
 - [2019-ICCV-UpdateNet](./UpdateNet)   
 ![image](./image/updatenet.png)
-```
-Add PYSOT toolkit and optimize the interface. 
 
-The model is sensitive to learning rate. 
-
-Our results is higher than the original paper on VOT2018 dataset. EAO=0.403(Ours)  EAO=0.393(Paper)
-```
 - [2019-CVPR-SiamDW](./SiamDW)
-```
-The paper mainly analyzed the impact of padding on the tracking network. 
-```
+
 - [2019-CVPR-SiamRPNpp](./SiamRPNpp)
 ![image](./image/siamrpn++.png)
-```
-Support VScode single-step debugging.
 
-Add test scripts for 4 drone datasets.
-
-Change distributed multi-machine multi-GPU parallel to single-machine multi-GPU parallel.
-
-Train SiamRPNpp AlexNet version using four datasets (training time is  3~4 days with 2 1080 GPUs ).
-```
 - [2019-CVPR-SiamMask](./SiamMask)
 ![image](./image/siammask2.png)
-```
-Support VScode single-step debugging.
 
-Support testing and training.
-
-```
 - [2020-AAAI-SiamFCpp](./SiamFCpp)
 ![image](./image/siamfc++.png)
-```
-Support VScode single-step debugging.
-
-Add test scripts for 4 drone datasets.
-
-Use  GOT10K data set to retrain the AlexNet version, the training time is 15~20 hours (2 1080 GPUs).
-```
 
 - [2020-CVPR-SiamCAR](./SiamCAR)
 ![image](./image/siamcar.png)
-```
-Support VScode single-step debugging.
 
-```
 - [2020-CVPR-SiamBAN](./SiamBAN)
 ![image](./image/siamban.png)
-```
-Support VScode single-step debugging.
 
-Support testing and training.◊
-
-```
 - [2021-TrTr](./TrTr)
 ![image](./image/trtr.png)
-```
-Support VScode single-step debugging.
 
-Support testing and training.
-
-```
 - [NanoTrack](./NanoTrack)
 ![image](./image/nanotrack_network.png)
 
@@ -130,47 +65,6 @@ Support testing and training.
 - We provide [Android demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_android_nanotrack) and [MacOS demo](https://github.com/HonglinChu/NanoTrack/tree/master/ncnn_macos_nanotrack) based on ncnn inference framework. 
 
 - We also provide [PyTorch code](https://github.com/HonglinChu/SiamTrackers/tree/master/NanoTrack). It is friendly for training with much lower GPU memory cost than other models. NanoTrackV1 only uses GOT-10k dataset to train, which only takes two hours on GPU3090.
-
-- [x] CUDA 10.0
-- [x] Ubuntu 18 
-- [x] PyTorch 1.7.0
-- [x] Python 3.8
-
-Due to the limitation of computer configuration, i only choose some high speed  algorithms for training and testing on several small  tracking datasets
-
-|   Trackers|       | SiamFC   | SiamRPN | SiamRPN | DaSiamRPN |DaSiamRPN | SiamRPNpp | SiamRPNpp | SiamRPNpp | SiamRPNpp | SiamFCpp |SiamFCpp |
-|:------------:|:-----:|:--------:   | :------:    |:------:  |:------: |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| Train Set |       | GOT | official | GOT | official | official | official | GOT | GOT | GOT | GOT | official |
-|  Backbone |  | AlexNet | AlexNet | AlexNet |  AlexNet  |    AlexNet-DA     | AlexNet-DW    | AlexNet-DW  | AlexNet-UP | AlexNet-DA | AlexNet |AlexNet|
-|     FPS   |     |   85   |   >120   |   >120   |   >120        |   >120 |    >120      |    >120  |    >120  | >120  | >120 |    >120 |
-|           |       |           |           |           |            |         |         |         |         |         |         |        |
-| OTB100    |  AUC   |  0.589  | 0.637 | 0.603 |   0.655   |  0.646   |   0.648  |  0.623  |  0.619  |  0.634  |  0.629  | **0.680**    |
-|           |  DP   |   0.794   | 0.851 | 0.820 |   0.880   |  0.859   |  0.853   |  0.837  |  0.823  |  0.846  |  0.830  | **0.884**   |
-|           |     |           |           |           |            |         |         |         |         |         |         |        |
-| UAV123    |  AUC  |   0.504    | 0.527 |  |   0.586   |  0.604   |  0.578   |     |     |     |     |  **0.623**    |
-|           |  DP   |    0.702   | 0.748   |    |   0.796   | **0.801**    |  0.769   |     |     |     |     |  0.781   |
-|           |     |           |           |           |            |         |         |         |         |         |         |        |
-| UAV20L    |  AUC  |  0.410     | 0.454 |  |         |   0.524  |  **0.530**   |     |     |     |     |  0.516  |
-|           |  DP   |   0.566    | 0.617 |  |         | **0.691**   |  0.695   |     |     |     |     |  0.613   |
-|           |     |           |           |           |            |         |         |         |         |         |         |        |
-| DTB70     |  AUC  |    0.487   |       |       |          |  0.554|   0.588  |     |     |     |     | **0.639**   |
-|           |  DP   |    0.735   |       |       |         |   0.766|   0.797  |     |     |     |     |  **0.826**   |
-|           |       |           |           |           |            |         |         |         |         |         |         |        |
-| UAVDT     |  AUC  |   0.451 |    |    |           |  0.593  |  0.566   |     |     |     |     |  **0.632**    |
-|           | DP    |   0.710 |    |    |           |  0.836  |  0.793   |     |     |     |     |   **0.846**   |
-|           |     |           |           |           |            |         |         |         |         |         |         |        |
-| VisDrone-Train  | AUC   |    0.510|    |    |           |   0.547 |  0.572   |     |     |     |     |  **0.588**    |
-|           |  DP   |    0.698|    |    |           |   0.722 |   0.764  |     |     |     |     |  **0.784**    |
-|           |     |           |           |           |            |         |         |         |         |         |         |        |
-| VOT2016   |  A  |   0.538    |  0.56 |   |  0.61      |  0.625   |  0.618   | 0.582 |   0.592    |   | 0.612 |  **0.626**    |
-|           | R     |    0.424   | 0.26   |    |  0.22      |  0.224   |  0.238   | 0.266 | 0.252     |    | 0.266 |   **0.144**   |
-|           | E     |    0.262   | 0.344   |    |  0.411     |  0.439   |  0.393   | 0.372 |   0.365  |     | 0.357 |  **0.460**    |
-|           |Lost   |    91      |          |          |           |  48      |  51      | 57 |   54      |      | 57 |    31  |
-|           |     |           |           |           |            |         |         |         |         |         |         |        |
-| VOT2018   | A     |     0.501  | 0.49  |   |   0.56     |  **0.586**   | 0.576    | 0.563 | 0.555 | 0.557 | 0.584 | 0.577   |
-|           |  R    |    0.534   | 0.46   |    |   0.34     |  0.276   |  0.290   |  0.375  |  0.384  |  0.412  | 0.342 | **0.183**   |
-|           | E     |    0.223   | 0.244   |    |   0.326    | 0.383    |  0.352   |  0.300  |  0.292  |  0.275  | 0.308 | **0.385**   |
-|           | Lost  |   114      |         |         |           |  59      |   62       |   80     |   82   |   88   | 73 |   39     |
 
 # Dataset
 
