@@ -1,35 +1,5 @@
 # SiamTrackers
 
-- [SiamFace](./1-SiamFace)
-![image](./image/siamese.png)
-
-- [2016-ECCV-SiamFC](./SiamFC)
-![image](./image/siamfc.png)
-
-- [2018-CVPR-SiamRPN](./SiamRPN)
-![image](./image/siamrpn.png)
-
-- [2019-ICCV-UpdateNet](./UpdateNet)   
-![image](./image/updatenet.png)
-
-- [2019-CVPR-SiamRPNpp](./SiamRPNpp)
-![image](./image/siamrpn++.png)
-
-- [2019-CVPR-SiamMask](./SiamMask)
-![image](./image/siammask2.png)
-
-- [2020-AAAI-SiamFCpp](./SiamFCpp)
-![image](./image/siamfc++.png)
-
-- [2020-CVPR-SiamCAR](./SiamCAR)
-![image](./image/siamcar.png)
-
-- [2020-CVPR-SiamBAN](./SiamBAN)
-![image](./image/siamban.png)
-
-- [2021-TrTr](./TrTr)
-![image](./image/trtr.png)
-
 - [NanoTrackV1](./NanoTrack)
 ![image](./image/nanotrack_network.png)
 
