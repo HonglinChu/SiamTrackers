@@ -14,7 +14,7 @@ numba==0.45.0
 matplotlib==3.0.0
 wget==3.2
 shapely==1.7.0
-scipy==1.2.1
+scipy==1.10.0
 tensorboard
 future==0.18.2
 loguru==0.4.1
